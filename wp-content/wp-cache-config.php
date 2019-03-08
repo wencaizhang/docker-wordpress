@@ -5,11 +5,12 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$dismiss_readable_warning = 1;
 $wp_cache_debug_username = '9d4593196e26cc0822995d85fb1de7de';
 $dismiss_gc_warning = 1;
 $wp_cache_mobile_groups = '';
 $wp_cache_home_path = '/';
-$wp_cache_slash_check = 1;
+$wp_cache_slash_check = 0;
 $cache_page_secret = '8831e0914ff6f26ca241acb539dfd1e2';
 $cache_time_interval = 600;
 if ( ! defined('WPCACHEHOME') )
