@@ -55,3 +55,20 @@ docker-compose up -d
 ```bash
 docker-compose stop
 ```
+
+#### 代码变更
+
+git status显示修改了大量文件，git diff提示filemode变化，如下：
+
+```
+old mode 100644
+new mode 100755
+```
+
+原来是filemode的变化，文件chmod后其文件某些位是改变了的，如果严格的比较原文件和chmod后的文件，两者是有区别的，但是源代码通常只关心文本内容，因此chmod产生的变化应该忽略，所以设置一下：
+
+切到源码的根目录下，
+```
+git config --add core.filemode false
+```
+这样你的所有的git库都会忽略filemode变更了～
