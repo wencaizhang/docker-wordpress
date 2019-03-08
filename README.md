@@ -1,7 +1,24 @@
 
 ## 必读
 
+wordpress 程序默认的安装路径是：`/var/www/html`。
+
 #### 设置 wp-content 目录读写权限
+
+```bash
+chmod -R 777 wp-content
+```
+
+#### 安装插件需要 FTP
+默认情况下，wordpress 安装插件需要 FTP 服务，通过给 `wp-config.php` 文件添加以下代码的方法可以避免这个问题：
+
+```php
+define("FS_METHOD","direct");
+define("FS_CHMOD_DIR", 0777);
+define("FS_CHMOD_FILE", 0777);
+```
+
+然后，设置目录权限
 
 ```bash
 chmod -R 777 wp-content
