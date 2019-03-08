@@ -27,8 +27,9 @@ services:
      #这里就是从网上数据库拿最新的镜像文件
      image: wordpress:latest
      volumes:
-      - ./wp-content/themes/xxx:/var/www/html/wp-content/themes/xxx
+      - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./wp-content/languages:/var/www/html/wp-content/languages
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
       - ./favicon.ico:/var/www/html/favicon.ico
       - ./robots.txt:/var/www/html/robots.txt
