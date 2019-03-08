@@ -3,7 +3,7 @@ Contributors: denishua
 Donate link: http://wpjam.com/
 Tags: WPJAM,性能优化
 Requires at least: 4.0
-Tested up to: 5.0.2
+Tested up to: 5.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,7 +14,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 WPJAM Basic 是<a href="http://blog.wpjam.com/">我爱水煮鱼博客</a>多年来使用 WordPress 来整理的优化插件，WPJAM Basic 除了能够优化你的 WordPress ，也是 WordPress 果酱团队进行 WordPress 二次开发的基础。
 
-WPJAM Basic 主要功能，就是去掉 WordPress 当中一些不常用的功能，比如日志修订等，还有就是提供一些经常使用的函数，比如获取日志中第一张图，获取日志摘要等。如果你的主机安装了 Memcacached 等这类内存缓存组件和对应的 WordPress 插件，这个插件也针对提供一些针对一些常用的插件和函数提供了对象缓存的优化版本。
+WPJAM Basic 主要功能，就是去掉 WordPress 当中一些不常用的功能，比如日志修订等，还有就是提供一些经常使用的函数，比如获取日志中第一张图，获取日志摘要等。
+
+如果你的主机安装了 Memcacached 等这类内存缓存组件和对应的 WordPress 插件，这个插件也针对提供一些针对一些常用的插件和函数提供了对象缓存的优化版本。
+
+除此之外，WPJAM Basic 还支持多达十二个扩展，你可以根据自己的需求选择开启：
+
+* 文章目录
+* 简单 SEO
+* SMTP 发信
+* Rewrite 优化
+* 文章类型转换器
+* 文章浏览统计
+* 统计代码
+* 用户角色
+* 相关文章
+* 百度站长
+* 301跳转
+* 移动主题
 
 详细介绍和安装说明： <a href="http://blog.wpjam.com/project/wpjam-basic/">http://blog.wpjam.com/project/wpjam-basic/</a>。
 
@@ -25,10 +42,12 @@ WPJAM Basic 主要功能，就是去掉 WordPress 当中一些不常用的功能
 
 == Changelog ==
 
-= 3.4.5 =
-* 5.0 版本兼容处理
+= 3.5 =
+* 5.1 版本兼容处理
+* 添加「301跳转」扩展
+* 添加「移动主题」扩展
+* 添加「百度站长」扩展，修正预览提交
 * 讨论组移动到 WPJAM 菜单下
-* 添加百度站长提交扩展，修正预览提交。
 * 修正简单SEO的标题功能
 * 修正相关文章中包含置顶文章的bug
 * 将高级缩略图集成到缩略图设置

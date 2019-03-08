@@ -1,7 +1,6 @@
 <?php
 // 角色管理菜单
-add_filter('wpjam_pages', 'wpjam_roles_admin_pages');
-function wpjam_roles_admin_pages($wpjam_pages){
+add_filter('wpjam_pages', function ($wpjam_pages){
 	$capability	= (is_multisite())?'manage_site':'manage_options';
 
 	$wpjam_pages['users']['subs']['roles']	=  [
@@ -11,7 +10,8 @@ function wpjam_roles_admin_pages($wpjam_pages){
 		'page_file'		=> WPJAM_BASIC_PLUGIN_DIR.'extends/admin/pages/wpjam-roles.php',
 	];
 	return $wpjam_pages;
-}
+});
+
 
 add_filter('additional_capabilities_display', '__return_false' );
 

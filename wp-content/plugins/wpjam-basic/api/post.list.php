@@ -1,8 +1,8 @@
 <?php
 global $wp, $wp_query;
 
-$output		= $args['output']??'';
-$post_type	= $args['post_type']??($_GET['post_type']??null);
+$output		= $args['output'] ?? '';
+$post_type	= $args['post_type'] ?? ($_GET['post_type']??null);
 
 if($post_type && $post_type != 'any' && !is_array($post_type)){
 	$post_type_object	= get_post_type_object($post_type);
@@ -16,9 +16,9 @@ if($post_type && $post_type != 'any' && !is_array($post_type)){
 
 $wp->set_query_var('post_type', $post_type);
 
-$is_sub		= $args['sub']??false;
-$is_search	= $_GET['s']??false;
-$use_cursor	= ($is_search)?false:true;
+$is_sub		= $args['sub'] ?? false;
+$is_search	= $_GET['s'] ?? false;
+$use_cursor	= $is_search ? false : true;
 
 /* 规则：
 ** 1. 分成主的查询和子查询（$args['sub']=1）
@@ -65,8 +65,8 @@ if(!$is_sub && $is_search && !empty($args['search'])){
 }
 
 if(!$is_sub){
-	if($post_type && !is_array($post_type)){
-		$response['post_type_title']	= $post_type_object->label;
+	if($post_type && $post_type != 'any' && !is_array($post_type)){
+		$post_type_label	= $post_type_object->label;
 	}
 
 	$date_query = [];
@@ -185,9 +185,13 @@ if($taxonomies){
 
 			if($slug){
 				$term = get_term_by('slug', $slug, $taxonomy);
+
+				$current_taxonomy	= wpjam_get_term($term, $taxonomy);
+				if(is_wp_error($current_taxonomy)){
+					wpjam_send_json($current_taxonomy);
+				}
 					
-				$response['current_'.$taxonomy]	= wpjam_get_term($term, $taxonomy);
-				$response['current']			= 'current_'.$taxonomy;
+				$response['current_'.$taxonomy]	= $current_taxonomy;
 			}
 		}
 
@@ -209,7 +213,6 @@ if($taxonomies){
 
 				if(!$is_sub){
 					$response['current_'.$taxonomy]	= $current_taxonomy;
-					$response['current']			= 'current_'.$taxonomy;
 				}
 			}
 
@@ -246,7 +249,7 @@ if($taxonomies){
 
 // 如果是分类汇总页面
 if($list_taxonomy && $list_term_ids){
-	$output	= ($output)?:$list_taxonomy.'s';
+	$output	= $output ?: $list_taxonomy.'s';
 
 	if($list_term_ids){
 
@@ -294,7 +297,7 @@ if($list_taxonomy && $list_term_ids){
 		}
 	}
 }else{
-	$output	= ($output)?:$post_type.'s';
+	$output	= $output ?: $post_type.'s';
 	if($tax_query){
 		$tax_query	= array_values($tax_query);
 		$tax_query['relation']	= 'AND';
@@ -302,8 +305,6 @@ if($list_taxonomy && $list_term_ids){
 	}
 
 	$wp->query_posts();
-
-	// wpjam_print_r($wp_query);
 
 	$posts_json = array();
 
@@ -317,10 +318,23 @@ if($list_taxonomy && $list_term_ids){
 		$response['current_page']	= (int)wpjam_get_parameter('paged',	array('default'=>1,	'type'=>'int'));
 
 		if($use_cursor){
-			// $response['next_first']	= 0;		// 放弃ing
-			$response['next_cursor']	= ($posts_json && $wp_query->max_num_pages>1)?end($posts_json)['timestamp']:0;
+			$response['next_cursor']	= ($posts_json && $wp_query->max_num_pages>1) ? end($posts_json)['timestamp'] : 0;
 		}
 	}
 
 	$response[$output]	= $posts_json;
+}
+
+if(!$is_sub){
+	foreach(['page_title', 'share_title'] as $key) {
+		if(!empty($response[$key])){
+			continue;
+		}
+		
+		if(isset($current_taxonomy)){
+			$response[$key]	= $current_taxonomy[$key];
+		}elseif(isset($post_type_label)){
+			$response[$key]	= $post_type_label;	
+		}
+	}
 }

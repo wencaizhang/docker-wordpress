@@ -153,7 +153,8 @@ add_action('init',function(){
 	wp_embed_unregister_handler('56com');
 
 	global $wp_rewrite;
-
+	
+	add_rewrite_rule($wp_rewrite->root.'api/([^/]+)/(.*?)\.json?$', 'index.php?module=json&action=mag.$matches[1].$matches[2]', 'top');
 	add_rewrite_rule($wp_rewrite->root.'api/([^/]+)\.json?$', 'index.php?module=json&action=$matches[1]', 'top');
 	// add_rewrite_tag('%json%', '([^/]+)', "module=json&action=");
 	// add_permastruct('json', 'api/%json%.json', ['with_front'=>false, 'paged'=>false, 'feed'=>false]);

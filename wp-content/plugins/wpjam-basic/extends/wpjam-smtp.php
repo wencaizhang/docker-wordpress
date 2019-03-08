@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: SMTP 邮件服务
+Plugin Name: SMTP 发信
 Plugin URI: https://blog.wpjam.com/project/wpjam-basic/
 Description: 通过简单配置之后，WordPress 就可以使用 SMTP 发送邮件。
 Version: 1.0

@@ -113,13 +113,20 @@ if(is_wp_error($the_post)){
 	wpjam_send_json($the_post);
 }
 
-$output				= ($output)?:$the_post->post_type;
-$response['output']	= $output;
+$output	= $output ?: $the_post->post_type;
 
 $response[$output]	= wpjam_get_post($post_id, $args);
 
 if(is_multisite() && $_blog_id){
 	restore_current_blog();
+}
+
+foreach(['page_title','share_title', 'share_image'] as $key) {
+	if(!empty($response[$key])){
+		continue;
+	}
+
+	$response[$key]	= $response[$output][$key] ?? '';
 }
 
 $response = apply_filters('wpjam_post_get_json', $response, $post_type, $post_id, $args);

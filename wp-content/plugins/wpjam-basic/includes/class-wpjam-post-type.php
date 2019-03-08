@@ -72,7 +72,9 @@ class WPJAM_PostType{
 		}
 
 		if(post_type_supports($post_type, 'title')){
-			$post_json['title']		= html_entity_decode(get_the_title($post));
+			$post_json['title']			= html_entity_decode(get_the_title($post));
+			$post_json['page_title']	= $post_json['title'];
+			$post_json['share_title']	= $post_json['title'];
 		}
 
 		if(post_type_supports($post_type, 'excerpt')){
@@ -85,7 +87,7 @@ class WPJAM_PostType{
 			}
 		}
 		
-		$post_json['thumbnail']	= wpjam_get_post_thumbnail_url($post_id, $thumbnail_size);
+		$post_json['thumbnail']		= wpjam_get_post_thumbnail_url($post_id, $thumbnail_size);
 
 		if($taxonomies = get_object_taxonomies($post_type)){
 			foreach ($taxonomies as $taxonomy) {

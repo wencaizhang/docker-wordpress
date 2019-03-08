@@ -101,10 +101,11 @@ class WPJAM_Verify{
 
 			if(!is_wp_error($response)){
 				$wpjam_verify	=  $response['result'];
+
 				if($wpjam_verify){
 					set_transient('wpjam_basic_verify', $wpjam_verify, DAY_IN_SECONDS);
 				}else{
-					set_transient('wpjam_basic_verify', $wpjam_verify, HOUR_IN_SECONDS);
+					set_transient('wpjam_basic_verify', 0, HOUR_IN_SECONDS);
 				}
 			}
 		} 

@@ -9,21 +9,18 @@ function wpjam_edit_form_advanced($post){
 	$post_type		= $current_screen->post_type;
 	$post_options	= wpjam_get_post_options($post_type);
 
-	if(empty($post_options)) return;
-
-	$meta_box_count 	= 0;
-
-	// 输出日志自定义字段表单
-	foreach($post_options as $meta_key => $post_option){
-		$post_option = wp_parse_args($post_option, [
-			'priority'		=> 'high',
-			'title'			=> '',
-			'fields'		=> []
-		]);
-		
-		if($post_option['title']){
-			$meta_box_count++;
-			add_meta_box($meta_key, $post_option['title'], '', $post_type, 'wpjam', $post_option['priority'], ['fields'=>$post_option['fields']]);
+	if($post_options){
+		// 输出日志自定义字段表单
+		foreach($post_options as $meta_key => $post_option){
+			$post_option = wp_parse_args($post_option, [
+				'priority'		=> 'high',
+				'title'			=> '',
+				'fields'		=> []
+			]);
+			
+			if($post_option['title']){
+				add_meta_box($meta_key, $post_option['title'], '', $post_type, 'wpjam', $post_option['priority'], ['fields'=>$post_option['fields']]);
+			}
 		}
 	}
 
@@ -33,70 +30,77 @@ function wpjam_edit_form_advanced($post){
 	$page		= $current_screen->id;
 	$context	= 'wpjam';
 
-	if(empty($wp_meta_boxes[$page][$context])) return;
+	$wpjam_meta_boxes	= $wp_meta_boxes[$page][$context] ?? [];
+
+	if(empty($wpjam_meta_boxes)) {
+		return;
+	}
 
 	$nav_tab_title	= '';
-	$i	= 0; 
-	foreach (['high', 'core', 'default', 'low'] as $priority) {
-		if (isset($wp_meta_boxes[$page][$context][$priority])){
-			foreach ((array) $wp_meta_boxes[$page][$context][$priority] as $box ) {
-				if($box['id'] && $box['title']){
-					if($meta_box_count == 1){
-						$nav_tab_title	= $box['title'];
-					}else{
-						$i++;
-						$class	= ($i == 1)?'nav-tab nav-tab-active':'nav-tab';
-						$nav_tab_title	.= '<a class="'.$class.'" href="javascript:;" id="tab_title_'.$box['id'].'">'.$box['title'].'</a>';
-					}
-				}
+	$meta_box_count	= 0;
+
+	foreach(['high', 'core', 'default', 'low'] as $priority){
+		if(empty($wpjam_meta_boxes[$priority])){
+			continue;
+		}
+
+		foreach ((array)$wpjam_meta_boxes[$priority] as $meta_box) {
+			if(empty($meta_box['id']) || empty($meta_box['title'])){
+				continue;
 			}
+
+			$meta_box_count++;
+			// $class	= ($meta_box_count == 1)?'nav-tab nav-tab-active':'nav-tab';
+			$nav_tab_title	.= '<a class="nav-tab" href="javascript:;" id="tab_title_'.$meta_box['id'].'">'.$meta_box['title'].'</a>';
+			$meta_box_title	= $meta_box['title'];
 		}
 	}
 
-	if(empty($nav_tab_title))	return;
+	if(empty($nav_tab_title)){
+		return;
+	}
 
 	echo '<div id="'.htmlspecialchars($context).'-sortables" class="meta-box-sortables">';
 	echo '<div id="'.$context.'" class="postbox">' . "\n";
 	
 	if($meta_box_count == 1){	
 		echo '<h2 class="hndle">';
-		echo $nav_tab_title;
+		echo $meta_box_title;
 		echo '</h2>';
 	}else{
 		echo '<h2 class="nav-tab-wrapper">';
 		echo $nav_tab_title;
 		echo '</h2>';
-	}	
-
-	$i	= 0; 
+	}
 
 	echo '<div class="inside">' . "\n";
 	foreach (['high', 'core', 'default', 'low'] as $priority) {
-		if (isset( $wp_meta_boxes[$page][$context][$priority]) ) {
-			foreach ((array) $wp_meta_boxes[$page][$context][$priority] as $box) {
-				if($box['id'] && $box['title']){
-					if($meta_box_count > 1){
-						$i++;
-						$class	= ($i == 1)?'div-tab':'div-tab hidden';
+		if (!isset($wpjam_meta_boxes[$priority])){
+			continue;
+		}
+		
+		foreach ((array) $wpjam_meta_boxes[$priority] as $meta_box) {
+			if(empty($meta_box['id']) || empty($meta_box['title'])){
+				continue;
+			}
 
-						echo '<div id="tab_'.$box['id'].'" class="'.$class.'">';
-					}
-					
-					if(isset($post_options[$box['id']])){
-						wpjam_fields($post_options[$box['id']]['fields'], array(
-							'data_type'		=> 'post_meta',
-							'id'			=> $post->ID,
-							'fields_type'	=> 'table',
-							'is_add'		=> ($pagenow == 'post-new.php')?true:false
-						));
-					}else{
-						call_user_func($box['callback'], $post, $box);
-					}
-					
-					if($meta_box_count > 1){
-						echo "</div>\n";
-					}
-				}
+			if($meta_box_count > 1){
+				echo '<div id="tab_'.$meta_box['id'].'" class="div-tab hidden">';
+			}
+			
+			if(isset($post_options[$meta_box['id']])){
+				wpjam_fields($post_options[$meta_box['id']]['fields'], array(
+					'data_type'		=> 'post_meta',
+					'id'			=> $post->ID,
+					'fields_type'	=> 'table',
+					'is_add'		=> ($pagenow == 'post-new.php')?true:false
+				));
+			}else{
+				call_user_func($meta_box['callback'], $post, $meta_box);
+			}
+			
+			if($meta_box_count > 1){
+				echo "</div>\n";
 			}
 		}
 	}

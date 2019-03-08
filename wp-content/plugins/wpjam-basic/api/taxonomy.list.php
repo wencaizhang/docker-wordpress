@@ -43,9 +43,17 @@ if($terms = wpjam_get_terms($args, $max_depth)){
 }
 
 if($taxonomy == 'category'){
-	$response['taxonomy_title']	= '分类';
+	$taxonomy_title	= '分类';
 }elseif($taxonomy == 'post_tag'){
-	$response['taxonomy_title']	= '标签';
+	$taxonomy_title	= '标签';
 }else{
-	$response['taxonomy_title']	= get_taxonomy($taxonomy)->label;
+	$taxonomy_title	= get_taxonomy($taxonomy)->label;
+}
+
+if(empty($response['page_title'])){
+	$response['page_title']	= $taxonomy_title;
+}
+
+if(empty($response['share_title'])){
+	$response['share_title']	= $taxonomy_title;
 }

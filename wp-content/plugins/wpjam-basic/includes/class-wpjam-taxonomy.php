@@ -89,6 +89,8 @@ class WPJAM_Taxonomy{
 
 		$term_json['id']			= $term_id;
 		$term_json['name']			= $term->name;
+		$term_json['page_title']	= $term->name;
+		$term_json['share_title']	= $term->name;
 
 		if(get_taxonomy($taxonomy)->public || get_taxonomy($taxonomy)->publicly_queryable){
 			$term_json['slug']		= $term->slug;

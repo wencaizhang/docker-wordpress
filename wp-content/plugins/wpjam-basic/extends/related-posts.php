@@ -35,19 +35,19 @@ if(wpjam_basic_get_setting('related_posts_auto')){
 		}
 		return $content;
 	});
-
-	add_filter('wpjam_post_json', function($post_json){
-		if(is_single()){
-			$post_types	= wpjam_basic_get_setting('related_posts_post_types');
-
-			if(!$post_types || ($post_types && in_array(get_post_type(), $post_types))){
-				$post_json['related']	= WPJAM_PostType::get_related();
-			}
-		}
-
-		return $post_json;
-	}, 10, 2);
 }
+
+add_filter('wpjam_post_json', function($post_json){
+	if(is_single()){
+		$post_types	= wpjam_basic_get_setting('related_posts_post_types');
+
+		if(!$post_types || ($post_types && in_array(get_post_type(), $post_types))){
+			$post_json['related']	= WPJAM_PostType::get_related();
+		}
+	}
+
+	return $post_json;
+}, 10, 2);
 
 
 

@@ -707,4 +707,30 @@ jQuery(function($){
 });
 
 		
+function show_wx_img(src, iframe_width=0, iframe_height=0, url='') {
+	if(iframe_width){
+		var img_html	= '<img id="img" src=\'' + src + '?' + Math.random() + '\' />';
+	}else{
+		var img_html	= '<img id="img" style="max-width:100%;" src=\'' + src + '?' + Math.random() + '\' />';
+	}
+	
+	if(url){
+		img_html	= '<a href="'+url+'" target="_blank">'+img_html+'</a>';
+	}
+
+	var frameid		= 'frameimg' + Math.random();
+
+	if(iframe_width){
+		window.iframe_html = '<body style="margin:0;padding:0;">'+img_html+'<script>window.onload = function() {wx_iframe=parent.document.getElementById(\'' + frameid + '\'); wx_img = document.getElementById(\'img\'); iframe_width=wx_iframe.width; iframe_height=wx_iframe.height; img_width = wx_img.width; img_height = wx_img.height; if((img_width/img_height)>(iframe_width/iframe_height)){ wx_img.style.height=\'100%\'; img_width=Math.ceil(iframe_height/img_height*img_width); wx_img.style.marginLeft=(iframe_width - img_width) / 2+\'px\'; }else{ wx_img.style.width=\'100%\'; img_height=Math.ceil(iframe_width/img_width*img_height); wx_img.style.marginTop=(iframe_height - img_height) / 2+\'px\'; } }<' + '/script></body>';
+
+		return '<iframe id="' + frameid + '" src="javascript:parent.iframe_html;" width="'+iframe_width+'" height="'+iframe_height+'" frameBorder="0" scrolling="no"></iframe>';
+		
+		// document.write('<iframe id="' + frameid + '" src="javascript:parent.iframe_html;" width="'+iframe_width+'" height="'+iframe_height+'" frameBorder="0" scrolling="no"></iframe>');
+	}else{
+		window.iframe_html = '<body style="margin:0;padding:0;">'+img_html+'<script>window.onload = function() { parent.document.getElementById(\'' + frameid + '\').height = document.getElementById(\'img\').height+\'px\'; }<' + '/script></body>';
+
+		return '<iframe id="' + frameid + '" src="javascript:parent.iframe_html;" width="100%" frameBorder="0" scrolling="no"></iframe>';
+		// document.write('<iframe id="' + frameid + '" src="javascript:parent.iframe_html;" width="100%" frameBorder="0" scrolling="no"></iframe>');
+	}
+}
 

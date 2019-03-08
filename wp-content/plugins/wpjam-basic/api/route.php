@@ -11,13 +11,21 @@ if(!$api_setting){
 }
 
 $response		= ['errcode'=>0, 'current_user'=>null];
+
 $current_user	= apply_filters('wpjam_current_user', null);
 
-if(!is_wp_error($current_user)){
-	$response['current_user']	= $current_user;
-}elseif($api_setting['auth']){
-	wpjam_send_json($current_user);
+if(is_wp_error($current_user)){
+	if(!empty($api_setting['auth'])){
+		wpjam_send_json($current_user);
+	}else{
+		$current_user	= null;
+	}
 }
+
+$response['current_user']	= $current_user;
+$response['page_title']		= $api_setting['page_title'] ?? '';
+$response['share_title']	= $api_setting['share_title'] ?? '';
+$response['share_image']	= !empty($api_setting['share_image']) ? wpjam_get_thumbnail($api_setting['share_image'], '500x400') : '';
 
 foreach ($api_setting['modules'] as $module){
 	if(!$module['type'] || !$module['args']){

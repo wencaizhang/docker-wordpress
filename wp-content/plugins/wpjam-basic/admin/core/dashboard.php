@@ -1,9 +1,13 @@
 <?php
 // Dashboard Widget
 add_action('wp_dashboard_setup',  function(){
-	global $wp_meta_boxes;
-
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+	remove_meta_box('dashboard_primary', get_current_screen(), 'side');
+	
+	$user_id = get_current_user_id();
+	
+	if (!in_array( get_current_blog_id(), array_keys(get_blogs_of_user($user_id)))){
+		remove_meta_box('dashboard_quick_press', get_current_screen(), 'side');
+	}
 
 	$dashboard_widgets	= [];
 

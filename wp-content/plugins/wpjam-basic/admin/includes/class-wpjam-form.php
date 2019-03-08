@@ -13,7 +13,7 @@ class WPJAM_Form{
 		$field_type	= $field['type'];
 
 		$key	= $field['key'];
-		$value	= ($field['value'])??'';
+		$value	= $field['value'] ?? '';
 
 		if($field_type == 'view' && isset($field['value'])){
 			return $value;
@@ -443,7 +443,7 @@ class WPJAM_Form{
 				break;
 
 			case 'textarea':
-				$rows = ($field['rows'])??6;
+				$rows = $field['rows'] ?? 6;
 				$field_html = '<textarea name="'.$name.'" id="'.$key.'" class="'.$class.' code" rows="'.$rows.'" cols="50" '.$extra.' >'.esc_textarea($value).'</textarea>'.$description;
 				break;
 
@@ -452,7 +452,7 @@ class WPJAM_Form{
 				
 				$field_html = '';
 				ob_start();
-				$settings = ($field['settings'])??[];
+				$settings = $field['settings'] ?? [];
 				wp_editor($value, $key, $settings);
 				$field_style	= isset($field['style'])?' style="'.$field['style'].'"':'';
 				$field_html 	= '<div'.$field_style.'>'.ob_get_contents().'</div>';
@@ -568,7 +568,7 @@ class WPJAM_Form{
 
 					if(!empty($total)){
 						for($i=0; $i<$total; $i++) { 
-							$item	= ($value[$i])??[];
+							$item	= $value[$i] ?? [];
 							if($the_field_html = self::get_mu_fields_html($name, $fields, $i, $item)){
 								$field_html .= '<div class="mu-item">'.$the_field_html.$sortable_dashicons.'</div>'; 
 							}
@@ -607,7 +607,7 @@ class WPJAM_Form{
 				$field_html  = '<legend class="screen-reader-text"><span>'.$title.'</span></legend>';
 
 				if(!empty($fields)){
-					$fieldset_type		= ($field['fieldset_type'])??'single';
+					$fieldset_type		= $field['fieldset_type'] ?? 'single';
 
 					foreach ($fields as $sub_key=>$sub_field) {
 
@@ -622,7 +622,7 @@ class WPJAM_Form{
 						if($sub_field['type'] == 'hidden'){
 							$field_html			.= self::field_callback($sub_field);
 						}else{
-							$sub_field['key']	= ($sub_field['key'])??$sub_key;
+							$sub_field['key']	= $sub_field['key'] ?? $sub_key;
 
 							if(!empty($sub_field['title'])){
 								$field_title 		= '<label class="sub-field-label" for="'.$sub_key.'">'.$sub_field['title'].'</label>';
@@ -638,8 +638,8 @@ class WPJAM_Form{
 
 			case 'view':
 				if(!empty($field['options'])){
-					$value		= ($value)?$value:0;
-					$field_html	= ($field['options'][$value])??'';
+					$value		= $value ?: 0;
+					$field_html	= $field['options'][$value] ?? '';
 				}else{
 					$field_html	= $value;
 				}
@@ -709,7 +709,7 @@ class WPJAM_Form{
 		foreach ($fields as $key => $field) {
 			if($field['type'] == 'fieldset'){
 				if($field['fields']){
-					$fieldset_type	= ($field['fieldset_type'])??'single';
+					$fieldset_type	= $field['fieldset_type'] ?? 'single';
 
 					if($fieldset_type == 'array'){
 						$field_value	= ($value)?($value[$key]??''):($_POST[$key]??'');
@@ -795,7 +795,7 @@ class WPJAM_Form{
 			$value	= intval($value);
 		}
 
-		if($field_validate	= ($field['field_validate'])??''){
+		if($field_validate	= ($field['field_validate'] ?? '')){
 			$value	= call_user_func($field_validate, $value);
 		}
 

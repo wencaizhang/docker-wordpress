@@ -38,8 +38,8 @@ add_action('admin_enqueue_scripts', function(){
 	wp_enqueue_script('wp-color-picker');
 
 	if($pagenow != 'plugins.php'){
-		wp_enqueue_script('wpjam-script',	WPJAM_BASIC_PLUGIN_URL.'/static/script.js', ['jquery','thickbox','jquery-ui-core']);
-		wp_enqueue_script('wpjam-form',		WPJAM_BASIC_PLUGIN_URL.'/static/form.js',   ['jquery','wp-backbone','media-views']);
+		wp_enqueue_script('wpjam-script',	WPJAM_BASIC_PLUGIN_URL.'/static/script.js', ['jquery','jquery-ui-core','thickbox']);
+		wp_enqueue_script('wpjam-form',		WPJAM_BASIC_PLUGIN_URL.'/static/form.js',   ['jquery','jquery-ui-core','wp-backbone','media-views','wp-color-picker']);
 	}
 
 	global $plugin_page, $current_tab, $current_admin_url, $current_list_table;

@@ -69,7 +69,7 @@ add_action('post_submitbox_misc_actions', function (){ ?>
 <?php });
 
 add_action('admin_head', function(){
-	if(wpjam_get_setting('xzh', 'original')){ ?>
+	if(wpjam_get_setting('xzh', 'original')){ 
 	?>
 	<script type="text/javascript">
 	jQuery(function($){

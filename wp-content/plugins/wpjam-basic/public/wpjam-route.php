@@ -88,7 +88,7 @@ add_action('send_headers', function ($wp){
 		if(strpos($action, 'mag.') === 0){
 			global $wpjam_json;
 			
-			$wpjam_json	= str_replace('mag.', '', $action);
+			$wpjam_json	= str_replace(['mag.','/'], ['','.'], $action);
 
 			do_action('wpjam_api_template_redirect', $wpjam_json);
 
