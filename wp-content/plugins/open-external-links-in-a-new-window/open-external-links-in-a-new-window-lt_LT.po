@@ -1,0 +1,95 @@
+# Copyright (C) 2012 Open external links in a new window
+# This file is distributed under the same license as the Open external links in a new window package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Open external links in a new window 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/open-external-links-in-a-new-window\n"
+"POT-Creation-Date: 2012-05-23 18:24:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-05-25 14:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: Host1Free\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: Lithuania\n"
+
+#: open-external-links-in-a-new-window.php:18
+msgid "Plugin: Open external links a new window."
+msgstr "Papildinys: Atidaryti išorines nuorodas naujame lange."
+
+#: open-external-links-in-a-new-window.php:18
+msgid "Plugin by"
+msgstr "Papildinys sukurtas"
+
+#: open-external-links-in-a-new-window.php:18
+msgid "Download it at"
+msgstr "Parsisiųskite tai iš"
+
+#. #-#-#-#-#  plugin.pot (Open external links in a new window 1.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: open-external-links-in-a-new-window.php:106
+#: open-external-links-in-a-new-window.php:113
+msgid "Open external links in a new window"
+msgstr "Atidaryti išorines nuorodas naujame lange"
+
+#: open-external-links-in-a-new-window.php:106
+msgid "External links"
+msgstr "Išorinės nuorodos"
+
+#: open-external-links-in-a-new-window.php:118
+msgid "By default, this plugins makes all external links (i.e. links that point outside the current host name) open in a new window/tab."
+msgstr "Pagal numatytasias parinktis, šis papildinys padaro taip, kad visos išorinės nuorodos (pvz. nuorodos, kurios nurodo į kitus, negu dabartinis puslapis) atsidarytų naujame lange/kortelėje."
+
+#: open-external-links-in-a-new-window.php:120
+msgid "You can change this behavior by providing regular expressions that either forces or ignores whether the link should open in a new window."
+msgstr "Jūs galite pakeisti šią elgseną, įprastų išsireiškimų pagalbą, kurie priverčia langą atsidaryti naujame lange, arba šią parinktį ignoruoja."
+
+#: open-external-links-in-a-new-window.php:124
+msgid "Force links to open in a new window if they match:"
+msgstr "Priversti nuorodas atidaryti naujame lange, jeigu jos atitinka:"
+
+#: open-external-links-in-a-new-window.php:127
+msgid "Ignore links, and do not open them in a new window, if they match: (Even if they start with http:// or https://)"
+msgstr "Ignoruoti nuorodas ir neatidarinėti jų naujame lange, jeigu jos atitinka: (Net jeigu jos praisdeda http:// arba https://)"
+
+#: open-external-links-in-a-new-window.php:132
+msgid "Save changes"
+msgstr "Įrašyti pakeitimus"
+
+#: open-external-links-in-a-new-window.php:136
+msgid "The matches are prioritized in the following order:"
+msgstr "Atitinkams pirmenybė teikiama šia tvarka:"
+
+#: open-external-links-in-a-new-window.php:138
+msgid "Ignored, matching URLs"
+msgstr "Ignoruojamos, atitinkančios universaliosios nuorodos"
+
+#: open-external-links-in-a-new-window.php:139
+msgid "Forced, matching URLs"
+msgstr "Priverstinai atitinkančioms universaliosioms nuorodoms"
+
+#: open-external-links-in-a-new-window.php:140
+msgid "http:// or https://"
+msgstr "http:// arba https://"
+
+#: open-external-links-in-a-new-window.php:152
+msgid "Settings"
+msgstr "Nuostatos"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/open-external-links-in-a-new-window/"
+msgstr "http://wordpress.org/extend/plugins/open-external-links-in-a-new-window/"
+
+#. Description of the plugin/theme
+msgid "Opens all external links in a new window. XHTML Strict compliant and search engine optimized (SEO)."
+msgstr "Atidaro visas išorines nuorodas naujame naršyklės lange. Griežtai atitinkantis XHTML and paieškos sistemos optimizavimą (SEO)"
+
+#. Author of the plugin/theme
+msgid "Kristian Risager Larsen"
+msgstr "Kristian Risager Larsen"
+
+#. Author URI of the plugin/theme
+msgid "http://kezze.dk"
+msgstr "http://kezze.dk"
+

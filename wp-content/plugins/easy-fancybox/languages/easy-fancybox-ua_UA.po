@@ -1,0 +1,560 @@
+# Copyright (C) 2010 Easy FancyBox
+# This file is distributed under the same license as the Easy FancyBox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy FancyBox 1.3.4.9\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/easy-fancybox\n"
+"POT-Creation-Date: 2011-07-24 16:46:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-03-11 15:24+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: cmd software <tmosbyd@gmail.com>\n"
+"Language: ua_UA\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: easy-fancybox.php:266
+msgid ""
+"Donate to Easy FancyBox plugin development with PayPal - it's fast, free and "
+"secure!"
+msgstr ""
+"Підтримати розвиток плагін Easy FancyBox з PayPal - це швидкий, вільний і "
+"безпечний!"
+
+#: easy-fancybox.php:266
+msgid ""
+"The options in this section are provided by the plugin <strong><a href="
+"\"http://4visions.nl/en/wordpress-plugins/easy-fancybox/\">Easy FancyBox</"
+"a></strong> and determine the <strong>Media Lightbox</strong> overlay "
+"appearance and behaviour controlled by <strong><a href=\"http://fancybox.net/"
+"\">FancyBox</a></strong>."
+msgstr ""
+"Параметри в цьому розділі, надаються за допомогою плагіна <strong><a href="
+"\"http://4visions.nl/en/wordpress-plugins/easy-fancybox/\">Easy FancyBox</"
+"a></strong> і визначення <strong>Media Lightbox</strong> Поява накладення і "
+"поведінка контролюється <strong><a href=\"http://fancybox.net/\">FancyBox</"
+"a></strong>."
+
+#: easy-fancybox.php:266
+msgid ""
+"First enable each sub-section that you need. Then save and come back to "
+"adjust its specific settings."
+msgstr ""
+"Перша можливість кожному підрозділу що вам потрібно. Потім зберегти і "
+"повернутися до скорегувати свої специфічні налаштування."
+
+#: easy-fancybox.php:266
+msgid ""
+"Note: Each additional sub-section and features like <em>Auto-detection</em>, "
+"<em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) "
+"will have some extra impact on client-side page speed. Enable only those sub-"
+"sections and options that you actually need on your site."
+msgstr ""
+"Примітка: Кожен додатковий підрозділ і функцій, таких як <em>Автоматичне "
+"визначення</em>, <em>Пружні переходи</em> і все <em>Ослаблення ефекту</em> "
+"(Крім Swing) буде мати деякий додатковий вплив на стороні клієнта сторінці "
+"швидкістю. Включіть тільки ті підрозділи і параметри, які вам потрібні на "
+"вашому сайті."
+
+#: easy-fancybox.php:266
+msgid ""
+"Some setting like Transition options are unavailable for SWF video, PDF and "
+"iFrame content to ensure browser compatibility and readability."
+msgstr ""
+"Деякі настройки, як перехід параметри недоступні для SWF відео, PDF і IFrame "
+"змісту для забезпечення сумісності браузера і читаність."
+
+#: easy-fancybox.php:308
+msgid "Checked"
+msgstr "Перевірений"
+
+#: easy-fancybox.php:310
+msgid "Unchecked"
+msgstr "Неперевірений"
+
+#: easy-fancybox.php:362
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: easy-fancybox-settings.php:6
+msgid "Global settings"
+msgstr "Глобальні налаштування"
+
+#: easy-fancybox-settings.php:15
+msgid "Enable FancyBox for"
+msgstr "Включити FancyBox для"
+
+#: easy-fancybox-settings.php:24 easy-fancybox-settings.php:316
+msgid "Images & Inline content"
+msgstr "Зображення і інлайн-вміст"
+
+#: easy-fancybox-settings.php:31 easy-fancybox-settings.php:489
+msgid "PDF"
+msgstr "PDF"
+
+#: easy-fancybox-settings.php:38 easy-fancybox-settings.php:606
+msgid "SWF"
+msgstr "SWF"
+
+#: easy-fancybox-settings.php:45 easy-fancybox-settings.php:697
+msgid "YouTube"
+msgstr "YouTube"
+
+#: easy-fancybox-settings.php:52 easy-fancybox-settings.php:800
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: easy-fancybox-settings.php:59 easy-fancybox-settings.php:895
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: easy-fancybox-settings.php:66 easy-fancybox-settings.php:1016
+msgid "iFrames"
+msgstr "iFrames"
+
+#: easy-fancybox-settings.php:71
+msgid "Links"
+msgstr "Посилання"
+
+#: easy-fancybox-settings.php:81
+msgid "Exclude"
+msgstr "Виключити"
+
+#: easy-fancybox-settings.php:86 easy-fancybox-settings.php:100
+#: easy-fancybox-settings.php:295 easy-fancybox-settings.php:383
+#: easy-fancybox-settings.php:411
+msgid "None"
+msgstr "Жоден"
+
+#: easy-fancybox-settings.php:87
+msgid "Empty (hidden) links"
+msgstr "Порожні (прихований) посилання"
+
+#: easy-fancybox-settings.php:88
+msgid "Without thumbnail image"
+msgstr "Без ескізів зображень"
+
+#: easy-fancybox-settings.php:95
+msgid "Auto-open"
+msgstr "Автоматичне відкриття"
+
+#: easy-fancybox-settings.php:101
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Зв'язок з ID \"fancybox-auto\""
+
+#: easy-fancybox-settings.php:102
+msgid "First Image link"
+msgstr "Перше посилання зображень"
+
+#: easy-fancybox-settings.php:103
+msgid "First PDF link"
+msgstr "Перша PDF посиланню"
+
+#: easy-fancybox-settings.php:104
+msgid "First SWF link"
+msgstr "Перше посилання SWF"
+
+#: easy-fancybox-settings.php:105
+msgid "First YouTube link "
+msgstr "Перше посилання YouTube"
+
+#: easy-fancybox-settings.php:106
+msgid "First Vimeo link "
+msgstr "Перше посилання Vimeo"
+
+#: easy-fancybox-settings.php:107
+msgid "First Dailymotion link "
+msgstr "Перше посилання Dailymotion"
+
+#: easy-fancybox-settings.php:108
+msgid "First iFrame link"
+msgstr "Перше посилання IFRAME"
+
+#: easy-fancybox-settings.php:109
+msgid "First of any link"
+msgstr "Перш будь-яке посилання"
+
+#: easy-fancybox-settings.php:117 easy-fancybox-settings.php:452
+msgid "Overlay"
+msgstr "Схема на кальці"
+
+#: easy-fancybox-settings.php:125
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Показати накладення навколо змісту відкрився в FancyBox."
+
+#: easy-fancybox-settings.php:132
+msgid "Spotlight effect."
+msgstr "Новинки ефект."
+
+#: easy-fancybox-settings.php:136 easy-fancybox-settings.php:227
+msgid "Opacity"
+msgstr "Непрозорість"
+
+#: easy-fancybox-settings.php:141
+msgid "Value between 0 and 1. "
+msgstr "Значення між 0 і 1."
+
+#: easy-fancybox-settings.php:141 easy-fancybox-settings.php:150
+#: easy-fancybox-settings.php:188 easy-fancybox-settings.php:232
+#: easy-fancybox-settings.php:283 easy-fancybox-settings.php:332
+#: easy-fancybox-settings.php:345 easy-fancybox-settings.php:369
+msgid "Default:"
+msgstr "За замовчуванням:"
+
+#: easy-fancybox-settings.php:145 easy-fancybox-settings.php:192
+msgid "Color"
+msgstr "Колір"
+
+#: easy-fancybox-settings.php:150
+msgid "Enter an HTML color value."
+msgstr "Введіть HTML значення кольору."
+
+#: easy-fancybox-settings.php:156
+msgid "Window"
+msgstr "Вікно"
+
+#: easy-fancybox-settings.php:162
+msgid "Size"
+msgstr "Розмір"
+
+#: easy-fancybox-settings.php:166 easy-fancybox-settings.php:517
+#: easy-fancybox-settings.php:634 easy-fancybox-settings.php:735
+#: easy-fancybox-settings.php:829 easy-fancybox-settings.php:924
+#: easy-fancybox-settings.php:1036
+msgid "Width"
+msgstr "Ширина"
+
+#: easy-fancybox-settings.php:175 easy-fancybox-settings.php:526
+#: easy-fancybox-settings.php:644 easy-fancybox-settings.php:744
+#: easy-fancybox-settings.php:838 easy-fancybox-settings.php:933
+#: easy-fancybox-settings.php:1045
+msgid "Height"
+msgstr "Висота"
+
+#: easy-fancybox-settings.php:183 easy-fancybox-settings.php:207
+#: easy-fancybox-settings.php:534 easy-fancybox-settings.php:653
+#: easy-fancybox-settings.php:752 easy-fancybox-settings.php:846
+#: easy-fancybox-settings.php:941 easy-fancybox-settings.php:1053
+msgid "Border"
+msgstr "Кордон"
+
+#: easy-fancybox-settings.php:197
+msgid "Background"
+msgstr "Фон"
+
+#: easy-fancybox-settings.php:217
+msgid "Text"
+msgstr "Текст"
+
+#: easy-fancybox-settings.php:236
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: easy-fancybox-settings.php:242
+msgid "Center while scrolling"
+msgstr "Центр при прокрутці"
+
+#: easy-fancybox-settings.php:248
+msgid "Show the (X) close button"
+msgstr "Показати (X) кнопка закриття"
+
+#: easy-fancybox-settings.php:254
+msgid "Show the gallery navigation arrows"
+msgstr "Показати галерею стрілками"
+
+#: easy-fancybox-settings.php:262
+msgid "Opening speed"
+msgstr "Швидкість відкриття"
+
+#: easy-fancybox-settings.php:270
+msgid "Closing speed"
+msgstr "Швидкість закривання"
+
+#: easy-fancybox-settings.php:278
+msgid "Fade speed"
+msgstr "Fade швидкості"
+
+#: easy-fancybox-settings.php:283
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Тривалість в мілісекундах. Вища повільніше."
+
+#: easy-fancybox-settings.php:291
+msgid "Advanced"
+msgstr "Передовий"
+
+#: easy-fancybox-settings.php:296
+msgid "Hide/show title on mouse hover action"
+msgstr "Сховати / показати заголовок на дії при наведенні миші"
+
+#: easy-fancybox-settings.php:297
+msgid "Gallery Auto-rotation"
+msgstr "Галерея Авто-поворот"
+
+#: easy-fancybox-settings.php:304
+msgid ""
+"Note: Hide/show title on mouse hover action works best with Overlay title "
+"position. Auto-rotation uses a fixed 5 second pause per image."
+msgstr ""
+"Примітка: сховати / показати заголовок на дії при наведенні миші найкраще "
+"працює з позицій назвою Overlay. Автоматичний поворот використовує фіксовану "
+"5 секунд паузи на зображення."
+
+#: easy-fancybox-settings.php:321
+msgid ""
+"To make images open in an overlay, add their extension to the auto-detect "
+"field or use the class \"fancybox\" for its link. Clear field to switch off "
+"auto-enabling."
+msgstr ""
+"Для того, щоб відкриті зображення в накладку, додайте їх поширення на "
+"автоматичне виявлення поле або використовувати клас \"fancybox\" за "
+"посилання. Очистити поле, щоб вимкнути автоматичне включення."
+
+#: easy-fancybox-settings.php:325 easy-fancybox-settings.php:502
+#: easy-fancybox-settings.php:619 easy-fancybox-settings.php:711
+#: easy-fancybox-settings.php:814 easy-fancybox-settings.php:909
+msgid "Auto-detect"
+msgstr "Автовизначення"
+
+#: easy-fancybox-settings.php:336
+msgid "Apply to"
+msgstr "Звертатися до"
+
+#: easy-fancybox-settings.php:341
+msgid "All image links"
+msgstr "Всі посилання на зображення"
+
+#: easy-fancybox-settings.php:342
+msgid "Links inside Section(s) only (below)"
+msgstr "Посилання в розділ (и) тільки (див. нижче)"
+
+#: easy-fancybox-settings.php:349
+msgid "Auto-gallery"
+msgstr "Авто-галерея"
+
+#: easy-fancybox-settings.php:354
+msgid "Disabled"
+msgstr "Інвалід"
+
+#: easy-fancybox-settings.php:355
+msgid "Galleries per Section (below)"
+msgstr "Галереї в розділі (див. нижче)"
+
+#: easy-fancybox-settings.php:356
+msgid "All in one gallery"
+msgstr "Все в одній галереї"
+
+#: easy-fancybox-settings.php:359
+msgid ""
+"When disabled, you can use the rel attribute to manually group image links "
+"together."
+msgstr ""
+"Якщо функція відключена, ви можете використовувати отн атрибуту вручну "
+"групою посилання на зображення разом."
+
+#: easy-fancybox-settings.php:363
+msgid "Section(s)"
+msgstr "Розділ (и)"
+
+#: easy-fancybox-settings.php:369
+msgid ""
+"This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> "
+"and/or <em>Auto-gallery</em> is set to <em>Galleries per Section</em>. Adapt "
+"it to conform with your theme."
+msgstr ""
+"Це відноситься, коли <em>Звертатися до</em> встановлений в <em>Обмежена в "
+"розділах</em> і / або <em>Авто-галерея</em> встановлений в <em>Галереї в "
+"розділі</em>. Адаптувати його відповідно з вашою темою."
+
+#: easy-fancybox-settings.php:369
+msgid ""
+"Examples: If your theme wraps post content in a div with class post, change "
+"this value to \"div.post\". If you want to include images in a sidebar with "
+"ID primary, add \", div#primary\" or \"aside#primary\" for html5 themes."
+msgstr ""
+"Приклади: Якщо ваша тема обгортання повідомленням вміст в DIV з класом "
+"пошти, змінити це значення на \"div.post\". Якщо ви хочете, щоб включити "
+"зображення в бічній панелі з ID первинному, додайте \", div#primary\" або "
+"\"aside#primary\" для HTML5 теми."
+
+#: easy-fancybox-settings.php:377
+msgid "Transition In"
+msgstr "Перехід в"
+
+#: easy-fancybox-settings.php:381 easy-fancybox-settings.php:409
+msgid "Fade"
+msgstr "В'янути"
+
+#: easy-fancybox-settings.php:382 easy-fancybox-settings.php:410
+msgid "Elastic"
+msgstr "Еластичний"
+
+#: easy-fancybox-settings.php:390
+msgid "Easing In"
+msgstr "Ослаблення в"
+
+#: easy-fancybox-settings.php:394 easy-fancybox-settings.php:422
+msgid "Linear"
+msgstr "Лінійний"
+
+#: easy-fancybox-settings.php:395 easy-fancybox-settings.php:423
+msgid "Swing"
+msgstr "Розмахувати"
+
+#: easy-fancybox-settings.php:396 easy-fancybox-settings.php:424
+msgid "Back"
+msgstr "Назад"
+
+#: easy-fancybox-settings.php:397 easy-fancybox-settings.php:425
+msgid "Quad"
+msgstr "Четверня"
+
+#: easy-fancybox-settings.php:398 easy-fancybox-settings.php:426
+msgid "Expo"
+msgstr "Експо"
+
+#: easy-fancybox-settings.php:405
+msgid "Transition Out"
+msgstr "Перехід Out"
+
+#: easy-fancybox-settings.php:418
+msgid "Easing Out"
+msgstr "Витісняють"
+
+#: easy-fancybox-settings.php:429
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr ""
+"Ослаблення ефекту застосовується тільки при включеному встановлена ​​на "
+"пружною."
+
+#: easy-fancybox-settings.php:435
+msgid "Transparency fade during elastic transition."
+msgstr "Прозорість зникають при пружних переходів."
+
+#: easy-fancybox-settings.php:441 easy-fancybox-settings.php:549
+#: easy-fancybox-settings.php:668 easy-fancybox-settings.php:767
+#: easy-fancybox-settings.php:861 easy-fancybox-settings.php:956
+#: easy-fancybox-settings.php:1071
+msgid "Show title"
+msgstr "Показати назву"
+
+#: easy-fancybox-settings.php:445 easy-fancybox-settings.php:553
+#: easy-fancybox-settings.php:672 easy-fancybox-settings.php:771
+#: easy-fancybox-settings.php:865 easy-fancybox-settings.php:960
+#: easy-fancybox-settings.php:1075
+msgid "Title Position"
+msgstr "Назва позиції"
+
+#: easy-fancybox-settings.php:449 easy-fancybox-settings.php:557
+#: easy-fancybox-settings.php:676 easy-fancybox-settings.php:775
+#: easy-fancybox-settings.php:869 easy-fancybox-settings.php:964
+#: easy-fancybox-settings.php:1079
+msgid "Float"
+msgstr "Плавати"
+
+#: easy-fancybox-settings.php:450 easy-fancybox-settings.php:558
+#: easy-fancybox-settings.php:677 easy-fancybox-settings.php:776
+#: easy-fancybox-settings.php:870 easy-fancybox-settings.php:965
+#: easy-fancybox-settings.php:1080
+msgid "Outside"
+msgstr "Поза"
+
+#: easy-fancybox-settings.php:451 easy-fancybox-settings.php:559
+#: easy-fancybox-settings.php:678 easy-fancybox-settings.php:777
+#: easy-fancybox-settings.php:871 easy-fancybox-settings.php:966
+#: easy-fancybox-settings.php:1081
+msgid "Inside"
+msgstr "Усередині"
+
+#: easy-fancybox-settings.php:461 easy-fancybox-settings.php:568
+#: easy-fancybox-settings.php:687 easy-fancybox-settings.php:786
+#: easy-fancybox-settings.php:880 easy-fancybox-settings.php:975
+#: easy-fancybox-settings.php:1090
+msgid "Allow title from thumbnail alt tag"
+msgstr "Дозволити назву від ескізу теги Alt"
+
+#: easy-fancybox-settings.php:494
+msgid ""
+"To make any PDF document file open in an overlay, switch on auto-detect or "
+"use the class \"fancybox-pdf\" for its link."
+msgstr ""
+"Для того, щоб будь-які PDF файл документа, відкритого в накладку, включити "
+"автоматичне виявлення і використання класу \"fancybox-pdf\" для його "
+"засланні."
+
+#: easy-fancybox-settings.php:494 easy-fancybox-settings.php:611
+#: easy-fancybox-settings.php:702 easy-fancybox-settings.php:805
+#: easy-fancybox-settings.php:900 easy-fancybox-settings.php:1021
+msgid "Adjust its specific settings below."
+msgstr "Налаштуйте свої специфічні налаштування нижче."
+
+#: easy-fancybox-settings.php:611
+msgid ""
+"To make any Flash (.swf) file open in an overlay, switch on auto-detect or "
+"use the class \"fancybox-swf\" for its link."
+msgstr ""
+"Для того, щоб будь-яка спалах (.swf) відкрити файл в оверлей, включити "
+"автоматичне виявлення і використання класу \"fancybox-swf\" за посилання."
+
+#: easy-fancybox-settings.php:702
+msgid ""
+"To make any YouTube movie open in an overlay, switch on auto-detect or use "
+"the class \"fancybox-youtube\" for its link."
+msgstr ""
+"Для того, щоб будь-який фільм YouTube відкриті в накладку, включити "
+"автоматичне виявлення і використання класу \"fancybox-youtube\" за посилання."
+
+#: easy-fancybox-settings.php:720
+msgid "Auto-detect Short links"
+msgstr "Автоматичне визначення Короткі посилання"
+
+#: easy-fancybox-settings.php:805
+msgid ""
+"To make any Vimeo movie open in an overlay, switch on auto-detect or use the "
+"class \"fancybox-vimeo\" for its link."
+msgstr ""
+"Для того, щоб будь-який фільм Vimeo відкриті в накладку, включити "
+"автоматичне виявлення і використання класу \"fancybox-vimeo\" за посилання."
+
+#: easy-fancybox-settings.php:900
+msgid ""
+"To make any Dailymotion movie open in an overlay, switch on auto-detect or "
+"use the class \"fancybox-dailymotion\" for its link."
+msgstr ""
+"Для того, щоб будь-які Dailymotion фільм відкриті в накладку, включити "
+"автоматичне виявлення і використання класу \"fancybox-dailymotion\" за "
+"посилання."
+
+#: easy-fancybox-settings.php:1021
+msgid ""
+"To make a website or HTML document open in an overlay, use the class "
+"\"fancybox-iframe\" for its link."
+msgstr ""
+"Щоб зробити веб-сайт або HTML документа, відкритого в оверлей, "
+"використовувати клас \"fancybox-iframe\" за посилання."
+
+#. Plugin Name of the plugin/theme
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#. Plugin URI of the plugin/theme
+msgid "http://4visions.nl/en/wordpress-plugins/easy-fancybox/"
+msgstr "http://4visions.nl/en/wordpress-plugins/easy-fancybox/"
+
+#. Description of the plugin/theme
+msgid ""
+"Easily enable the <a href=\"http://fancybox.net/\">FancyBox jQuery "
+"extension</a> on all image, SWF, PDF, YouTube, Dailymotion and Vimeo links. "
+"Also supports iFrame and inline content."
+msgstr ""
+"Легко включити <a href=\"http://fancybox.net/\">FancyBox jQuery extension</"
+"a> на всі зображення, SWF, PDF, YouTube, Dailymotion і Vimeo посилання. "
+"Також підтримує IFRAME і вбудованого змісту."
+
+#. Author of the plugin/theme
+msgid "RavanH"
+msgstr "RavanH"
+
+#. Author URI of the plugin/theme
+msgid "http://4visions.nl/"
+msgstr "http://4visions.nl/"

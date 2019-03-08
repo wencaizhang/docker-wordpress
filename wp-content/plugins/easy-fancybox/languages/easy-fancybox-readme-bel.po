@@ -1,0 +1,1361 @@
+# Translation of Development Readme (trunk) in Belarusian
+# This file is distributed under the same license as the Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-02 17:38+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Project-Id-Version: Development Readme (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: be_BY\n"
+
+#. Name.
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#. Short description.
+msgid "Easily enable the FancyBox jQuery extension on just about all media links. Multi-Site compatible. Supports iFrame and Flash movies."
+msgstr "Лёгка ўключаць пашырэнне FancyBox jQuery практычна на ўсіх медыя спасылкі. Multi-Site сумяшчэнне. Падтрымка IFrame і флэш-ролікаў."
+
+#. Found in faq paragraph.
+msgid "Yes. First, enable the iFrame option on Settings &gt; Media. Then, in your post or page content create a link with either <code>class=\"fancybox-iframe\"</code> or <code>class=\"fancybox iframe\"</code> (notice the space instead of the hyphen) to any web page or .htm(l) file in your content."
+msgstr "Так. Па-першае, уключыце опцыю iFrame ў Налады>Мультымедыя. Затым, у вашым пасце або старонцы кантэнту стварыце спасылку з любым <code>class=\"fancybox-iframe\"</code> або <code>class=\"fancybox iframe\"</code> (звярніце ўвагу на прастору замест злучка) на любую вэб - старонку альбо выяву .htm(l) у змесце ."
+
+#. Found in remaining content list item.
+msgid "<strong>WP Supersized</strong> uses the Animate Enhanced jQuery extension which causes a conflict with the Easing extension used by FancyBox resulting in a 0px sized lightbox frame and/or some kind of positioning issue with auto-centering."
+msgstr "<strong>WP Supersized</strong> выкарыстоўвае Animate Enhanced пашырэнне jQuery , якое выклікае канфлікт з Easing extension пашырэннем , які выкарыстоўваецца FancyBox і прыводзіць да змене памеру кадра лайтбокса да 0px  і/або розным пазіцыяным пытанням пры аўтаматычным цэнтраванні."
+
+#. Found in faq paragraph.
+msgid ""
+"Please follow the trouble shooting steps on <a href=\"http://wordpress.org/plugins/easy-fancybox/other_notes/\">Other Notes</a> to determine the cause. If that fails, ask for support on the <a href=\"http://wordpress.org/tags/easy-fancybox\">Easy FancyBox WordPress forum</a> or go to the <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">development site</a>\n"
+"&nbsp;"
+msgstr "Калі ласка , прытрымлівайцеся наступных крокаў  пошуку і ліквідацыі няспраўнасцяў на <a href=\"http://wordpress.org/plugins/easy-fancybox/other_notes/\">Iншыя заўвагі</a> , каб вызначыць прычыну. Калі гэта не атрымоўваецца, звярніцеся за  дапамогай на <a href=\"http://wordpress.org/tags/easy-fancybox\">форум Easy FancyBox WordPress</a> або перайдзіце да <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">старонкі  распрацоўкі сайту</a>"
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Recommended:</strong>\n"
+"- For increased site performance, simply install and activate the plugin <a href=\"http://wordpress.org/plugins/use-google-libraries/\">Use Google Libraries</a> to load jQuery from Googles CDN."
+msgstr ""
+"<strong>Рэкамендуецца: </strong>\n"
+"- Для павышэння эфектыўнасці сайта, проста ўсталяваць і актываваць плагін <a href=\"http://wordpress.org/plugins/use-google-libraries/\">Выкарыстанне Google бібліятэкі </a>, каб загрузіць jQuery з Googles CDN."
+
+#. Found in description paragraph.
+msgid "Please go to https://translate.wordpress.org/projects/wp-plugins/easy-fancybox/ and share your knowledge!"
+msgstr "Калі ласка, перайдзіце на https://translate.wordpress.org/projects/wp-plugins/easy-fancybox/ і падзяліцеся сваімі ведамі!"
+
+#. Found in description paragraph.
+msgid "Current contributors:"
+msgstr "Цяперашнія аўтары:"
+
+#. Found in faq header.
+msgid "BASIC"
+msgstr "Асноўнае"
+
+#. Found in faq header.
+msgid "What's FancyBox?"
+msgstr "Што такое FancyBox?"
+
+#. Found in faq header.
+msgid "Which version of FancyBox does this plugin use?"
+msgstr "Якую версію FancyBox выкарыстоўваць гэты плагін?"
+
+#. Found in faq header.
+msgid "I installed the plugin. What now?"
+msgstr "Я усталяваў плагін. Што цяпер?"
+
+#. Found in faq header.
+msgid "I want to change something. Where is the settings page?"
+msgstr "Я хачу нешта змяніць. Дзе знаходзіцца старонка налад?"
+
+#. Found in faq header.
+msgid "Help! It does not work..."
+msgstr "Дапамажыце! Ён не працуе ..."
+
+#. Found in faq header.
+msgid "ADVANCED"
+msgstr "Прасунуты"
+
+#. Found in faq header.
+msgid "Will a WordPress generated gallery be displayed in a FancyBox overlay?"
+msgstr "Ці будзе генераваная галерэя WordPress адлюстроўвацца ў накладанні FancyBox?"
+
+#. Found in faq header.
+msgid "The lightbox does not look good on mobile devices. What can I do about that?"
+msgstr "Lightbox не выглядае добра на мабільных прыладах. Што я магу зрабіць з гэтай нагоды?"
+
+#. Found in faq header.
+msgid "Can I make a slideshow from my gallery?"
+msgstr "Ці магу я зрабіць слайд-шоў з маёй галерэі?"
+
+#. Found in faq header.
+msgid "Can I exclude images or other links from auto-attribution?"
+msgstr "Ці магу я выключыць малюнкі або іншыя спасылкі з аўтаматычнаго прысваення?"
+
+#. Found in faq header.
+msgid "Can NextGEN Gallery work with Easy FancyBox ?"
+msgstr "Можа NextGEN галерэя працаваць з Easy FancyBox?"
+
+#. Found in faq header.
+msgid "Can I use ONE thumbnail to open a complete gallery ?"
+msgstr "Ці магу я выкарыстаць адзін эскіз, каб адкрыць поўную  галерэю?"
+
+#. Found in faq header.
+msgid "Can I link a NextGEN thumbnail to a Youtube movie in FancyBox?"
+msgstr "Ці магу я звязаць мініяцюру NextGen з Youtube відэа у FancyBox?"
+
+#. Found in faq header.
+msgid "Can I create a gallery of Youtube thumbnails which open in FancyBox?"
+msgstr "Ці магу я стварыць галерэю Youtube эскізаў, якія будзе адкрывацца ў FancyBox?"
+
+#. Found in faq header.
+msgid "Can I display web pages or HTML files in a FancyBox overlay?"
+msgstr "Ці магу я адлюстроўваць вэб-старонкі або HTML файлы ў накладанні FancyBox?"
+
+#. Found in faq header.
+msgid "Can I show PDF files in a FancyBox overlay?"
+msgstr "Ці магу я паказаць PDF файлы ў накладанні FancyBox?"
+
+#. Found in faq header.
+msgid "Can I play SWF files in a FancyBox overlay?"
+msgstr "Ці магу я праігрываць SWF файлы ў накладанні  FancyBox?"
+
+#. Found in faq header.
+msgid "How do I show content with different sizes?"
+msgstr "Як паказаць змесціва з рознымі памерамі?"
+
+#. Found in faq header.
+msgid "Can I play YouTube, Dailymotion and Vimeo movies in a FancyBox overlay?"
+msgstr "Ці магу я праігрываць YouTube, Dailymotion і Vimeo фільмы ў накладанні FancyBox?"
+
+#. Found in faq header.
+msgid "I want that 'Show in full-screen' button on my YouTube movies"
+msgstr "Я хачу, каб кнопку \"Паказаць ў поўнаэкранным рэжыме\" было бачна на маіх фільмах на YouTube"
+
+#. Found in faq header.
+msgid "Can I show a Youtube playlist in FancyBox?"
+msgstr "Ці магу я паказаць спіс прайграванняў Youtube у FancyBox?"
+
+#. Found in faq header.
+msgid "The flash movie in the overlay shows BELOW some other flash content that is on the same page!"
+msgstr "Флэш-ролік у накладанні ніжэй показвае флэш з некаторым іншым змесцівам на той жа старонцы!"
+
+#. Found in faq header.
+msgid "How can I display INLINE content in a FancyBox overlay ?"
+msgstr "Як я магу адлюстраваць змесціва INLINE ў FancyBox накладанні?"
+
+#. Found in faq header.
+msgid "Can I display a contact form in FancyBox?"
+msgstr "Ці магу я адлюстраваць форму кантакту на FancyBox?"
+
+#. Found in faq header.
+msgid "Can I make an image or hidden content to pop up in FancyBox on page load?"
+msgstr "Ці магу я зрабіць малюнак або схаваны змест для ўсплывючых вокнаў ў FancyBox пры загрузцы старонкі?"
+
+#. Found in faq header.
+msgid "Can I make a menu item open in a FancyBox overlay ?"
+msgstr "Ці магу я зрабіць так, каб пункт меню адкрываўся ў накладанні FancyBox?"
+
+#. Found in faq header.
+msgid "Is Easy FancyBox multi-site compatible?"
+msgstr "Is Easy FancyBox мульцiсайт сумяшчальны?"
+
+#. Found in faq list item.
+msgid "Go to your Settings &gt; Media admin page and switch OFF the FancyBox \"Auto-gallery\" option in the Images section;"
+msgstr "Зайдзіце ў налады, старонка медыя адміністратара і выключыце опцыю FancyBox \"Auto-галерэя\" у раздзеле малюнка;"
+
+#. Found in faq list item.
+msgid "Go to Gallery &gt; Other Options and set the Lightbox Effects option to \"Custom\" and click on Show Advanced Settings;"
+msgstr "Перайсці да галерэі і іншыя варыянты і ўсталюйце опцыю лайтбокс эфекты для \"Custom\" і націсніце на кнопку Паказаць дадатковыя налады;"
+
+#. Found in faq list item.
+msgid "fill the Code field with"
+msgstr "запоўніць поле кода з"
+
+#. Found in faq list item.
+msgid "Leave the other fields empty and save your settings."
+msgstr "Пакіньце астатнія палі пустымі і захавайце налады."
+
+#. Found in faq list item.
+msgid "Number of images per page: 1"
+msgstr "Колькасць малюнкаў на старонцы: 1"
+
+#. Found in faq list item.
+msgid "Use imagebrowser effect: No"
+msgstr "Выкарыстоўвайце ImageBrowser эфект: Не"
+
+#. Found in faq list item.
+msgid "Add hidden images: Yes"
+msgstr "Дадаць схаваныя малюнкі: Так"
+
+#. Found in faq list item.
+msgid "Follow the instructions to make Easy FancyBox work smoothly with NextGEN above and make sure it all works correctly for normal thumbnails linked to their full-size version."
+msgstr "Прытрымлівайцеся інструкцыяў, каб зрабіць працу з Easy FancyBox больш гладкай з NextGen вышэй і пераканайцеся, што ўсё працуе правільна для звычайных мініяцюр, звязаных з іх поўнапамернай версіяй."
+
+#. Found in faq list item.
+msgid "Then give the image that you want to link to a Youtube movie the URL to the Youtube page as title."
+msgstr "Затым даайце малюну, які вы хочаце звязаць з Youtube відэа URL-адрас на старонцы Youtube у якасці загалоўка."
+
+#. Found in faq list item.
+msgid "Finally paste the code below into a text widget that will live in your sidebar or footer bar, or you can hard-code it into your theme but make sure it come before the <code>wp_footer()</code> call..."
+msgstr "Нарэшце ўстаўце код ніжэй у тэкставы віджэт, які будзе знаходзіцца ў вашай бакавой панэлі або калантытул бары, ці вы можаце жорстка закадаваць яго ў вашу тэму, але пераканайцеся, што ён прыйшоў перад <code>wp_footer()</code>выклік ..."
+
+#. Found in faq list item.
+msgid "Go to Settings &gt; Media and enable FancyBox iFrame support."
+msgstr "Перайдзіце ў раздзел Налады і Медыя і ўключыце падтрымку FancyBox iFrame."
+
+#. Found in faq list item.
+msgid "Go to Appearance &gt; Menus and open the little tab \"Screen Options\" in the top-right corner."
+msgstr "Перайсці да Від>Меню і адкрыйце маленькую ўкладку \"Параметры экрана\" у верхнім правым куце."
+
+#. Found in faq list item.
+msgid "Enable the option \"CSS Classes\" under Advanced menu proterties."
+msgstr "Ўключыце опцыю \"CSS класы\" у раздзеле Дадатковыя ўласцівасці меню."
+
+#. Found in faq list item.
+msgid "Now give the menu item you want to open in a FancyBox iframe the class <code>fancybox-iframe</code>."
+msgstr "Цяпер дадайце пункт меню, які вы хочаце адкрыць у FancyBox iframe клас <code>fancybox-iframe</code>."
+
+#. Found in faq paragraph.
+msgid "Basically, it is a fancy way of presenting images, movies, portable documents and inline content on your website. For example, if you have scaled-down images in your posts which are linked to the original large version, instead of opening them on a blank page, FancyBox opens those in a smooth overlay. Visit <a href=\"http://fancybox.net/\">FancyBox</a> for more information and examples."
+msgstr "У асноўным, гэты мудрагелісты спосаб прадстаўлення малюнкаў, фільмаў, партатыўных дакументаў і змесціва онлайн на сваім сайце. Напрыклад, калі ў вас ёсць паменшаныя малюнкі ў вашых паведамленнях, якія звязаны з арыгінальнай вялікай версіяй, замест таго, каб адкрыць іх на пустой старонцы, FancyBox адкрывае іх ў гладкай накладцы. Наведайце <a href=\"http://fancybox.net/\">FancyBox</a> для атрымання дадатковай інфармацыі і прыкладаў."
+
+#. Found in faq paragraph.
+msgid "The same version as this plugin has. I aim to keep close pace to FancyBox upgrades and always move to the latest and greates version. Please, let me know if I'm lagging behind and missed an upgrade!"
+msgstr "Тая ж версія, якую мае гэты плагін. Я імкнуся прытрымливацца блізка да тэмпу мадэрнізацыі FancyBox і заўсёды рухаюся да апошняй і самай лепшай версіі. Калі ласка, дайце мне ведаць, калі я адстаў і прапусціў абнаўленне!"
+
+#. Found in faq paragraph.
+msgid "First, make sure that image  thumbnails in your posts and pages are linked to their full size counterpart directly. Open any post with thumbnail images in it for editing and select the first thumbnail. Click the <strong>Edit Image</strong> button that appears and choose <strong>Link To: Media File</strong>. From now on, clicking that thumbnail should open the full size version in FancyBox."
+msgstr "Па-першае, пераканайцеся, што эскізы малюнкаў у вашых пастах і старонках звязаныя са сваімі  поўнапамернымі версіямі напрамую. Адкрыйце любы пост з мініятурнымі малюнкамі ў ім для рэдагавання і выберыце першы эскіз. Націсніце кнопку <strong>Рэдагаваць выявы</strong> якая з'яўляецца і выберыце <strong>Спасылка на: медыя-файл</strong>. З гэтага моманту, націсканне на гэтую мініяцюру павінна адкрыць поўнапамерную версію ў FancyBox."
+
+#. Found in faq paragraph.
+msgid "The same thing goes for WordPress Galleries. Choose <strong>Link To: Media File</strong> when inserting a gallery tag."
+msgstr "Тое ж самае ставіцца і да галерэі WordPress. Выберыце <strong>Спасылка на: медыя-файл </strong> пры ўстаўцы тэга галерэі."
+
+#. Found in faq paragraph.
+msgid "There is no new settings page but there are a few options you can change. You will find a new <strong>FancyBox</strong> section on <strong>Settings &gt; Media</strong>. To see the default, check out the example under <a href=\"http://wordpress.org/plugins/easy-fancybox/screenshots/\">Screenshots</a> ..."
+msgstr "Там няма новай старонкі настроек, але ёсць некалькі варыянтаў, якія вы можаце змяніць. Вы знойдзеце новы <strong>FancyBox</strong>падзел у <strong>Налады>Медыя </strong>. Каб убачыць налады па змаўчанні, праверце прыклад пад <a href=\"http://wordpress.org/plugins/easy-fancybox/screenshots/\">Скрыншоты</a> ..."
+
+#. Found in faq paragraph.
+msgid "Yes, but <em>only</em> if you used the option <strong>Link To: Media File</strong> when inserting the gallery! The gallery quicktag/shortcode should look something like <code>[ gallery link=\"file\" ]</code>."
+msgstr "Так, але <em>толькі</em> калі выкарыстоўваецца параметр <strong>Спасылка на: медыя-файл</strong> пры ўстаўцы ў галерэю! У галерэі quicktag/shortcode  павінен выглядаць прыкладна так <code>[ gallery link=\"file\" ]</code>."
+
+#. Found in faq paragraph.
+msgid "The FancyBox 1.3.4 script that is used in this plugin was not developed with mobile devices in mind. The only way around this issue is currently to disable FancyBox for small screen sizes. You can do this by adding a text widget in your sidebar with the following code snippet."
+msgstr "Скрыпт FancyBox 1.3.4, які выкарыстоўваецца ў гэтым  плагіне не была распрацавана з мабільнымі прыладамі на ўвазе. Адзіны спосаб вырашэння гэтай праблемы ў цяперашні час адключыць FancyBox для экранаў невялікіх памераў. Вы можаце зрабіць гэта, дадаўшы тэкставы віджэт ў бакавую панэль з у наступным фрагменце кода."
+
+#. Found in faq paragraph.
+msgid "Tweak the value 641 to target other screen sizes."
+msgstr "Tweak значэнне 641 у дачыненнi да iншых памераў экрана."
+
+#. Found in faq paragraph.
+msgid "In the <a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro extension</a>, there is an Advanced option called \"Gallery Auto-rotation\" for that."
+msgstr "У <a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro пашырэннея</a>для гэтага ёсць пашыраны варыянт пад назвай \"Галерэя Аўтаратацыі\"."
+
+#. Found in faq paragraph.
+msgid "Yes. All links with class <strong>nolightbox</strong> that would normally get auto-enabled, will be excluded from opening in a FancyBox overlay."
+msgstr "Так. Усе спасылкі з класам <strong>nolightbox</strong>, якія звычайна атрымліваюць аўтаматычнае уключэнне, будуць выключаныя з адтуліны ў накладанні FancyBox."
+
+#. Found in faq paragraph.
+msgid "NetxGEN has its own built in FancyBox version along with a choice of other lightbox scripts but if you prefer to use Easy FancyBox (because of better customisability) then you need to take some steps to make the two plugins compatible."
+msgstr "NetxGEN мае сваю уласную убудаваную версію ў FancyBox нароўні з выбарам іншых сцэнарыяў лайтбокс, але калі вы аддаеце перавагу выкарыстоўваць Easy FancyBox (з-за лепшага customisability), то вам неабходна распачаць некаторыя крокі, каб зрабіць два плагіна сумяшчальнымі."
+
+#. Found in faq paragraph.
+msgid "It can be done manually (using the internal WordPress gallery feature, or not) <em>or</em> in combination with NextGen Gallery."
+msgstr "Гэта можа быць зроблена ўручную (з выкарыстаннем ўнутранай WordPress функцыі галерэі, ці не)  <em>або</em> ў спалучэнні з NextGen Gallery."
+
+#. Found in faq paragraph.
+msgid "<strong>Manual</strong>"
+msgstr "<strong>Кіраўніцтва</strong>"
+
+#. Found in faq paragraph.
+msgid "<strong>A.</strong> Open your post for editing in HTML mode and insert the first image thumbnail in your post content (linking to the images file, not page) to serve as the gallery thumbnail."
+msgstr "<strong>A.</strong> Адкрыйце свой пост для рэдагавання ў рэжыме HTML і ўстаўце першы эскіз малюнка ў вашым пасце кантэнту (спасылкі на файл малюнка, а не старонкі), каб служыць у якасці галерэі мініяцюр."
+
+#. Found in faq paragraph.
+msgid "<strong>B.</strong> Place the following code to start a hidden div containing all the other images that should only be visible in FancyBox:"
+msgstr "<strong>B.</strong>Змесціце наступны код, каб пачаць схаваны div, які змяшчае ўсе іншыя выявы, якія павінны быць бачныя толькі ў FancyBox:"
+
+#. Found in faq paragraph.
+msgid "<strong>C.</strong> Right after that starting on a new line, insert all other images you want to show in your gallery. You can even use the WordPress internal gallery feature with the shortcode <code>[gallery link=\"file\"]</code>. NOTE: if the gallery thumbnail is attached to the post, it will be show a second time when flipping through the gallery in FancyBox. If you do not want that, use an image that is not attached to the post as gallery thumbail."
+msgstr "<strong>C.</strong> Адразу ж пасля гэтага, пачынаючы з новага радка, ўставіць ўсе іншыя выявы, якія вы хочаце паказаць у вашай галерэі. Вы нават можаце выкарыстоўваць WordPress ўнутраную функцыю галерэі з шорткодам <code>[gallery link=\"file\"]</code>. Заўвага: калі галерэя эскізаў прымацаваная да паведамлення, ён будзе паказаны другі раз, калі гартаць праз галерэю ў FancyBox. Калі вы гэтага не хочацевыкарыстоўвайце малюнак, якоі не прыкладаецца да паведамлення ў выглядзе галерэі міні-копіі."
+
+#. Found in faq paragraph.
+msgid "<strong>D.</strong> Close the hidden div with the following code on a new line:"
+msgstr "<strong>D.</strong> Зачыніце схаваны div з дапамогай наступнага кода на новым радку:"
+
+#. Found in faq paragraph.
+msgid "<strong>With NextGEN Gallery</strong>"
+msgstr "<strong>З Галерэяй NextGEN</strong>"
+
+#. Found in faq paragraph.
+msgid "You can choose between two shortcodes to show a gallery that (1) limits images per gallery using the shortcode <code>[nggallery id=x]</code> or (2) per tag name (accross galleries; you need to set tag name manually =&gt; more work but more control) using the shortcode <code>[nggtags gallery=YourTagName,AnotherTagName]</code>."
+msgstr "Вы можаце выбраць адзін з двух шорткодаў, каб паказаць галерэю, што (1) абмяжоўвае колькасць малюнкаў у галерэі з дапамогай шорткода <code>[nggallery id=x]</code> або (2) на імя тэга (скрозь галерэі, вам трэба ўсталяваць імя тэга ўручную = >больш працы, але больш кантролю), выкарыстоўваючы шорткод <code>[nggtags gallery=YourTagName,AnotherTagName]</code>."
+
+#. Found in faq paragraph.
+msgid "General steps:"
+msgstr "Агульныя крокі:"
+
+#. Found in faq paragraph.
+msgid "<strong>A.</strong> Place the shortcode of your choice in your page/post content."
+msgstr "<strong>A.</strong> Змесціце шорткод на ваш выбар на вашай старонкцы/посце."
+
+#. Found in faq paragraph.
+msgid "<strong>B.</strong> Configure NextGen on <strong>Gallery &gt; Gallery Settings</strong> to Display galleries as \"NextGEN Basic Thumbnails\" and then under the NextGEN Basic Thumbnails to at least have the following options set like this:"
+msgstr "<strong>B.</strong> Наладьзьце NextGen у <strong>Галерэя >Галерэя Налады</strong>  для адлюстравання галерэі як \"NextGen Асноўныя Эскізы\", а затым пад NextGen Асноўную піктаграму, каб мець, па меншай меры, наступныя параметры усталяванымі наступным чынам:"
+
+#. Found in faq paragraph.
+msgid "<strong>C.</strong> Optional: add the following new CSS rule to your theme stylesheet (or install <a href=\"http://wordpress.org/plugins/safecss/\">Custom CSS</a> or <a href=\"http://wordpress.org/plugins/jetpack/\">Jetpack</a> and add it on the new Appearance &gt; Edit CSS admin page) to hide the page browsing links below the gallery thumbnail."
+msgstr "<strong>C.</strong> Дадаткова: дадаць наступнае новае правіла CSS да вашай тэмы табліцы стыляў (або ўсталяваць <a href=\"http://wordpress.org/plugins/safecss/\">Карыстальніцкія CSS</a> або <a href=\"http://wordpress.org/plugins/jetpack/\">Jetpack</a> і дадаць яго ў новы Від > Рэдагаваць CSS старонкі адміністратара) каб схаваць спасылкі старонкі прагляду ніжэй галерэі мініяцюр."
+
+#. Found in faq paragraph.
+msgid "User Mark Szoldan shared a neat trick how to do this:"
+msgstr "Карыстальнік Марк Зольдан падзяліўся карысным трукам, як зрабіць гэта:"
+
+#. Found in faq paragraph.
+msgid "This script snippet will scan the image titles and if it finds a Youtube URL there, it will replace the links href attribute value accordingly."
+msgstr "Гэты фрагмент скрыпту будзе сканаваць малюнак назвы і калі ён знаходзіць URL Youtube там, ён заменіць спасылкі href значэнне атрыбуту адпаведным чынам."
+
+#. Found in faq paragraph.
+msgid "You could do this manually by uploading individual thumbnails that you can retrieve by using the unique movie ID in these URLs for three different sizes:"
+msgstr "Вы можаце зрабіць гэта ўручную шляхам загрузкі асобных мініяцюр, якія вы можаце атрымаць, выкарыстоўваючы унікальны ідэнтыфікатар відэа ў гэтых URL-адрасах для трох розных памераў:"
+
+#. Found in faq paragraph.
+msgid "Other locations might be"
+msgstr "Іншыя магчымыя месцы"
+
+#. Found in faq paragraph.
+msgid "But an easier method is this one, shared by Shashank Shekhar (thanks!) :"
+msgstr "Але больш просты спосаб вось гэты, падзяліўся  Shashank Shekhar (дзякуй!):"
+
+#. Found in faq paragraph.
+msgid "To create Youtube thumbnail galleries, install http://wordpress.org/plugins/youtube-simplegallery/ and set the 'Effect' option to fancybox. Then disable Youtube autodetection on Settings &gt; Media."
+msgstr "Каб стварыць эскізы Youtube галерэй, усталюйце http://wordpress.org/plugins/youtube-simplegallery/ і ўсталюйце опцыю 'эфект' да fancybox. Затым адключыце аўтавызначэнне Youtube на Налады >Медыя."
+
+#. Found in faq paragraph.
+msgid "NOTE: The difference between these two classes ('-' or space) is in size of the overlay window. Try it out and use the one that works best for you :)"
+msgstr "ЗАЎВАГА: Розніца паміж гэтымі двума класамі ('-' або прастора) у памер акна накладання. Паспрабуйце і выкарыстоўвайце той, які працуе лепш для вас :)"
+
+#. Found in faq paragraph.
+msgid "Yes. Just place a link <em>with the URL ending in .pdf</em> to your Portable Document file in the page content."
+msgstr "Так. Проста змесціце спасылку <em>з URL, які сканчаецца ў фармаце .pdf</em> да файла партатыўнага дакумента ў змесце старонкі."
+
+#. Found in faq paragraph.
+msgid "If you do'nt have <em>Auto-detect</em> checked under <strong>PDF</strong> on Settings &gt; Media admin page, you will need to add <code>class=\"fancybox-pdf\"</code> (to force pdf content recognition) to the link to enable FancyBox for it."
+msgstr "Калі ў вас няма <em>Аўтавызначэнне </em> праверкі пры <strong>PDF</strong> ў Налады >старонка адміністратара Медыя, вам трэба будзе дадаць <code>class=\"fancybox-pdf\"</code> (каб прымусіць PDF распазнанне кантэнту) па спасылцы, каб уключыць FancyBox."
+
+#. Found in faq paragraph.
+msgid "Yes. Just place a link <em>with the URL ending in .swf</em> to your Flash file in the page content."
+msgstr "Так. Проста змясціце спасылку <em>з URL, які сканчаецца ў .swf</em> у файлы флэш-анімацыі ў змесце старонкі."
+
+#. Found in faq paragraph.
+msgid "If you do'nt have <em>Auto-detect</em> checked under <strong>SWF</strong> on Settings &gt; Media admin page, you will need to add either <code>class=\"fancybox\"</code> or <code>class=\"fancybox-swf\"</code> (to force swf content recognition) to the link to enable FancyBox for it."
+msgstr "Калі ў вас няма <em>Аўтавызначэнне </em> праверкі пры <strong>SWF</strong> ў Налады >старонка адміністратара Медыя, вам трэба будзе дадаць <code>class=\"fancybox\"</code> або <code>class=\"fancybox-swf\"</code> (каб прымусіць swf распазнанне кантэнту) па спасылцы, каб уключыць FancyBox."
+
+#. Found in faq paragraph.
+msgid "FancyBox tries to detect the size of the content automatically but if it can not find a size, it will default to the settings for that particular content type as set on the Settings &gt; Media page."
+msgstr "FancyBox спрабуе вызначыць памер змесціва аўтаматычна, але калі ён не можа знайсці памер, па змаўчанні будзе выкарыстоўвацца налады для канкрэтнага тыпу кантэнту, якая ўсталяваная на Налады>Медыя-старонка."
+
+#. Found in faq paragraph.
+msgid "The <strong><a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro extension</a></strong> provides an extra option to allow you to manually override this by defining the width and height wrapped in curly brases in the class attribute of the link itself. Make sure the option \"Inlcude the Metadata jQuery extension script...\" under FancyBox | Links on Settings &gt; Media is enabled."
+msgstr "<strong><a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro пашырэнне</a></strong> забяспечвае дадатковы параметр, каб дазволіць вам ўручную перавызначыць значэння шырыні і вышыні, абгорнутыz ў фігурныя дужкі ў атрыбуце класа самой спасылкі. Пераканайцеся, што опцыя \"Уключаць пашырэнне сцэнара Metadata jQuery ...\" пад FancyBox|Спасылкі на Налады>Медыя ўключана."
+
+#. Found in faq paragraph.
+msgid "For example, a Flash movie with different size:"
+msgstr "Напрыклад, флэш-ролік з рознымі памерамі:"
+
+#. Found in faq paragraph.
+msgid "Yes. Simply create a link using the Share URL (the full Page URL, the Short URL with or without options like HD etc.) to the YouTube/Vimeo/Dailymotion page in your post content. If you have Auto-detect enabled, the plugin will take care of the rest for you! :)"
+msgstr "Так. Проста стварыце спасылку з дапамогай Share URL (поўны URL старонкі, кароткі URL з параметрамі або без іх, такія як HD і г.д.) на старонку YouTube/Vimeo/Dailymotion ў вашым пасце. Калі аўтавызначэння ўключаны, плагін будзе клапаціцца аб усім астатнім за вас! :)"
+
+#. Found in faq paragraph.
+msgid "If you have disabled Auto-detection, give the link a class attribute like <code>class=\"fancybox-youtube\"</code> for Youtube, <code>class=\"fancybox-vimeo\"</code> for Vimeo and <code>class=\"fancybox-dailymotion\"</code> for Dailymotion, to manually enable FancyBox for it."
+msgstr "Калі вы адключылі Аўтаматычнае вызначэнне, дайце спасылку атрыбут класа як <code>class=\"fancybox-youtube\"</code> для Youtube, <code>class=\"fancybox-vimeo\"</code> для Vimeo і <code>class=\"fancybox-dailymotion\"</code> для Dailymotion, каб ўручную ўключыць FancyBox для іх."
+
+#. Found in faq paragraph.
+msgid "Both YouTube and Vimeo movies can be made to play immediately after opening by adding the paramer <code>autoplay=1</code> to the URL. For example, a short-url YouTube link that should play in HD mode, have the full screen button and auto-start on open, would look like:"
+msgstr "Відэа з YouTube і Vimeo могуць быць зроблены, каб праігрывацца адразу пасля адкрыцця шляхам дадання параметра  <code>autoplay=1</code> да URL. Напрыклад, кароткі URL YouTube спасылка, якая павінна праігрывацца у рэжыме HD, мае поўную экранную кнопку і аўтаматычна запускаецца пры адкрыцці, будзе выглядаць наступным чынам:"
+
+#. Found in faq paragraph.
+msgid "Append <code>&amp;fs=1</code> to your YouTube share URL."
+msgstr "Дадаваць <code>&amp;fs=1</code> у агульную частку URL YouTube."
+
+#. Found in faq paragraph.
+msgid "Yes, just go to Youtube page of any movie that's in the playlist and use the Share button to get the share URL just like with single movies, but this time place a checkmark at the 'Share with playlist' option."
+msgstr "Так, проста перайдзіце на старонку Youtube з любым відэа, які ёсць ў спісе прайгравання і выкарыстайце кнопку Share, каб падзяліцца URL - гэтак жа, як з асобнымі фільмамі, але на гэты раз пастаўце галачку ў 'опцыі \"Супольны спіс прайгравання\"."
+
+#. Found in faq paragraph.
+msgid "Make sure the OTHER flash content as a <strong>wmode</strong> set, preferably to 'opaque' or else 'transparent' but never 'window' or missing. For example, if your embedded object looks something like:"
+msgstr "Пераканайцеся, што іншы флэш-кантэнт у выглядзе <strong>wmode</strong> ўсталяваны, пераважна, як 'непразрысты' ці ж 'празрысты', але ніколі не \"акно\" або адсутніючы. Напрыклад, калі ваш ўбудаваны аб'ект выглядае прыкладна так:"
+
+#. Found in faq paragraph.
+msgid "just add <code>&lt;param name=\"wmode\" value=\"opaque\" /&gt;</code> among the other parameters. Or if you are using an embed like:"
+msgstr "проста дадайце <code>&lt;param name=\"wmode\" value=\"opaque\" /&gt;</code> сярод іншых параметраў. Ці, калі вы выкарыстоўваеце такія ўбудаванні, як:"
+
+#. Found in faq paragraph.
+msgid "just change that <code>wmode=\"window\"</code> to <code>wmode=\"opaque\"</code> or add the attribute if it is missing."
+msgstr "проста змяніце <code>wmode=\"window\"</code> на <code>wmode=\"opaque\"</code> або дадайце атрыбут, калі ён адсутнічае."
+
+#. Found in faq paragraph.
+msgid "First go to your <strong>Settings &gt; Media</strong> admin page and activate the <strong>Inline</strong> option under the FancyBox settings. After saving, the amin page will show a new section called Inline where you can tweak its parameters."
+msgstr "Па-першае перайдзіце на старонку <strong> Налады >Медыя</strong> старонцы адміністратара і актываваць параметр <strong>Iнлайн</strong> у наладах FancyBox. Пасля захавання старонкі адмін пакажа новы раздзел пад назвай Iнлайн, дзе вы можаце наладзіць яго параметры."
+
+#. Found in faq paragraph.
+msgid "Next, open your page/post for editing in the HTML tab and wrap the inline content in"
+msgstr "Затым адкрыйце старонку/запіс для рэдагавання на ўкладцы HTML і змесціце туды убудаванае змесціва"
+
+#. Found in faq paragraph.
+msgid "Then place a FancyBox link tag with class attribute \"fancybox-inline\" anywhere else in the post/page content that will point to the inline content like"
+msgstr "Затым змесціце тэг спасылкі FancyBox у клас атрыбуту \"fancybox-inline\" дзе-небудзь яшчэ ў змесце запісу/старонкі, якія будуць паказваць на інлайн-змесціва як"
+
+#. Found in faq paragraph.
+msgid "NOTE: The wrapping divs ID <em>must</em> be unique and it must correspond with the links HREF with a # in front of it. When using the above example for more FancyBox inline content (hidden div + opening link) combinations on one page, give the second one the ID  fancyboxID-2 and so on..."
+msgstr "ЗАЎВАГА: Абгортка divs ID <em>павінна</em> быць унікальнай, і яна павінена адпавядаць спасылцы HREF з # перад ім. Пры выкарыстанні прыведзенага вышэй прыкладу для большай часткі ілайн-змесціва FancyBox  (схаваны div + адкрываючая спасылка) камбінацый на адной старонцы, даюць другі ідэнтыфікатар fancyboxID-2 і гэтак далей ..."
+
+#. Found in faq paragraph.
+msgid "NOTE 2: If you find that the inline contect shown in FancyBox is styled very different than the rests of the page content, then you might want to change the div tag attribute <code>class=\"hentry\"</code> to something else that matches your theme. Find out what class name is used for the main content on your site and re-use that."
+msgstr "ЗАЎВАГА 2: Калі вы выявілі, што ўбудаваны змест, паказаны ў FancyBox моцна адрозніваецца ад рэшткаў змесціва старонкі, то вы можаце захацець змяніць атрыбут тэга div <code>class=\"hentry\"</code> на нешта іншае боьш адпавядаючае вашай тэме. Даведайцеся, якое імя класа выкарыстоўваецца для асноўнага кантэнту на вашым сайце і паўторна выкарыстайце яго."
+
+#. Found in faq paragraph.
+msgid "Yes. There are several methods imaginable but the easiest would be to use the Inline method. First go to your Settings &gt; Media admin page and enable the Inline Content option. Next, go back to edit your post or page in the Text editor tab. The inline content can be a shortcode like in this example using Contact Forms 7 and Easy FancyBox:"
+msgstr "Так. Ёсць некалькі мажлівых метадаў, але прасцей за ўсё было б выкарыстаць метад Inline. Спачатку зайдзіце ў Налады >старонка адміністратара Медыя і ўключыце опцыю Content Inline. Затым вярніцеся адрэдагаваць пошту ці на старонку на ўкладцы Тэкставы рэдактар. Iнлайн-змест можа быць шорткодам, як у гэтым прыкладзе з дапамогай кантактных формаў 7 і Easy FancyBox:"
+
+#. Found in faq paragraph.
+msgid "Where you replace the shortcode (between the [ and ] characters) with the one given by the plugin. It can also work with shortcode by other plugins like Jetpack's Contact Form module. Change the class attribute to reflect the class used for the div that wraps your post content to have any form CSS style rules that are limited to post content, be applied to the inline content inside FancyBox."
+msgstr "Дзе вы заменіце шорткод (паміж [ і ] сімваламі) з аднімй зададзеным плагінам. Ён таксама можа працаваць з шорткодом і іншымі плагінамі, такімі  як модуль Jetpack's Contact Form модуль. Зменіце атрыбут класа, каб адлюстраваць клас, які выкарыстоўваецца для div, які абгортвае свой пост кантэнту, каб мець нейкія правілы стыляў CSS формы, якія абмежоўваюць размяшчэнне кантэнту і прымяняюцца для ўбудаванага зместу ўнутры FancyBox."
+
+#. Found in faq paragraph.
+msgid "Yes. A link that has the ID <strong>fancybox-auto</strong> (Note: there can be only ONE link like that on a page!) will be triggered automatically on page load."
+msgstr "Так. Спасылка, якая мае ідэнтыфікатар <strong>fancybox-auto</strong> (Заўвага: можа быць толькі адна такая спаылка на старонцы) будзе аўтаматычна запускаецца пры загрузцы старонкі."
+
+#. Found in faq paragraph.
+msgid "Use the instructions above for inline content but this time give the link also <code>id=\"fancybox-auto\"</code> (leave the class too) and remove the anchor text to hide it. Now the hidden div content will pop up automatically when a visitor opens the page."
+msgstr "Выкарыстоўвайце інструкцыі вышэй для убудаванага змесціва, але таксама дадавайце спасылку <code>id=\"fancybox-auto\"</code> (таксама пакіньце клас) і выдаліце якарны тэкст, каб схаваць яго. Цяпер схаваны div  змест з'явіцца аўтаматычна, калі наведвальнік адкрывае старонку."
+
+#. Found in faq paragraph.
+msgid "Same can be done with an image, flash movie, PDF or iframe link! But please remember there can be only <strong>one</strong> item using the ID fancybox-auto per page..."
+msgstr "Тое ж самае можна зрабіць з выявай, флэш-ролікам, PDF або IFrame спасылкаю! Але, калі ласка, памятайце, што можа быць толькі <strong>адзін /strong>элемент, які выкарыстоўвае ID fancybox-auto на старонцы ..."
+
+#. Found in faq paragraph.
+msgid "Yes. But it depends on you theme what you need to do to make it work. If you are on WordPress 3+ and your theme supports the new internal Custom Menu feature or if you are using a custom menu in a sidebar widget, it's easy:"
+msgstr "Так. Але ад вашай тэмы залежыць тое, што вам трэба зрабіць, каб прымусіць яе працаваць. Калі вы знаходзіцеся на WordPress 3+ і ваша тэма падтрымлівае новую ўнутраную функцыю карыстацкага меню або, калі вы выкарыстоўваеце карыстацкае меню ў бакавой панэлі віджэтаў, гэта робіцца лёгка:"
+
+#. Found in faq paragraph.
+msgid "If you are on an older version of WordPress or if you cannot use WP's Menus, you will need to do some heavy theme hacking to get it to work. Basically, what you need to achieve is that the menu item you want opened in a lightbox overlay, should get a class=\"fancybox-iframe\" tag."
+msgstr "Калі вы знаходзіцеся на старой версіі WordPress, або калі плагін не можаце выкарыстоўваць меню WP, вам трэба будзе зрабіць некаторыя змены ў тэме, каб прымусіць яе працаваць. У прынцыпе, для адкрыцця ў накладанні лайтбокс, ён павінен атрымаць class=\"fancybox-iframe\" тэг."
+
+#. Found in faq paragraph.
+msgid "Yes. Designed to work with <strong>Network Activate</strong> and does not require manual activation on each site in your network."
+msgstr "Так. Прызначаны для працы з <strong>Network Activate</strong> і не патрабуе ручной актывацыі на кожным сайце ў сеткі."
+
+#. Found in remaining content header.
+msgid "Known Issues"
+msgstr "Вядомыя Праблемы"
+
+#. Found in remaining content header.
+msgid "General"
+msgstr "Агульнае"
+
+#. Found in remaining content header.
+msgid "Plugin conflicts"
+msgstr "Канфлікты плагіна"
+
+#. Found in remaining content header.
+msgid "Theme conflicts"
+msgstr "Канфлікты тэмы"
+
+#. Found in remaining content header.
+msgid "Other"
+msgstr "Iншае"
+
+#. Found in remaining content header.
+msgid "Trouble Shooting"
+msgstr "Пошук Няспраўнасцяў"
+
+#. Found in remaining content header.
+msgid "Basic checks"
+msgstr "Асноўныя Праверкі"
+
+#. Found in remaining content header.
+msgid "General trouble shooting steps"
+msgstr "Агульныя крокі па ліквідацыі непаладак"
+
+#. Found in remaining content header.
+msgid "Theme Incompatibility checks"
+msgstr "Праверка сумяшчальнасці тэм"
+
+#. Found in remaining content header.
+msgid "Plugin Incompatibility checks"
+msgstr "Плагін праверкі сумяшчальнасці"
+
+#. Found in remaining content header.
+msgid "Translation"
+msgstr "Пераклад"
+
+#. Found in remaining content list item.
+msgid "<strong>Outbound links or Downloads tracking</strong> in some of the stats plugins can interfere with FancyBox."
+msgstr "<strong>Выходныя спасылкі або файлы адсочвання</strong> у некаторых плагінаў з статыстыкі можа перашкодзіць FancyBox."
+
+#. Found in remaining content list item.
+msgid "All plugins and themes that do not use <code>wp-enqueue-script</code> properly to include script libraries or extension files. Continue reading to see if you are using one of the know ones or follow the troubleshooting steps to find out what is conflicting on your site."
+msgstr "Усе плагіны і тэмы, якія не выкарыстоўваюць <code>wp-enqueue-script</code> правільна ўключаюць бібліятэкі скрыптоў або файлаў пашырэння. Працягвайце чытанне, каб убачыць, ці выкарыстоўваеце вы адзін з іх або выканайце дзеянні па ліквідацыі непаладак, каб высветліць, што канфліктуе на вашым сайце."
+
+#. Found in remaining content list item.
+msgid "All themes that are missing one or both of the obligatory <code>&lt;?php wp_head(); ?&gt;</code> in the header.php and <code>&lt;?php wp_footer(); ?&gt;</code> call just before the closing <code>&lt;/body&gt;</code> tag in their footer.php template or elsewhere."
+msgstr "Усе тэмы, ў якіх адсутнічае адзін або абодва абавязковага <code>&lt;?php wp_head(); ?&gt;</code> у header.php і <code>&lt;?php wp_footer(); ?&gt;</code> выклікаюць непасрэдна перад яе закрыццем <code>&lt;/body&gt;</code> тэг у іх шаблоне footer.php або ў іншым месцы."
+
+#. Found in remaining content list item.
+msgid "<strong>Autoptimize</strong> needs to have either (at least) the option \"Force JavaScript in \" checked or both jQuery and the fancybox script files need to be excluded."
+msgstr "<strong>Autoptimize </strong> павінен мець альбо (па меншай меры) выбар опцыі \"Force JavaScript у\" праверкі ці як jQuery і файлы сцэнарыяў FancyBox павінны быць выключаныя."
+
+#. Found in remaining content list item.
+msgid "<strong>All in One SEO Pack</strong> and <strong>Analytics for WordPress</strong> with outbound link tracking enabled. Disable that feature."
+msgstr "<strong>Усё ў адным SEO абнаўлення </strong>  і <strong> Аналітыка для WordPress</strong>  з выходнага адсочвання спасылак ўключана. Адключыць гэтую функцыю."
+
+#. Found in remaining content list item.
+msgid "<strong>Better WP Security</strong> randomly changes version numbers in linked file URLs, breaking the FancyBox stylesheet. Disable the option \"Display random version number to all non-administrative users\" in the Better WP Security settings."
+msgstr "<strong>Лепшы WP Security </strong> выпадковым чынам змяняе нумары версій ў звязаных URL-файлаў, парушаючы  табліцы стыляў FancyBox. Адключэнне опцыі \"Паказваць выпадковы нумар версіі для ўсіх карыстальнікаў, якія не з'яўляюцца адміністратарамі\" у наладах лепш рабіць WP Security."
+
+#. Found in remaining content list item.
+msgid "By default <strong>Google Analytics for WordPress</strong> converts links like <code>href=\"#anyID\"</code> to <code>href=\"http://yoursite.url/page/#anyID\"</code>, disabling inline content shown in FancyBox."
+msgstr "Па змаўчанні <strong>Google Analytics для WordPress </strong>  пераўтворыць спасылкі тыпу <code>href=\"#anyID\"</code>  на <code>href=\"http://yoursite.url/page/#anyID\"</code>, адключэнне убудаванага кантэнту, паказанага на FancyBox."
+
+#. Found in remaining content list item.
+msgid "<strong>jQuery Updater</strong> moves jQuery to version 2+ wich is incompatible."
+msgstr "<strong>jQuery Updater</strong> перамяшчае Jquery да версіі 2+, якая з'яуляецца несумяшчальнай."
+
+#. Found in remaining content list item.
+msgid "Both the <strong>uBillBoard</strong> and <strong>Camera slideshow</strong> have their own easing script hard-coded which conflicts with the one in Easy FancyBox. The only way around the conflict is to set both the Easing In and Easing Out options on your Settings &gt; Media page to <strong>Swing</strong>."
+msgstr "І <strong>uBillBoard</strong>і <strong>Camera slideshow</strong> маюць свой уласны сцэнар паслаблення жорстка закадавана, які ўступае ў канфлікт з тым жа самым у Easy FancyBox. Адзіны шлях вавырашыць канфлікт, гэта усталяваць як змякчэнне і выцясненне параметра на старонцы налад &gt; і Медыя <strong>Swing</strong."
+
+#. Found in remaining content list item.
+msgid "<strong>Wordpress Firewall 2</strong> blocks access to image files needed for porper display of the FancyBox overlay in older IE and other non-css3 browsers."
+msgstr "<strong>Wordpress Firewall 2</strong> блакуе доступ да файлаў малюнкаў, неабходных для карэктнага адлюстравання накладання FancyBox ў больш старых IE і іншых не-CSS3 браўзэраў."
+
+#. Found in remaining content list item.
+msgid "<strong>WordPress Amazon Associate</strong>: A script provided by Amazon and the FancyBox script are incompatible. Disabling <em>Product Preview</em> in the <strong>WP - Amazon &gt; Settings</strong> page should work around the issue."
+msgstr "<strong>WordPress Amazon Associate</strong>: Сцэнар забяспечаны Amazon і сцэнар FancyBox несумяшчальныя. Адключэнне <em>Прагляд прадукту</em> на старонцы <strong>WP - Amazon &gt; Налады </strong> павінна абыйсці гэтую праблему."
+
+#. Found in remaining content list item.
+msgid "<strong>WP Slimstat</strong> plugin interferes with the Easy FancyBox script for YouTube url conversion. When clicking a Youtube link, the movie opens in an overlay as it is supposed to but immediately after that, the complete page gets redirected to the original YouTube page. Adding a <code>class=\"noslimstat\"</code> to the link is reported to work around the issue."
+msgstr "<strong>WP Slimstat</strong> плагіна перашкаджае сцэнару Easy FancyBox для YouTube url канвертацыі. Пры націску на спасылку Youtube, фільм адкрываецца ў выглядзе накладання, як мяркуецца, але адразу ж пасля гэтага, поўная старонка перанакіроўваецца на зыходную старонку YouTube. Даданне <code>class=\"noslimstat\"</code> у спасылцы дапамагае абыйсці гэтую праблему."
+
+#. Found in remaining content list item.
+msgid "When using <strong>WP-Minify</strong>, the javascript files like <code>fancybox/jquery.fancybox-X.X.X.pack.js</code> and others need to be excluded from minification."
+msgstr "Пры выкарыстанні <strong>WP-Minify</strong>, то javascript файлы, такія як <code>fancybox/jquery.fancybox-X.X.X.pack.js</code> і іншыя павінны быць выключаныя з минификация."
+
+#. Found in remaining content list item.
+msgid "When using <strong>W3 Total Cache</strong>, minification needs to be switched off. You can try to run <strong>WP-Minify</strong> alongside W3TC to be able to exclude fancybox files (as suggested above) ans still have page speed benefit from minification."
+msgstr "Пры выкарыстанні <strong>W3 Total Cache</strong>, минификация павінна быць выключана. Вы можаце паспрабаваць запусціць <strong>WP-Minify</strong> нароўні з W3TC, каб мець магчымасць выключыць FancyBox файлы (як ужо гаварылася вышэй) i атрымаць больш выгады ад минификация."
+
+#. Found in remaining content list item.
+msgid "<strong>Twenty Eleven</strong> uses a very high stacking order (z-index: 9999) for the top image and menu div, resulting in FancyBox content being partially hidden under the page header. Work-around: Use the plugin <a href=\"http://wordpress.org/plugins/safecss/\">Custom CSS</a> or <a href=\"http://wordpress.org/plugins/jetpack/\">Jetpack</a> and add on the new Appearance &gt; Edit CSS admin page the rule <code>#branding { z-index:999; }</code>"
+msgstr "<strong>Twenty Eleven</strong> выкарыстоўвае вельмі высокі парадак накладання (z-index: 9999)  для верхняга малюнка і меню div, у выніку чаго змест FancyBox быўшы часткова схаваныя пад загалоўкам старонкі. Абыходны: Выкарыстоўвайце плагін <a href=\"http://wordpress.org/plugins/safecss/\">Карыстальніцкія CSS </a> або <a href=\"http://wordpress.org/plugins/jetpack/\">Jetpack</a> і дадайце новы Вiд&gt; Рэдагаваць старонку CSS адмiна згодна з правілам <code>#branding { z-index:999; }</code>"
+
+#. Found in remaining content list item.
+msgid "Older versions of <strong>Elegant Themes</strong> have FancyBox integrated in a hard-coded way, making them incompatible with Easy FancyBox. In the latest versions of these themes, there is an option to disable the included FancyBox. Use this option to make your theme compatible with Easy FancyBox :)"
+msgstr "Старыя версіі <strong>Elegant Themes</strong> маюць FancyBox жорстка інтэграваным закадаванымі спосабамі, што робіць іх несумяшчальнымі з Easy FancyBox. У апошніх версіях гэтых тэм, ёсць магчымасць адключыць які ўваходзіць у камплект пастаўкі FancyBox. Выкарыстоўвайце гэтую опцыю, каб зрабіць вашу тэму сумяшчальны з Easy FancyBox :)"
+
+#. Found in remaining content list item.
+msgid "The <strong>Mystique</strong> theme has two option called \"Lightbox\" and \"Optimize website for faster loading\" that will break Easy FancyBox. Disable both in Mystique's options &gt; Advanced."
+msgstr "<strong>Mystique</strong> тэма мае дзве опцыі пад назвай \"Lightbox\" і \"Аптымізацыя вэб-сайта для больш хуткай загрузкі\", што парушыць Easy FancyBox. Адключэнне у опцыі Містык; Advanced."
+
+#. Found in remaining content list item.
+msgid "<strong>Imbalance</strong> and other themes that uses the Photo Galleria jQuery extension: turn of the JSGallery option."
+msgstr "<strong>Imbalance</strong> і іншыя тэмы, якія выкарыстоўвае пашырэнне Photo: JSGallery выключенне опцыі галерэі."
+
+#. Found in remaining content list item.
+msgid "Themes like <strong>Envisioned</strong>, <strong>Chameleon</strong> and many others have FancyBox baked in. There is no solution other than stripping the theme of all FancyBox related code or disable the plugin and use the theme provided version..."
+msgstr "Тэмы, такія як <strong>Envisioned</strong>, <strong>Chameleon</strong> і многія іншыя не праыцюць з FancyBox. Няма ніякага рашэння, акрамя зачысткі тэмы ўсяго кода, звязанага з FancyBox плагінам  і адключэннем яго і выкарыстаннем гэтай тэмы пры даннай версіі..."
+
+#. Found in remaining content list item.
+msgid "Themes based on the <strong>Thesis</strong> framework might see issues in IE 8, for which <a href=\"http://voidzonemedia.com/solutions/thesis-ie8-remove-ie7-emulation/\">a hack has been proposed</a>"
+msgstr "Тэмы, заснаваныя ў межах <strong>Thesis</strong>  могуць мець  праблемы ў IE 8, для якіх <a href=\"http://voidzonemedia.com/solutions/thesis-ie8-remove-ie7-emulation/\">хак быў прапанаваны</a>"
+
+#. Found in remaining content list item.
+msgid "When showing an iframe as inline content in FancyBox -- not advised, use fancybox-iframe instead! -- the iframe will become blank after opening and closing it. The solution is to link directly to the iframe source and use <code>class=\"fancybox-iframe\"</code> instead."
+msgstr "Калі iframe паказваецца як змесціва убудаванага ў FancyBox - гэта не рэкамендуецца, выкарыстоўвайце FancyBox-iframe замест гэтага! - Функцыя iframe стане пустой пасля адкрыцця і закрыцця. Рашэнне складаецца ў тым, каб звязаць непасрэдна  iframe і яго крыніцу, выкарыстоўвайце <code>class=\"fancybox-iframe\"</code> замест гэтага."
+
+#. Found in remaining content list item.
+msgid "Embedded flash content that has no wmode or wmode 'window', is displayed above the overlay and other javascript rendered content like dropdown menus. WordPress does NOT check for missing wmode in oEmbed generated embed code. Since version 1.3.4.5, the missing wmode is added by this plugin for WP (auto-)embeds but not for other user-embedded content. Please make sure you set the wmode parameter to 'opaque' (best performance) or 'transparent' (only when you need transparency) for your embedded content."
+msgstr "Убудаванае флэш-змесціва, якое не мае wmode фбо wmode 'window', адлюстроўваецца над накладкай і іншых javascript  змесцівах, як расчынеюцца меню. WordPress не правярае адсутнасць wmode ў oEmbed генеруемым кодзе. Пачынаючы з версіі 1.3.4.5, адсутны wmodе дадаецца  для WP (аўта-)накладак, але не для іншых ўбудавальных карыстальнікамі кантэнтаў. Калі ласка, пераканайцеся, што вы ўсталявалі параметр wmode ў 'непразрыстай' (лепшае выкананне) ці \"празрыстымі\" (толькі тады, калі патрэбна празрыстасць) для вашага убудаванага кантэнту."
+
+#. Found in remaining content list item.
+msgid "Make sure that thumbnail images are linked <em>directly</em> to their larger counterpart, not to a dynamic WordPress page that includes the larger image. This means when you insert an image in your posts or pages, you need to select <code>File URL</code> at the <strong>Link</strong> option instead of <code>Page URL</code>. You'll have to manually edit your old posts if you have always inserted images with <code>Page URL</code> before, FancyBox cannot do this for you."
+msgstr "Пераканайцеся, што паменшаныя малюнкі звязаныя <em>непасрэдна</em> для іх большай часткі, а не да дынамічнай старонцы WordPress, які ўключае ў сябе павялічаны малюнак. Гэта азначае, што пры ўстаўцы выявы ў вашых паведамленнях або старонак, вам трэба выбраць <code>File URL</code>  на  варыянт замест  <strong>Link</strong>  на  варыянт замест<code>Page URL</code>.Вам давядзецца ўручную рэдагаваць свае старыя паведамленні, калі вы заўсёды ўставіць выявы <code>Page URL</code> перад тым, FancyBox не можа зрабіць гэта для вас."
+
+#. Found in remaining content list item.
+msgid "Make sure you have all the needed media and their <em>Auto-detect</em> options activated on your <strong>Settings &gt; Media</strong> admin page. If you are using images in other formats that JPG, GIF or PNG, you need to add the extensions to the Auto-detect field for Images. Please note: The image file names must actaully <em>end</em> with that extension! This means that if you have an image file that (for example) has <em>no</em> extension (does not end with .jpg or any other) even if is in JPEG compressed format, the FancyBox will not be able to detect is as an image. You will need to manually give those links the class <code>fancybox</code> to trigger FancyBox."
+msgstr "Пераканайцеся, што ў Вас ёсць усе неабходныя сродкі масавай інфармацыі і іх выяўленне <em>Auto-detect</em> параметры ўключаны на <strong>Settings &gt; Media</strong> старонцы адміністратара. Калі вы выкарыстоўваеце выявы ў іншых фарматах, JPG, GIF ці PNG, трэба, каб дадаць пашырэння для аўтавызначэння поля для малюнкаў. Звярніце ўвагу: Імёны файлаў малюнкаў павінны <em>заканчвацца</em> з гэтым пашырэннем! Гэта азначае, што калі ў вас ёсць файл выявы, які (напрыклад) мае <em>no</em> пашырэння (не сканчаецца .jpg або любы іншы), нават калі ў JPEG сціснутым фармаце, то FancyBox не будзе ў стане выявіць гэта як малюнак. Вам трэба будзе ўручную даць гэтыя спасылкі клас <code>fancybox</code>, каб выклікаць FancyBox."
+
+#. Found in remaining content list item.
+msgid "Switch off all other plugins and switch your sites appearance to the default Twenty Eleven theme. FancyBox should work now. If so, continue with the next step. If not, re-install the plugin and verify the basic steps above. Then open any page on your site and view the source code by right-clicking on an empty section and selecting 'View source...' (or similar). Find in the <code>&lt;head&gt;</code> section a referenced stylesheet <code>easy-fancybox.css.php?ver=x.x.x</code> and copy the full URL. Paste that URL in the address bar of a new browser tab to open the stylesheet directly. It should open without any errors and show a lot of stylesheet rules on a single line. If not, there is some incompatibility with your servers PHP setup. Please ask on the <a href=\"http://wordpress.org/tags/easy-fancybox\">Easy FancyBox WordPress forum</a> or go to the <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">development site</a>."
+msgstr "Выключыце ўсе іншыя ўбудовы і пераключыце від вашага сайта на тэму па змаўчанні Twenty Eleven. FancyBox павінна працаваць. Калі гэта так, пераходзіце да наступнага кроку. Калі не, трэба паўторна ўсталяваць убудову і праверыць асноўныя дзеянні, апісаныя вышэй. Затым адкрыйце любую старонку на вашым сайце і праглядаць зыходны код, пстрыкнуўшы правай кнопкай мышы на пустым участку і выбраць опцыю \"Прагляд крыніцы ...\" (ці аналагічны). Знайсці ў <code>&lt;head&gt;</code> раздзел спасылкавых табліцы стыляў <code>easy-fancybox.css.php?ver=x.x.x</code> і скапіяваць поўны URL. Ўстаўце гэты URL у адраснай радку новай укладкі браўзэра, каб адкрыць табліцу стыляў непасрэдна. Ён павінен адкрыцца без якіх-небудзь памылак і паказаць шмат правілаў табліц стыляў на адной радку. Калі няма, то ёсць некаторая несумяшчальнасць з вашай ўстаноўкі сервера PHP. Калі ласка, звярніцеся на <a href=\"http://wordpress.org/tags/easy-fancybox\"> Easy FancyBox WordPress форум</a> або перайдзіце на старонку <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\" распрацоўка сайта</a>."
+
+#. Found in remaining content list item.
+msgid "Switch back to your original theme and check if FancyBox is still working. If so, continue with the next step. If not, See the Theme Incompatibility checks below."
+msgstr "Вярніцеся да зыходнай тэме і праверце, ці працуе FancyBox. Калі гэта так, пераходзіце да наступнага кроку. Калі не, глядзі праверкі Сумяшчальнасці Тэмы ніжэй."
+
+#. Found in remaining content list item.
+msgid "One by one, switch each plugin that you had running before back ON. Keep checking to see at which point FancyBox starts failing and you will hve found the conflicting plugin."
+msgstr "Адзін за адным, пераключыце кожны плагін, які працуе. Працягвайце правяраць, каб убачыць у які момант FancyBox пачынае збівацца, і з якім плагінам ён канфліктуе."
+
+#. Found in remaining content list item.
+msgid "See known theme conflicts above first, then continue with these following steps."
+msgstr "Глядзі  тэму вядомыя канфлікты вышэй, а затым працягнвай гэтыя наступныя крокі."
+
+#. Found in remaining content list item.
+msgid "Make sure your theme is capable of placing the needed javascript and css in the page header. Open any page on your site and view the source code by right-clicking on an empty section and selecting 'View source...' (or similar). There you will need to check of there are any references to javascript files like <code>jquery.fancybox-x.x.x.pack.js?ver=x.x.x</code> in the <code>&lt;head&gt;</code> section. There should also be a <code>easy-fancybox.css.php?ver=x.x.x</code> and some javascript that starts with <code>&lt;!-- Easy FancyBox 1.3.4.9 using FancyBox 1.3.4 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) --&gt;</code>... If it's not there, your theme is really out of date. Consider switching to a new theme fast!"
+msgstr "Пераканайцеся, што ваша тэма здольная змясціць неабходны JavaScript і CSS у загалоўку старонкі. Адкрыйце любую старонку на вашым сайце і праглядаць зыходны код, пстрыкнуўшы правай кнопкай мышы на пустым участку і выберыце опцыю \"Прагляд крыніцы ...\" (ці аналагічны). Там вам трэба будзе праверыць, ёсць якія-небудзь спасылкі на файлы JavaScript, такія як <code>jquery.fancybox-x.x.x.pack.js?ver=x.x.x</code> у <code>&lt;head&gt;</code> секцыі. Там таксама павінны быць <code>easy-fancybox.css.php?ver=x.x.x</code> і некаторыя Javascript, які пачынаецца з кода <code>&lt;!-- Easy FancyBox 1.3.4.9  з выкарыстаннем FancyBox 1.3.4 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/)  --&gt;</code> ... Калі там няма, ваша тэма сапраўды састарэла. Падумайце аб пераходзе на новую тэму!"
+
+#. Found in remaining content list item.
+msgid "Check if your theme wraps post/page content in a div with class <code>hentry</code>. If it doesn't, you might need to edit the option <code>Section(s)</code> on <strong>Settings &gt; Media</strong> to reflect the class (or ID) name of the div that holds post/page content."
+msgstr "Праверце, ці ваша тэма працуе пасля ўтрымання/старонкі ў div з класам <code>hentry</code>. Калі гэтага не адбываецца, вам, магчыма, спатрэбіцца змяніць параметр<code>Раздзел (ы)</code на <code>Налады &gt; Медыя </code>, каб адлюстраваць імя класа (ці ID) з div , які трымае пост ўтрыманне/старонкі."
+
+#. Found in remaining content list item.
+msgid "Make sure that your theme does not load the main jQuery library file more than once. Look for references to javascript files like <code>jquery.js?ver=x.x.x</code> or <code>jquery.min.js</code> in the page source code. If you find more than one, try to find out in which theme template file that second reference is hard-coded and remove that line. Usually in header.php or footer.php"
+msgstr "Пераканайцеся, што ваша тэма не загружае асноўны файл бібліятэкі jQuery больш чым адзін раз. Шукайце спасылкі на файлы, такія як яваскрипта <code>jquery.js?ver=x.x.x</code> або <code>jquery.min.js</code> у кодзе старонкі. Калі вы знаходзіце больш аднаго, паспрабуйце высветліць, у якім файле шаблону тэмы знжорстка закадавана другая спасылка  і выдаліце гэты радок. Звычайна ў header.php або footer.php"
+
+#. Found in remaining content list item.
+msgid "Check if your theme loads another or the same lightbox script. Look for references to Thickbox, Prettyphoto, Lightbox2, Colorbox or FancyBox script files or code. These are very likely to cause the incompatibility and you will either have to remove these by hacking your theme or switch to another theme."
+msgstr "Праверце, калі ваша тэма загружае іншы або адзін і той жа сцэнар лайтбокс. Шукайце спасылкі на Thickbox, Prettyphoto, Lightbox2, ColorBox або файлы сцэнарыяў FancyBox або кода. Вельмі верагодна, гэта выкліча несумяшчальнасць і вы павінны альбо выдаліць іх шляхам узлому вашай тэмы або пераключыцца на іншую тэму."
+
+#. Found in remaining content list item.
+msgid "If you followed the general trouble shooting steps above, you should now be aware of which plugin is conflicting whith Easy FancyBox. See known plugin conflicts above first. If the plugin and its solution are not mentioned there, continue with the following steps."
+msgstr "Калі вы сутыкнуліся з агульнай праблемай, апісанай вышэй, цяпер вы павінны ведаць, які плагін канфліктуе з Easy FancyBox. Глядзі спіс вядомыя канфліктаў плагіна вышэй. Калі канфлікты плагіна і яго рашэнне не згадваюцца там, рабіце наступныя крокі."
+
+#. Found in remaining content list item.
+msgid "Make sure that the plugins do not make the main jQuery library file load more than once. Look for references to javascript files like <code>jquery.js?ver=x.x.x</code> or <code>jquery.min.js</code> in the page source code. If you find more than one, try to find out where that comes from."
+msgstr "Пераканайцеся, што плагіны не робяць асноўны загрузкі файла бібліятэкі jQuery некалькі разоў. Шукайце спасылкі на файлы, такія як яваскрипта <code>jquery.js?ver=x.x.x</code> aбо <code>jquery.min.js</code> у кодзе старонкі. Калі вы знаходзіце больш аднаго, паспрабаваць высветліць, дзе гэта адбываецца."
+
+#. Found in remaining content list item.
+msgid "Check if your theme loads another or the same lightbox script or any other of the needed jQuery extensions like jquery.easing or jquery.mousewheel. Look for references to Thickbox, Prettyphoto, Lightbox2, Colorbox or FancyBox script files or code. These are very likely to cause the incompatibility and you will have to either find a setting in the other plugin to switch OFF the use of the conflicting script (possible in NextGEN for example, see under Advanced below) or choose between the two conflicting plugins."
+msgstr "Праверце, калі ваша тэма загружае іншы або адзін і той жа сцэнар, лайтбокс або любы іншы з неабходных jQuery пашырэньні як jquery.easing або jquery.mousewheel. Шукайце спасылкі на Thickbox, Prettyphoto, Lightbox2, ColorBox або файлы сцэнарыяў FancyBox або кода. Гэта вельмі верагодна, выкліча несумяшчальнасць і вам прыйдзецца альбо знайсці налады ў іншы плагін, каб выключыць выкарыстанне канфліктуе сцэнара (магчыма ў NextGen, напрыклад, гл пад Advanced ніжэй) або выбраць паміж двума канфліктуючымі плагінамі."
+
+#. Found in remaining content list item.
+msgid "Install PoEdit on your computer."
+msgstr "Усталюйце PoEdit на вашым кампутары."
+
+#. Found in remaining content list item.
+msgid "Go to this plugins /languages/ directory."
+msgstr "Перайсці да гэтага плагіна/мовы/дырэкторыі."
+
+#. Found in remaining content list item.
+msgid "If there is no .po file that corresponds with your language yet, rename the template translation database easy-fancybox-xx_XX.po by replacing the xx with your language code and XX with your country code."
+msgstr "Калі няма .po файла, які адпавядае вашай мове, перайменауйце шаблон базы дадзеных пераклад easy-fancybox-xx_XX.po заменай хх з кодам мовы і XX з кодам краіны."
+
+#. Found in remaining content list item.
+msgid "Open the .po file of your language with PoEdit."
+msgstr "Адкрыйце .po файл з вашай мовай ў PoEdit."
+
+#. Found in remaining content list item.
+msgid "Go to Edit &gt; Preferences and on the tab Editor check the option to compile a .mo database on save automatically. Close with OK."
+msgstr "Перайсці да Рэдагаваць&gt; Налады і на ўкладцы Рэдактар сцяжок для кампіляцыі .mo базы дадзеных для  аўтаматычнага захавання. Зачыніць - ОК."
+
+#. Found in remaining content list item.
+msgid "Go to Catalog &gt; Settings and set your name, e-mail address, language and country. Close with OK."
+msgstr "Перайсці ў Каталог &gt; Налады і ўсталяваць сваё імя, адрас электроннай пошты, мову і краіну. Зачыніць - ОК."
+
+#. Found in remaining content list item.
+msgid "Go to Catalog &gt; Update from POT-file and select the main easy-fancybox.pot file. Then accept all new and removed translation strings with OK."
+msgstr "Перайсці ў Каталог &gt; Абнаўленне да POT-файла і выбраць асноўны файлeasy-fancybox.pot. Затым прыміце ўсе новыя і выдаленыя радкі перакладу з дапамогай OK."
+
+#. Found in remaining content list item.
+msgid "Now go ahead and start translating all the texts listed in PoEdit."
+msgstr "Цяпер пачынайце перакладаць усе тэксты, пералічаныя ў PoEdit."
+
+#. Found in remaining content list item.
+msgid "When done, go to File &gt; Save to Save."
+msgstr "Калі гэта зроблена, перайдзіце ў меню Файл >Захаваць, каб захаваць."
+
+#. Found in remaining content list item.
+msgid "Upload the automatically created easy-fancybox-xx_XX.mo database file (where xx_XX should now be your language and country code) to the plugins /languages/ directory on your WordPress site."
+msgstr "Загрузіце аўтаматычна створаны файл базы дадзеных easy-fancybox-xx_XX.mo (дзе xx_XX зараз павінен быць ваш мову і код краіны) да плагіна/мовы/на вашым WordPress сайце."
+
+#. Found in remaining content list item.
+msgid "After verifying the translations work on your site, send the .mo file and, if you're willing to share it, your original .po file to ravanhagen@gmail.com and don't forget to tell me how and with what link you would like to be mentioned in the credits!"
+msgstr "Пасля праверкі ці працуюць пераклады на вашым сайце, адправьце файл .mo і, калі вы гатовыя падзяліцца іv? зыходны файл .po ў ravanhagen@gmail.com і не забудзьцеся сказаць мне,  што вам якую спасылку вам хацелася б адзначыць у спісу паваг!"
+
+#. Found in remaining content paragraph.
+msgid "If, after activation, your images do not open in a FancyBox overlay, there are several possible reasons. Some are easily solved, others are more difficult. Follow these basic checks to make sure everything is in place:"
+msgstr "Калі пасля актывацыі, вашыя выявы не адчыняюцца ў FancyBox накладанні, ёсць некалькі магчымых прычын. Некаторыя з іх лёгка вырашаюцца, іншыя цяжэй. Выканайце наступныя асноўныя праверкі, каб пераканацца, што ўсё на месцы:"
+
+#. Found in remaining content paragraph.
+msgid "If you still do not get to see your images in FancyBox, ask on the <a href=\"http://wordpress.org/tags/easy-fancybox\">Easy FancyBox WordPress forum</a> or go to the <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">development site</a>"
+msgstr "Калі вы ўсё яшчэ не можаце бачыць выявы ў FancyBox, спытаеце на <a href=\"http://wordpress.org/tags/easy-fancybox\"> форум Easy FancyBox WordPress </a> або перайдзіце да <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">распрацоўка сайта</a>"
+
+#. Screenshot description.
+msgid "<p>Example image with <strong>Overlay</strong> caption. This is the default way Easy FancyBox displays images. Other options are <strong>Inside</strong> and the old <strong>Outside</strong>.</p>"
+msgstr "<p>Прыклад малюнка з <strong>Overlay</strong> загалоўкам. Гэта спосаб па змаўчанні Easy FancyBox адлюстроўвае малюнка. Іншыя варыянты strong>Inside</strong>і стары <strong>Outside</strong>. </p>"
+
+#. Screenshot description.
+msgid "<p>Example of a YouTube movie in overlay.</p>"
+msgstr "<p>Прыклад відэа YouTube у накладкай. </p>"
+
+#. Found in description header.
+msgid "Translators"
+msgstr "Перакладчыкі"
+
+#. Found in description list item.
+msgid "All common image types including webp <em>and</em> image maps"
+msgstr "Ўсе распаўсюджаныя тыпы малюнкаў, уключаючы webp <em>and</em> карты выяў "
+
+#. Found in description list item.
+msgid "WordPress Galleries"
+msgstr "WordPress Галерэі"
+
+#. Found in description list item.
+msgid "NextGEN galleries (see FAQs for instructions)"
+msgstr "NextGen галерэі (глядзі часта задаваемыя пытанні для інструкцыі)"
+
+#. Found in description list item.
+msgid "Youtube galleries via Youtube Simple Gallery plugin (see FAQs for instructions)"
+msgstr "Youtube галерэі праз Youtube Simple Gallery плагін (глядзі часта задаваемыя пытанні для інструкцыі)"
+
+#. Found in description list item.
+msgid "SWF (Flash) movies"
+msgstr "Flash (SWF) фільмы"
+
+#. Found in description list item.
+msgid "SVG media images (thanks to Simon Maillard)"
+msgstr "SVG медыя-малюнкі (дзякуючы Simon Майярд)"
+
+#. Found in description list item.
+msgid "Links to <strong>Youtube</strong>, <strong>Vimeo</strong> <em>and</em> <strong>Dailmotion</strong>"
+msgstr "Спасылкі на <strong>Youtube</strong>, <strong>Vimeo</strong> <em>and</em> <strong>Dailmotion</strong>"
+
+#. Found in description list item.
+msgid "Hidden inline content"
+msgstr "Схаванае инлайн-змесціва"
+
+#. Found in description list item.
+msgid "iFrames"
+msgstr "iFrames"
+
+#. Found in description list item.
+msgid "PDF files"
+msgstr "PDF файлы"
+
+#. Found in description list item.
+msgid "Auto-popup on page load"
+msgstr "Аўтаматычнае ўсплывальнае акно пры загрузцы старонкі"
+
+#. Found in description list item.
+msgid "links inside Gravity Forms in ajax mode"
+msgstr "спасылкі ўнутры Gravity Forms  у рэжыме Аякс"
+
+#. Found in description list item.
+msgid "<strong>Croatian</strong> * Ivan Capan (version 1.5.6)"
+msgstr "<strong>Харвацкая </strong> * Іван Капан (версія 1.5.6)"
+
+#. Found in description list item.
+msgid "<strong>Czech</strong> * Eldenroot (version 1.5.5)"
+msgstr "<strong>Чэшская </strong> * Eldenroot (версія 1.5.5)"
+
+#. Found in description list item.
+msgid "<strong>Dutch</strong> * R.A. van Hagen, http://status301.net (version 1.5.6)"
+msgstr "<strong>Нідэрландскі</strong> * R.A. van Hagen, http://status301.net (версія 1.5.6)"
+
+#. Found in description list item.
+msgid "<strong>French</strong> * Emmanuel Maillard (version 1.5.5)"
+msgstr "<strong>Французская</strong> * Эмануэль Мэйло (версія ion 1.5.5)"
+
+#. Found in description list item.
+msgid "<strong>Greek</strong> * Dimitrios Kaisaris, http://www.foodblogstarter.com (version 1.5.7)"
+msgstr "<strong>Грэчаская</strong> * Дзiмitrыфс Кайсарыс, http://www.foodblogstarter.com (версія 1.5.7)"
+
+#. Found in description list item.
+msgid "<strong>Gujarati</strong> * Apoto Team, http://www.apoto.com (version 1.5.0)"
+msgstr "<strong>Гуяраці</strong> * Apoto Team, http://www.apoto.com (версія 1.5.0)"
+
+#. Found in description list item.
+msgid "<strong>Hindi</strong> * Outshine Solutions, http://outshinesolutions.com (version 1.3.4.9)"
+msgstr "<strong>Хіндзі</strong> * Outshine Solutions, http://outshinesolutions.com (версія 1.3.4.9)"
+
+#. Found in description list item.
+msgid "<strong>Indonesian</strong> * Nasrulhaq Muiz, http://al-badar.net (version 1.5.5)"
+msgstr "<strong>Iнданезійская</strong> * Nasrulhaq Muiz, http://al-badar.net (версія 1.5.5)"
+
+#. Found in description list item.
+msgid "<strong>Lithuanian</strong> * Vincent G, http://www.host1free.com (version 1.3.4.9)"
+msgstr "<strong>Літоўская</strong> * Vincent G, http://www.host1free.com (версія 1.3.4.9)"
+
+#. Found in description list item.
+msgid "<strong>Persian</strong> * Ali Akbar Kaviani, http://www.wiki10.net (version 1.5.2)"
+msgstr "<strong>Фарсі</strong> * Ali Akbar Kaviani, http://www.wiki10.net (версія 1.5.2)"
+
+#. Found in description list item.
+msgid "<strong>Polish</strong> * Kamil Szymański (version 1.3.4.9)"
+msgstr "<strong>Польская</strong> * Kamil Szymański (версія 1.3.4.9)"
+
+#. Found in description list item.
+msgid "<strong>Romanian</strong> * Web Geek Sciense, http://webhostinggeeks.com/ (version 1.3.4.9)"
+msgstr "<strong>Румнская</strong> * Web Geek Sciense, http://webhostinggeeks.com/ (версія 1.3.4.9)"
+
+#. Found in description list item.
+msgid "<strong>Russian</strong> * Ivanka Skakun from Everycloud, http://www.everycloudtech.com/ (version 1.5.8)"
+msgstr "<strong>Руская</strong> * Iванка Скакун з Everycloud, http://www.everycloudtech.com/ (версія 1.5.8)"
+
+#. Found in description list item.
+msgid "<strong>Serbo-Croatian</strong> * Andrijana Nikolic, http://webhostinggeeks.com/wordpresshosting.html (version 1.5.2) + translation of this page on http://science.webhostinggeeks.com/easy-fancybox"
+msgstr "<strong>Сербахарвацкайя</strong> * Andrijana Nikolic, http://webhostinggeeks.com/wordpresshosting.html (версія 1.5.2) +пераклад гэтай старонкі на http://science.webhostinggeeks.com/easy-fancybox"
+
+#. Found in description list item.
+msgid "<strong>Slovak</strong> * Jan Fajcak, http://fajo.name/ (version: 1.5.7)"
+msgstr "<strong>Славацкая</strong> * Jan Fajcak, http://fajo.name/ (версія : 1.5.7)"
+
+#. Found in description list item.
+msgid "<strong>Spanish</strong> * David Pérez, http://www.closemarketing.es (version 1.3.4.9)"
+msgstr "<strong>Iспанская</strong> * David Pérez, http://www.closemarketing.es (версія 1.3.4.9)"
+
+#. Found in description list item.
+msgid "<strong>Turkish</strong> * Hakan Er, http://hakanertr.wordpress.com/ (version: 1.5.2)"
+msgstr "<strong>Турэцкая</strong> * Hakan Er, http://hakanertr.wordpress.com/ (версія : 1.5.2)"
+
+#. Found in description list item.
+msgid "<strong>Ukrainian</strong> * Cmd Software, http://www.cmd-soft.com (version: 1.3.4.9)"
+msgstr "<strong>Украінская</strong> * Cmd Software, http://www.cmd-soft.com (версія : 1.3.4.9)"
+
+#. Found in description paragraph.
+msgid "Easy FancyBox plugin for WordPress websites gives you a flexible and aesthetic lightbox solution for just about all media links on your website. Easy FancyBox uses the packed FancyBox jQuery extension and is WP 3+ Multi-Site compatible. After activation you can find a new section <strong>FancyBox</strong> on your <strong>Settings &gt; Media</strong> admin page where you can manage the plugins options."
+msgstr "Easy FancyBox плагін для WordPress вэб-сайтаў дае гнуткае і эстэтычнае вырашэнне для лайтбокса як раз пра ўсіх медыя-спасылак на вашым сайце. Easy FancyBox выкарыстоўвае спакаванае пашырэнне FancyBox jQuery і ён таксама WP 3+ Multi-Site сумяшчальны. Пасля актывацыі вы можаце знайсці новы падзел <strong>FancyBox</strong> на <strong>Налады &gt; Медыя</strong> старонцы адміна , на якой вы можаце кіраваць параметрамі плагіна."
+
+#. Found in description paragraph.
+msgid "After activation, all links to <strong>JPG, GIF and PNG images</strong> are automatically opened in the <a href=\"http://fancybox.net/\">FancyBox</a> Mac-style lightbox that floats over the web page. Most options available can be managed with this plugin along with some extra features."
+msgstr "Пасля актывацыі, усе спасылкі на <strong>JPG, GIF and PNG images</strong> аўтаматычна адкрываюцца ў <a href=\"http://fancybox.net/\">FancyBox</a> Mac-стылі лайтбокса, які плавае паверх вэб-старонкі. Большасць варыянтаў можна кіраваць з дапамогай гэтага плагіна, разам з некаторымі асаблівасцямі."
+
+#. Found in description paragraph.
+msgid "<strong>Also supports:</strong>"
+msgstr "<strong>Таксама падтрымлівае:</strong>"
+
+#. Found in description paragraph.
+msgid "For <strong>advanced options</strong> and <strong>priority support</strong>, there is a <strong><a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro extension</a></strong> available."
+msgstr "Для <strong>Дадатковыя параметры</strong>  і <strong>прыярытэтная падтрымка</strong>, ёсць даступнае<strong><a href=\"http://premium.status301.net/downloads/easy-fancybox-pro/\">Pro пашырэнне</a></strong>."
+
+#. Found in description paragraph.
+msgid "See <a href=\"http://wordpress.org/plugins/easy-fancybox/screenshots/\">Screenshots</a> for an impression on how images and YouTube movies will be presented on your site as soon as you have installed and (network) activated this simple plugin."
+msgstr "Глядзі<a href=\"http://wordpress.org/plugins/easy-fancybox/screenshots/\">Скрыншоты</a> для панімання, як малюнкі і фільмы на YouTube будуць прадстаўлены на вашым сайце, як толькі вы ўсталявалі і (расшарылі) плагін."
+
+#. Found in description paragraph.
+msgid "See <a href=\"http://wordpress.org/plugins/easy-fancybox/faq/\">FAQ's</a> for instructions to manage YouTube, Dailymotion and Vimeo movies (and similar services) and tips to make inline content display in a FancyBox overlay. Subscribe to <a href=\"http://status301.net/tag/easy-fancybox/feed/\">Status301</a> for tips on how to get a high degree of control over what will be shown in a FancyBox overlay on your website."
+msgstr "Глядзі <a href=\"http://wordpress.org/plugins/easy-fancybox/faq/\">FAQ's</a> for instructions to manage YouTube, Dailymotion and Vimeo movies (and similar services) and tips to make inline content display in a FancyBox overlay. Subscribe to <a href=\"http://status301.net/tag/easy-fancybox/feed/\">Status301</a> for tips on how to get a high degree of control over what will be shown in a FancyBox overlay on your website."
+
+#. Found in description paragraph.
+msgid "Get support on the <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">Easy FancyBox web page</a> or <a href=\"http://wordpress.org/tags/easy-fancybox?forum_id=10\">WordPress forum</a>."
+msgstr "Атрымаць падтрымку па <a href=\"http://status301.net/wordpress-plugins/easy-fancybox/\">Easy FancyBox вэб старонка</a> або <a href=\"http://wordpress.org/tags/easy-fancybox?forum_id=10\">WordPress форум</a>."
+
+#. Found in description paragraph.
+msgid "Visit <a href=\"http://fancybox.net/\">FancyBox</a> for more information, examples and the FancyBox Support Forum. Please consider a DONATION for continued development of the FancyBox project."
+msgstr "Наведайце <a href=\"http://fancybox.net/\"> FancyBox </a> для атрымання дадатковай інфармацыі, прыклады і форум падтрымкі FancyBox. Калі ласка, звярніце ўвагу на ахвяраванні для далейшага развіцця праекта FancyBox."
+
+#. Found in installation header.
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#. Found in installation header.
+msgid "Wordpress MU / WordPress 3+ in Multi Site mode"
+msgstr "Wordpress MU / WordPress 3+ у Multi Site версii"
+
+#. Found in installation list item.
+msgid "<p>Download archive.</p>"
+msgstr "<p>Спампаваць архіў.</p>"
+
+#. Found in installation list item.
+msgid "<p>Upload the zip file via the Plugins &gt; Add New &gt; Upload page &hellip; OR &hellip; unpack and upload with your favourite FTP client to the /plugins/ folder.</p>"
+msgstr "<p>Загрузіце файл архіва праз Плагін&gt; Дабавiць новы &gt; Загрузіць старонку & hellip; АБО & hellip; распакаваць і загрузіць з вашым любімым FTP-кліентам да /плагіна/ папкі.</p>"
+
+#. Found in installation list item.
+msgid "<p>Activate the plugin on the Plug-ins page.</p>"
+msgstr "<p>Актываваць плагін на старонцы плагінаў.</p>"
+
+#. Found in installation paragraph.
+msgid "Quick installation: <a href=\"http://coveredwebservices.com/wp-plugin-install/?plugin=easy-fancybox\">Install now</a> !"
+msgstr "Хуткая ўстаноўка:<a href=\"http://coveredwebservices.com/wp-plugin-install/?plugin=easy-fancybox\">Усталяваць зараз!</a>"
+
+#. Found in installation paragraph.
+msgid "&hellip; OR &hellip;"
+msgstr "&hellip; АБО &hellip;"
+
+#. Found in installation paragraph.
+msgid "Search for \"easy fancybox\" and install with that slick <strong>Plugins &gt; Add New</strong> back-end page."
+msgstr "Пошук па \"лёгкай FancyBox\" і ўсталяваць з гэтым пляма <strong>Пплагіны>Дадаць Новую </strong>серверную старонку."
+
+#. Found in installation paragraph.
+msgid "Follow these steps:"
+msgstr "Выканайце наступныя дзеянні:"
+
+#. Found in installation paragraph.
+msgid "Download archive."
+msgstr "Спампаваць архіў."
+
+#. Found in installation paragraph.
+msgid "Upload the zip file via the Plugins &gt; Add New &gt; Upload page &hellip; OR &hellip; unpack and upload with your favourite FTP client to the /plugins/ folder."
+msgstr "Загрузіць файл архіва праз Плагіны >Новы>Загрузіць старонку & hellip; АБО & hellip; распакаваць і загрузіць з вашым  любімым FTP-кліентам да /плагіна/папкі."
+
+#. Found in installation paragraph.
+msgid "Activate the plugin on the Plug-ins page."
+msgstr "Актывуйце плагін на старонцы плагінаў."
+
+#. Found in installation paragraph.
+msgid "Done! By default, any images that are linked to directly (not to a WordPress page) from within your posts and pages, should now be opening in a FancyBox overlay :)"
+msgstr "Гатова! Па змаўчанні любыя выявы, якія звязаныя паміж сабой напрамую (а не з WordPress старонкай) з вашага паведамлення і старонкі, павінны цяпер быць адкрыццё ў накладанні FancyBox :)"
+
+#. Found in installation paragraph.
+msgid "Not happy with the default settings? Check out the new options under <strong>Settings &gt; Media</strong>."
+msgstr "Незадаволены наладамі па змаўчанні? Праверце новыя параметры ў раздзеле <strong>Налады >Медыя</strong>."
+
+#. Found in installation paragraph.
+msgid "Same as above but do a <strong>Network Activate</strong> to activate FancyBox image overlays on each site on your network. No database tables are created or manipulated and no activation hook needs to be run for it to function with default settings."
+msgstr "Тое ж, што і вышэй, але зрабіць <strong>Network Activate</strong>, каб актываваць FancyBox накладванне малюнкаў на кожным сайце ў сетцы. Табліцы базы дадзеных або не ствараюцца або імі нельга маніпуляваць; і кручок дэактывацыі павінен быць запушчаны для таго, каб працаваць з наладамі па змаўчанні."
+
+#. Found in changelog list item.
+msgid "FIX: Allow fullscreen videos"
+msgstr "ВЫПРАВЛЕНА: Дазволіць відэа поўны экран"
+
+#. Found in changelog list item.
+msgid "Set focus on iframe after load"
+msgstr "Ўсталяваць фокус на iframe пасля нагрузкі"
+
+#. Found in changelog list item.
+msgid "FIX: No center on scroll on touch devices"
+msgstr "ВЫПРАВЛЕНА: Няма цэнтра па спіралі на сэнсарных прыладах"
+
+#. Found in changelog list item.
+msgid "FIX: nofancybox in menu ignored, thanks Trishah"
+msgstr "ВЫПРАВЛЕНА: FancyBox ў меню ігнаруе, дзякуючы Trishah"
+
+#. Found in changelog list item.
+msgid "Added support for universal nolightbox class"
+msgstr "Дададзеная падтрымка універсальнага класа лайтбокс"
+
+#. Found in changelog paragraph.
+msgid ""
+"TODO PRO: optional remove scripts on certain pages\n"
+"TODO: optional disable for small sceen sizes\n"
+"TODO: move all script to footer and make that optional too for theme compat\n"
+"TODO: make jQuery inclusion optional\n"
+"TODO: make jQuery 1.6- compat optional\n"
+"TODO: fix \"fancybox iframe\" being forced to \"fancybox image iframe\" when Inline Content is activated"
+msgstr ""
+"TODO PRO: апцыянальна  выдаляць скрыпты на некаторых старонках\n"
+"TODO: апцыянальна адключыць для экранаў малых памераў\n"
+"TODO: перанесьці ўсе скрыпты у канец старонкі і зрабіць гэта па жаданні таксама для тэмы Compat\n"
+"TODO: зрабіць ўключэнне jQuery неабавязковым\n"
+"TODO: зрабіць jQuery 1,6- сompat апцыянальным\n"
+"TODO: выправіць \"fancybox iframe\" прымушаюць \"fancybox image iframe\", калі инлайн-змесціва актывуецца"
+
+#. Found in changelog list item.
+msgid "NEW: iFrame alow full screen option"
+msgstr "НОВАЕ: дазволіць поўнаэкранную опцыю"
+
+#. Found in changelog list item.
+msgid "FIX: CSS3 box-sizing issue (Twenty Thirteen) misplacing close button"
+msgstr "ВЫПРАВЛЕНА: CSS3 праблема з памерам (Twenty Thirteen) кнопкi закрыцця не на месцы"
+
+#. Found in changelog list item.
+msgid "NEW: Added SVG support. Thanks to Simon Maillard."
+msgstr "НОВАЕ: Дададзеная падтрымка SVG. Дзякуючы Сайману Майярду."
+
+#. Found in changelog list item.
+msgid "Pre WP 3.6: jQuery 1.9+ compatibility"
+msgstr "Pre WP 3.6: Jquery 1.9+ сумяшчальнасць"
+
+#. Found in changelog list item.
+msgid "JQuery Mousewheel extension update to 3.1.3"
+msgstr "JQuery абнаўленне пашырэння Mousewheel да  3.1.3"
+
+#. Found in changelog list item.
+msgid "NEW: Elegant Themes compatibility"
+msgstr "НОВАЕ: Сумяшчальнасць Elegant Themes"
+
+#. Found in changelog list item.
+msgid "Some small Touch device compatibility improvement hacks to the 1.3.4 script"
+msgstr "Некаторыя маленькія паляпшэнні сумяшчальнасці прылады Touch device да 1.3.4 сцэнара"
+
+#. Found in changelog list item.
+msgid "Major plugin overhaul: Class implementation"
+msgstr "Асноўны рамонт плагіна: рэалізацыя класа"
+
+#. Found in changelog list item.
+msgid "NEW: Disable hide on overlay click"
+msgstr "НОВАЕ: Адключыць схаванне ад накладання мышы"
+
+#. Found in changelog list item.
+msgid "NEW: Allow automatic resizing to large image size set on Settings &gt; Media during media upload via the hidden WordPress function media_upload_max_image_resize() TODO test more!"
+msgstr "НОВАЕ: Дазволіць аўтаматычнае змяненне памераў вялікага памеру малюнка, усталяваным на Налады >Медыя падчас загрузкі медыя праз схаванай функцыі WordPress media_upload_max_image_resize() TODO test больш!"
+
+#. Found in changelog list item.
+msgid "NEW Options: iFrame scrolling, autoScale, key navigation/close, cyclic galleries"
+msgstr "НОВАЕ: Опцыі: скролінг для плавання iFrame , AutoScale клавіша навігацыі/закрыцця плагінаў , цыклічныя галерэі"
+
+#. Found in changelog list item.
+msgid "Metadata custom parameters and Mousewheel gallery scrolling scripts optional"
+msgstr "Metadata прыстасаваныя параметры і Mousewheel сцэнары галерэі пракруткай з'яўляюцца неабавязковымі"
+
+#. Found in changelog list item.
+msgid "Basic RTL languages/text direction support (gallery navigation inversion, title position)"
+msgstr "Асноўныя напрамкі падтрымкі  RTL плагінаў мовы/тэкста (інверсія навігацы галерэі, пазіцыя назвы)"
+
+#. Found in changelog list item.
+msgid "BUGFIX: https in stylesheet on Windows IIS"
+msgstr "ВЫПРАВЛЕНА:  HTTPS ў табліцы стыляў на Windows IIS"
+
+#. Found in changelog list item.
+msgid "Improved W3TC compatibility: query string issue"
+msgstr "Палепшаная сумяшчальнасць W3TC: радкі запытаў пытанняў "
+
+#. Found in changelog list item.
+msgid "Gravity Forms in ajax mode compatibility"
+msgstr "Gravity Forms ў рэжыме сумяшчальнасці Аякс"
+
+#. Found in changelog list item.
+msgid "Use jQuery's bind('ready') for better ajax content compatibility"
+msgstr "Выкарыстоўвайце прывязкі  jQuery ('ready') для лепшай сумяшчальнасці Аякс кантэнту"
+
+#. Found in changelog list item.
+msgid "Dynamic stylesheet response headers to allow browser caching"
+msgstr "Дынамічныя загалоўкі адказу табліцы стыляў, каб дазволіць кэшаванне ў браўзэры"
+
+#. Found in changelog list item.
+msgid "Minified version of jquery.metadata.js"
+msgstr "Паменшаная версія jquery.metadata.js"
+
+#. Found in changelog list item.
+msgid "Auto-detect on image map areas"
+msgstr "Аўтаматычнае вызначэнне на карце абласцей малюнка"
+
+#. Found in changelog list item.
+msgid "nolightbox class for menu items"
+msgstr "класс nolightbox  для пунктаў меню"
+
+#. Found in changelog list item.
+msgid "SECURITY: Settings sanitization"
+msgstr "БЯСПЕКА: Налады санітарную"
+
+#. Found in changelog list item.
+msgid "BUGFIX: load_textdomain firing after the main settings array is loaded, leaving text strings in it untranslated."
+msgstr "ВЫПРАВЛЕНА:  load_textdomain абпал пасля таго, як масіў асноўных налад загружаецца, пакідаючы тэкставыя радкі ў ім неперакладзенымі."
+
+#. Found in changelog list item.
+msgid "BUGFIX: missing signs in Youtube url regular expression"
+msgstr "ВЫПРАВЛЕНА: адсутнічаюць знакі ў Youtube URL-адрасы рэгулярных выразаў"
+
+#. Found in changelog list item.
+msgid "BUGFIX: unquoted rel attribute selectors in jquery.fancybox-1.3.4.js"
+msgstr "ВЫПРАВЛЕНА: каціруемы выбар атрыбутаў у jquery.fancybox-1.3.4.js"
+
+#. Found in changelog list item.
+msgid "BUGFIX: broken url path in IE stylesheet when missing $_SERVER['SERVER_NAME']"
+msgstr "ВЫПРАВЛЕНА: непрацуючай шлях url у IE табліцы стыляў, калі не хапае $_SERVER['SERVER_NAME']"
+
+#. Found in changelog list item.
+msgid "BUGFIX: easing extension not needed on linear easing"
+msgstr "ВЫПРАВЛЕНА: паслабленне пашырэння не патрабуецца для лінейнага паслаблення"
+
+#. Found in changelog list item.
+msgid "NEW: Lithuanian translation"
+msgstr "НОВАЕ: Літоўскі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: Hindi translation"
+msgstr "НОВАЕ: Хіндзі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: Indonasian translation"
+msgstr "НОВАЕ: Iнданезійскі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: Romanian translation"
+msgstr "НОВАЕ: Румынскi пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: Polish translation"
+msgstr "НОВАЕ: Польскі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: Spanish translation"
+msgstr "НОВАЕ: Iспанскі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: jQuery Metadata support"
+msgstr "НОВАЕ: Падтрымка метададзеных jQuery "
+
+#. Found in changelog list item.
+msgid "NEW: Image map AREA support for all content types"
+msgstr "НОВАЕ: Карта падтрымкі малюнакаў AREA для ўсіх тыпаў кантэнту"
+
+#. Found in changelog list item.
+msgid "NEW: new iFrame/HTML5 embed code for YouTube, Vimeo and Dailymotion"
+msgstr "НОВАЕ: новы iframe/HTML5 код для YouTube, Vimeo і Dailymotion"
+
+#. Found in changelog list item.
+msgid "NEW: fix WordPress Dailymotion auto-embed code missing wmode"
+msgstr "НОВАЕ: выправлен WordPress Dailymotion код  аўта-ўстаўкі, дзе адсутнічае wmode"
+
+#. Found in changelog list item.
+msgid "Some changes to default settings"
+msgstr "Некаторыя змены налад па змаўчанні"
+
+#. Found in changelog list item.
+msgid "Updated Dutch translation"
+msgstr "Абноўлены галандскі пераклад"
+
+#. Found in changelog list item.
+msgid "BUGFIX: Opening speed"
+msgstr "ВЫПРАВЛЕНА: Хуткасць адкрыцця"
+
+#. Found in changelog list item.
+msgid "NEW: Advanced option: Gallery auto-rotation"
+msgstr "НОВАЕ: Пашыраны варыянт: Галерэя аўтаратацыі"
+
+#. Found in changelog list item.
+msgid "NEW: Spotlight effect"
+msgstr "НОВАЕ: эфект Spotlight"
+
+#. Found in changelog list item.
+msgid "Improved auto-enable and auto-gallery settings"
+msgstr "Паляпшэнне аўтаматычнага ўключэння і налады аўтаматычнай галерэі"
+
+#. Found in changelog list item.
+msgid "BIGFIX: CSS IE6 hack"
+msgstr "ВЫПРАВЛЕНА:  CSS IE6 hack"
+
+#. Found in changelog list item.
+msgid "BIGFIX: PDF object in IE7"
+msgstr "ВЫПРАВЛЕНА: PDF аб'ект in IE7"
+
+#. Found in changelog list item.
+msgid "PDF embed compatibility improvement"
+msgstr "паляпшэнне сумяшчальнасці кода ўстаўкі PDF"
+
+#. Found in changelog list item.
+msgid "NEW: Show/hide title on mouse hover action"
+msgstr "НОВАЕ: Паказаць/схаваць назву плагінаў па навядзенню мышы "
+
+#. Found in changelog list item.
+msgid "NEW: Auto-gallery modes (Disabled, page/post images only, all)"
+msgstr "НОВАЕ: Рэжымы аўта-галерэя (выключана, старонка/толькі выявы паста , усе)"
+
+#. Found in changelog list item.
+msgid "NEW: Dailymotion support"
+msgstr "НОВАЕ: падтрымка Dailymotion"
+
+#. Found in changelog list item.
+msgid "Links with id <strong>fancybox-auto</strong> will be triggered on page load"
+msgstr "Сувязі з ідэнтыфікатарам <strong>fancybox-auto</strong> будуць працаваць пры загрузцы старонкі"
+
+#. Found in changelog list item.
+msgid "Anything with class <strong>fancybox-hidden\"</strong> will be hidden"
+msgstr "Усе з класам <strong>fancybox-hidden\"</strong> будзе схавана"
+
+#. Found in changelog list item.
+msgid "Support for menu items in iframe"
+msgstr "Падтрымка пунктаў меню ў iframe"
+
+#. Found in changelog list item.
+msgid "Added class <strong>nolightbox</strong> for exclusion when auto-enabling"
+msgstr "Дададзены клас <strong>nolightbox</strong> для выключэння, калі указана аўтаматычнае ўключэнне "
+
+#. Found in changelog list item.
+msgid "FancyBox script version 1.3.4 (2010/11/11 - http://fancybox.net/changelog/)"
+msgstr "FancyBox скрыпт версіі 1.3.4 (2010/11/11 - http://fancybox.net/changelog/)"
+
+#. Found in changelog list item.
+msgid "NEW: Support for PDF"
+msgstr "НОВАЕ: Падтрымка PDF"
+
+#. Found in changelog list item.
+msgid "NEW: Easing options"
+msgstr "НОВАЕ: Варыянты палягчэння"
+
+#. Found in changelog list item.
+msgid "YouTube, Vimeo and iFrame options adjustable"
+msgstr " варыянты рэгуляваныя YouTube, Vimeo і IFrame"
+
+#. Found in changelog list item.
+msgid "lots and lots of more options!"
+msgstr "шмат і шмат больш магчымасцяў!"
+
+#. Found in changelog list item.
+msgid "BIGFIX: work-around for missing wmode in WordPress (auto-)embedded movies (credits: Crantea Mihaita)"
+msgstr "ВЫПРАВЛЕНА: працаваць вакол адсутных wmode ў WordPress (аўта-)ўбудаваных відэа (крэдыты: Crantea Mihaita)"
+
+#. Found in changelog list item.
+msgid "BIGFIX: iframe width"
+msgstr "ВЫПРАВЛЕНА: шырыня iframe "
+
+#. Found in changelog list item.
+msgid "BIGFIX: image overlay size in Google Chrome browser issue (FancyBox 1.3.3)"
+msgstr "ВЫПРАВЛЕНА: памер малюнка накладання ў выпуску браўзэра Google Chrome (FancyBox 1.3.3)"
+
+#. Found in changelog list item.
+msgid "BIGFIX: fancybox-swf"
+msgstr "ВЫПРАВЛЕНА:  fancybox-swf"
+
+#. Found in changelog list item.
+msgid "FancyBox script version 1.3.3 (2010/11/4 - http://fancybox.net/changelog/)"
+msgstr "FancyBox версія скрыпта 1.3.3 (2010/11/4 - http://fancybox.net/changelog/)"
+
+#. Found in changelog list item.
+msgid "Vimeo support"
+msgstr "падтрымка Vimeo"
+
+#. Found in changelog list item.
+msgid "YouTube Short URL support (disabled by default)"
+msgstr "Падтрымка YouTube Short URL (па змаўчанні адключана)"
+
+#. Found in changelog list item.
+msgid "Auto-recognition and seperate class <code>fancybox-youtube</code> for YouTube"
+msgstr "Аўтаматычнае распазнаванне і асобны клас <code>fancybox-youtube</code> для YouTube"
+
+#. Found in changelog list item.
+msgid "Auto-recognition and seperate class <code>fancybox-vimeo</code> for Vimeo"
+msgstr "Аўтаматычнае распазнаванне і асобны клас <code>fancybox-vimeo</code> для Vimeo"
+
+#. Found in changelog list item.
+msgid "FancyBox script version 1.3.2 (2010/10/10 - http://fancybox.net/changelog/)"
+msgstr "FancyBox версія скрыпта 1.3.2 (2010/10/10 - http://fancybox.net/changelog/)"
+
+#. Found in changelog list item.
+msgid "translation .pot file available"
+msgstr "файл перакладу .pot даступны"
+
+#. Found in changelog list item.
+msgid "Dutch translation"
+msgstr "Галандскі пераклад"
+
+#. Found in changelog list item.
+msgid "NEW: YouTube and Flash movie support"
+msgstr "НОВАЕ: YouTube і Flash  падтрымкі"
+
+#. Found in changelog list item.
+msgid "NEW: Iframe support"
+msgstr "НОВАЕ: Iframe support"
+
+#. Found in changelog list item.
+msgid "added option Auto-enable for..."
+msgstr "дададзеная опцыя аўтаматычнага ўключэння для ..."
+
+#. Found in changelog list item.
+msgid "added option titlePosition : over / inside / outside"
+msgstr "дададзеная опцыя titlePosition :  over / inside / outside"
+
+#. Found in changelog list item.
+msgid "added option transitionIn : elastic / fade / none"
+msgstr "дададзеная опцыя transitionIn : elastic / fade / none"
+
+#. Found in changelog list item.
+msgid "added option transitionOut : elastic / fade / none"
+msgstr "дададзеная опцыя transitionOut : elastic / fade / none"
+
+#. Found in changelog list item.
+msgid "small jQuery speed improvement by chaining object calls"
+msgstr "невялікае паляпшэнне хуткасці jQuery, прыкаваў аб'ектных выклікаў"
+
+#. Found in changelog list item.
+msgid "Using FancyBox version 1.3.1"
+msgstr "Выкарыстанне версіі  FancyBox 1.3.1"
+
+#. Found in changelog list item.
+msgid "Dropped IE6 support"
+msgstr "Спыненая падтрымка IE6"
+
+#. Found in changelog list item.
+msgid "FIX: obj undefined in minified js"
+msgstr "ВЫПРАВЛЕНА: obj не вызначана ў мінімізаваным js"
+
+#. Found in changelog list item.
+msgid "Color value sanitization"
+msgstr "Санiтарызацыя значэння колеру"
+
+#. Found in changelog list item.
+msgid "NEW: auto popup delay"
+msgstr "НОВАЕ: аўтаматычная затрымка ўсплыванняў"
+
+#. Found in changelog list item.
+msgid "NEW: pro extension version compatibility check routine"
+msgstr "НОВАЕ: Pro версія пашырэння праверка сумяшчальнасці пуцей"
+
+#. Found in changelog list item.
+msgid "NEW: margin option"
+msgstr "НОВАЕ: опцыя маржа"
+
+#. Found in changelog list item.
+msgid "Dropped mu-plugins support"
+msgstr "Затрымана падтрымка mu-плагінаў"
+
+#. Found in changelog list item.
+msgid "FIX: Pro extension link update"
+msgstr "ВЫПРАВЛЕНА: абнаўленне пашырэння Pro спасылак"
+
+#. Found in changelog list item.
+msgid "NEW: WebP support and class='image' to force image media type"
+msgstr "НОВАЕ: WebP падтрымка і class='image', каб прымусіць выявы тыпу носьбіта"
+
+#. Found in changelog list item.
+msgid "IE 6-8 css rules optional"
+msgstr "правілы IE 6-8 cssнеабавязковыя"
+
+#. Found in changelog list item.
+msgid "iframe embed for Youtube, Vimeo and Dailymotion"
+msgstr "iframe код ўстаўкі для Youtube, Vimeo і Dailymotion"
+
+#. Found in changelog list item.
+msgid "Croation translation"
+msgstr "Харвацкi пераклад"
+
+#. Found in changelog list item.
+msgid "HTML5 players allowfullscreen default"
+msgstr "HTML5 плэйер allowfullscreen па змаўчанні"
+
+#. Found in changelog list item.
+msgid "iPad positioning patch"
+msgstr "iPad патч пазіцыянавання"
+
+#. Found in changelog list item.
+msgid "Don't unregister scripts that are not ours even for conflict prevention"
+msgstr "Не трэба зноў регистравыць скрыпты, якія не з'яўляюцца нават нашымі для прадухілення канфліктаў"
+
+#. Found in changelog list item.
+msgid "box-sizing: border-box issue in Firefox fixed"
+msgstr "box-sizing: пагранічнае пытанне ў фіксаванай скрыні Firefox "
+
+#. Found in changelog list item.
+msgid "Allow mousewheel scrolling page in the background again"
+msgstr "Дазволіць зноў пракрутку старонкі кола мышы ў фонавым рэжыме "
+
+#. Found in changelog list item.
+msgid "Prevent mousewheel scrolling page in the background"
+msgstr "Папярэдзіць прагортку старонак колам  мышы у фонавым рэжыме"
+
+#. Found in changelog list item.
+msgid "New stylesheet IE alphaimageloader path fix approach"
+msgstr "Новы падыход да выпраўлення шляху табліца стыляў IE alphaimageloader "
+
+#. Found in changelog list item.
+msgid "Czech translation added"
+msgstr "Чэшскі пераклад дададзены"
+
+#. Found in changelog list item.
+msgid "Updated Indonesian translation"
+msgstr "Абноўлены інданезійскі пераклад"
+
+#. Found in changelog list item.
+msgid "BUGFIX: easy_fancybox_handler() in combo with trigger('click') causes Uncaught Exception script error"
+msgstr "ВЫПРАВЛЕНА:easy_fancybox_handler() у комба з трыгерам('click') выклікае памылку сцэнарыя Uncaught Exception"
+
+#. Found in changelog list item.
+msgid "FIX: jQuery 1.9+ compatibility"
+msgstr "ВЫПРАВЛЕНА: Сумяшчальнасць з jQuery 1.9+"
+
+#. Found in changelog list item.
+msgid "Dropping support for gForms again -- \"Cannot convert 'c' to object\" error in combinaition with some older gForms version :("
+msgstr "Зноў апучана падтрымка формаў - \"Немагчыма пераўтварыць 'c' аб'екта\" памылка ў спалучэнні з некаторымі старымі gForms версіі :("
+
+#. Found in changelog list item.
+msgid "NEW: support for Infinite Scroll by Jetpack"
+msgstr "НОВАЕ: Infinite Scroll  падтрымка ад Jetpack"

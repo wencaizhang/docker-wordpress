@@ -1,0 +1,980 @@
+# This file is distributed under the same license as the Easy FancyBox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy FancyBox/1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-04 21:51+0100\n"
+"PO-Revision-Date: 2013-11-23 10:15+0800\n"
+"Last-Translator: Nasrulhaq Muiz <nasrulhaq81@gmail.com>\n"
+"Language-Team: Easy FancyBox Languages <ravanhagen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../easy-fancybox-pro\n"
+
+#: ../easy-fancybox-class.php:337
+msgid "Donate to keep the Easy FancyBox plugin development going!"
+msgstr "Donasi pengembangan plugin Easy FancyBox berkelanjutan!"
+
+#: ../easy-fancybox-class.php:337
+#, php-format
+msgid ""
+"The options in this section are provided by the plugin %s and determine the "
+"<strong>Media Lightbox</strong> overlay appearance and behaviour controlled "
+"by %s."
+msgstr ""
+"Pilihan dalam bagian ini disediakan oleh plugin% s dan menentukan "
+"<strong>Media Lightbox</ strong> penampilan overlay dan perilaku "
+"dikendalikan oleh %s."
+
+#: ../easy-fancybox-class.php:337
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#: ../easy-fancybox-class.php:337 ../easy-fancybox-class.php:544
+#: ../easy-fancybox-class.php:588
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: ../easy-fancybox-class.php:337
+msgid ""
+"First enable each sub-section that you need. Then save and come back to "
+"adjust its specific settings."
+msgstr ""
+"Pertama, aktifkan tiap sub bagian yang anda butuhkan, kemudian kembali untuk "
+"menyesuaikan pengaturan spesifik lainnya."
+
+#: ../easy-fancybox-class.php:337
+msgid ""
+"Note: Each additional sub-section and features like <em>Auto-detection</em>, "
+"<em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) "
+"will have some extra impact on client-side page speed. Enable only those sub-"
+"sections and options that you actually need on your site."
+msgstr ""
+"Catatan: setiap penambahan sub bagian dan fitur seperti <em>Auto-detection</"
+"em>, <em>Elastic transitions</em> dan semua <em>Easing effects</em> (kecuali "
+"Swing) memiliki imbas tambahan terhadap kecepatan halaman di sisi klien. "
+"Aktifkan sub bagian dan pilihan sesuai dengan kebutuhan situs anda."
+
+#: ../easy-fancybox-class.php:337
+msgid ""
+"Some setting like Transition options are unavailable for SWF video, PDF and "
+"iFrame content to ensure browser compatibility and readability."
+msgstr ""
+"Beberapa pengaturan seperti pilihan transisi tidak tersedia untuk  konten "
+"SWF video, PDF dan iFrame untuk menjamin kemampuan membaca dan "
+"kompatibilitas browser."
+
+#: ../easy-fancybox-class.php:381
+msgid "Checked"
+msgstr "Ditandai"
+
+#: ../easy-fancybox-class.php:383
+msgid "Unchecked"
+msgstr "Belum ditandai"
+
+#: ../easy-fancybox-class.php:588
+msgid "Easy FancyBox Settings"
+msgstr "Pengaturan Easy FancyBox"
+
+#: ../easy-fancybox-class.php:597
+msgid "Sections"
+msgstr "Bagian-bagian"
+
+#: ../easy-fancybox-class.php:598 ../easy-fancybox-settings.php:9
+msgid "Global settings"
+msgstr "Pengaturan Global"
+
+#: ../easy-fancybox-class.php:599 ../easy-fancybox-settings.php:27
+#: ../easy-fancybox-settings.php:370
+msgid "Images"
+msgstr "Gambar"
+
+#: ../easy-fancybox-class.php:600 ../easy-fancybox-settings.php:34
+#: ../easy-fancybox-settings.php:633
+msgid "Inline content"
+msgstr "Konten dalam"
+
+#: ../easy-fancybox-class.php:601 ../easy-fancybox-settings.php:41
+#: ../easy-fancybox-settings.php:743
+msgid "PDF"
+msgstr "PDF"
+
+#: ../easy-fancybox-class.php:602 ../easy-fancybox-settings.php:48
+#: ../easy-fancybox-settings.php:868
+msgid "SWF"
+msgstr "SWF"
+
+#: ../easy-fancybox-class.php:603 ../easy-fancybox-settings.php:62
+#: ../easy-fancybox-settings.php:1057
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../easy-fancybox-class.php:604 ../easy-fancybox-settings.php:69
+#: ../easy-fancybox-settings.php:1165
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../easy-fancybox-class.php:605 ../easy-fancybox-settings.php:76
+#: ../easy-fancybox-settings.php:1265
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: ../easy-fancybox-class.php:606 ../easy-fancybox-settings.php:83
+#: ../easy-fancybox-settings.php:1391
+msgid "iFrames"
+msgstr "iFrames"
+
+#: ../easy-fancybox-class.php:634
+msgid "Support"
+msgstr "Dukungan"
+
+#: ../easy-fancybox-class.php:635
+msgid "Resources"
+msgstr "Sumberdaya"
+
+#: ../easy-fancybox-class.php:637
+msgid "Credits"
+msgstr "Kredit"
+
+#: ../easy-fancybox-settings.php:14
+msgid "Media"
+msgstr "Media"
+
+#: ../easy-fancybox-settings.php:20
+msgid "Enable FancyBox for"
+msgstr "Aktifkan FancyBox untuk"
+
+#: ../easy-fancybox-settings.php:55 ../easy-fancybox-settings.php:962
+msgid "SVG"
+msgstr "SVG"
+
+#: ../easy-fancybox-settings.php:86
+msgid ""
+"For advanced options and support, please get the Easy FancyBox - Pro "
+"extension."
+msgstr ""
+"Untuk dukungan pilihan lebih lanjut, dapatkan ekstensi versi Pro Easy "
+"FancyBox"
+
+#: ../easy-fancybox-settings.php:95
+msgid "Exclude"
+msgstr "Tidak termasuk"
+
+#: ../easy-fancybox-settings.php:101
+msgid "Empty (hidden) links"
+msgstr "Kosongkan (sembunyikan) tautan"
+
+#: ../easy-fancybox-settings.php:102
+msgid "Without thumbnail image"
+msgstr "Tanpa pembesaran gambar"
+
+#: ../easy-fancybox-settings.php:109
+msgid "Open on page load"
+msgstr "Buka saat memuat halaman"
+
+#: ../easy-fancybox-settings.php:115
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Bertaut dengan ID \"fancybox-auto\""
+
+#: ../easy-fancybox-settings.php:118 ../easy-fancybox-settings.php:409
+#: ../easy-fancybox-settings.php:440 ../easy-fancybox-settings.php:467
+#: ../easy-fancybox-settings.php:542 ../easy-fancybox-settings.php:696
+#: ../easy-fancybox-settings.php:723
+msgid "More options &raquo;"
+msgstr "Pilihan lebih lanjut &raquo;"
+
+#: ../easy-fancybox-settings.php:125
+msgid ""
+"Include the Metadata jQuery extension script to allow passing custom "
+"parameters via link class."
+msgstr ""
+"Sertakan ekstensi skrip jQuery Metadata untuk mengizinkan kostumisasi "
+"parameter  via klasifikasi tautan"
+
+#: ../easy-fancybox-settings.php:130 ../easy-fancybox-settings.php:503
+msgid "Overlay"
+msgstr "Lapisan"
+
+#: ../easy-fancybox-settings.php:139
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Tampilkan lapisan sekitar konten yang terbuka di FancyBox."
+
+#: ../easy-fancybox-settings.php:146
+msgid "Close FancyBox when overlay is clicked."
+msgstr "Keluar dar FancyBox ketka lapisan di klik"
+
+#: ../easy-fancybox-settings.php:150 ../easy-fancybox-settings.php:228
+msgid "Opacity"
+msgstr "Keburaman"
+
+#: ../easy-fancybox-settings.php:158
+msgid "Value between 0 and 1. "
+msgstr "Nilai antara 0 dan 1"
+
+#: ../easy-fancybox-settings.php:158 ../easy-fancybox-settings.php:167
+#: ../easy-fancybox-settings.php:286 ../easy-fancybox-settings.php:337
+#: ../easy-fancybox-settings.php:595
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:103
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:108
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:147
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:244
+msgid "Default:"
+msgstr "Default:"
+
+#: ../easy-fancybox-settings.php:162
+msgid "Color"
+msgstr "Warna"
+
+#: ../easy-fancybox-settings.php:167
+msgid "Enter an HTML color value."
+msgstr "Masukkan nilai warna HTML"
+
+#: ../easy-fancybox-settings.php:175
+msgid "Spotlight effect"
+msgstr "Efek sorot."
+
+#: ../easy-fancybox-settings.php:180
+msgid "Window"
+msgstr "Jendela"
+
+#: ../easy-fancybox-settings.php:186 ../easy-fancybox-settings.php:485
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../easy-fancybox-settings.php:193
+msgid "Show the (X) close button"
+msgstr "Tampilkan tombol keluar (X)"
+
+#: ../easy-fancybox-settings.php:198
+msgid "Background color"
+msgstr "Warna Latar"
+
+#: ../easy-fancybox-settings.php:208
+msgid "Border color"
+msgstr "Warna Garis tepi"
+
+#: ../easy-fancybox-settings.php:218
+msgid "Text color"
+msgstr "Warna Teks"
+
+#: ../easy-fancybox-settings.php:223 ../easy-fancybox-settings.php:236
+#: ../easy-fancybox-settings.php:249 ../easy-fancybox-settings.php:524
+#: ../easy-fancybox-settings.php:613
+msgid "Make available &raquo;"
+msgstr "Buat tersedia &raquo; "
+
+#: ../easy-fancybox-settings.php:241
+msgid "Border radius"
+msgstr "Jarak Garis tepi"
+
+#: ../easy-fancybox-settings.php:249
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:114
+msgid "Set a border radius to create rounded corners. Higher is rounder."
+msgstr ""
+"Atur radius perbatasan untuk menciptakan sudut dibulatkan. Lebih tinggi "
+"adalah bulat."
+
+#: ../easy-fancybox-settings.php:254
+msgid "Dimensions"
+msgstr "Dimensi"
+
+#: ../easy-fancybox-settings.php:286
+msgid ""
+"If content size is not set or cannot be determined automatically, these "
+"default dimensions will be used."
+msgstr ""
+"Jika ukuran konten tidak diatur atau tidak dapat ditentukan secara otomatis, "
+"dimensi standar ini akan digunakan."
+
+#: ../easy-fancybox-settings.php:291 ../easy-fancybox-settings.php:413
+msgid "Behavior"
+msgstr "Tindakan"
+
+#: ../easy-fancybox-settings.php:298
+msgid "Center while scrolling"
+msgstr "Ketengahkan sembari men-scroll"
+
+#: ../easy-fancybox-settings.php:305
+msgid "Esc key stroke closes FancyBox"
+msgstr "Esc kunci paksa menutup FancyBox"
+
+#: ../easy-fancybox-settings.php:312
+msgid "Scale large content down to fit in the browser viewport."
+msgstr "Skala konten besar bawah untuk muat di labuhan tampilan browser."
+
+#: ../easy-fancybox-settings.php:316
+msgid "Opening speed"
+msgstr "Kecepatan membuka"
+
+#: ../easy-fancybox-settings.php:328
+msgid "Closing speed"
+msgstr "Kecepatan menutup"
+
+#: ../easy-fancybox-settings.php:337 ../easy-fancybox-settings.php:595
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Durasi dalam milidetik. Lebih tinggi lebih lambat."
+
+#: ../easy-fancybox-settings.php:375
+msgid ""
+"To make images open in an overlay, add their extension to the Autodetect "
+"field or use the class \"fancybox\" for its link. Clear field to switch off "
+"all autodetection."
+msgstr ""
+"Untuk membuat gambar terbuka di overlay, tambahkan ekstensi untuk bidang "
+"auto-mendeteksi atau menggunakan kelas \"fancybox \" untuk link-nya. "
+"Bersihkan area untuk mematikan auto-pengaktifan."
+
+#: ../easy-fancybox-settings.php:390 ../easy-fancybox-settings.php:756
+#: ../easy-fancybox-settings.php:881 ../easy-fancybox-settings.php:975
+#: ../easy-fancybox-settings.php:1071 ../easy-fancybox-settings.php:1179
+#: ../easy-fancybox-settings.php:1279
+msgid "Autodetect"
+msgstr ""
+"Untuk membuat gambar terbuka di overlay, tambahkan ekstensi untuk bidang "
+"auto-mendeteksi atau menggunakan kelas \"fancybox \" untuk link-nya. "
+"Bersihkan area untuk mematikan auto-pengaktifan."
+
+#: ../easy-fancybox-settings.php:397
+msgid "Example:"
+msgstr "Contoh:"
+
+#: ../easy-fancybox-settings.php:401
+msgid "Apply to"
+msgstr "Terapkan ke"
+
+#: ../easy-fancybox-settings.php:406
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:147
+msgid "All image links"
+msgstr "Semua tautan gambar"
+
+#: ../easy-fancybox-settings.php:417 ../easy-fancybox-settings.php:673
+msgid "Transition In"
+msgstr "Transisi"
+
+#: ../easy-fancybox-settings.php:422 ../easy-fancybox-settings.php:449
+#: ../easy-fancybox-settings.php:678 ../easy-fancybox-settings.php:705
+msgid "Fade"
+msgstr "Pudar"
+
+#: ../easy-fancybox-settings.php:423 ../easy-fancybox-settings.php:450
+#: ../easy-fancybox-settings.php:679 ../easy-fancybox-settings.php:706
+msgid "Elastic"
+msgstr "Elastis"
+
+#: ../easy-fancybox-settings.php:430 ../easy-fancybox-settings.php:686
+msgid "Easing In"
+msgstr "Permudah dalam"
+
+#: ../easy-fancybox-settings.php:434 ../easy-fancybox-settings.php:461
+#: ../easy-fancybox-settings.php:690 ../easy-fancybox-settings.php:717
+msgid "Linear"
+msgstr "Bergaris"
+
+#: ../easy-fancybox-settings.php:435 ../easy-fancybox-settings.php:462
+#: ../easy-fancybox-settings.php:691 ../easy-fancybox-settings.php:718
+msgid "Swing"
+msgstr "Terayun"
+
+#: ../easy-fancybox-settings.php:436 ../easy-fancybox-settings.php:463
+#: ../easy-fancybox-settings.php:692 ../easy-fancybox-settings.php:719
+msgid "easeInBack"
+msgstr ""
+
+#: ../easy-fancybox-settings.php:437 ../easy-fancybox-settings.php:464
+#: ../easy-fancybox-settings.php:693 ../easy-fancybox-settings.php:720
+msgid "easeOutBack"
+msgstr ""
+
+#: ../easy-fancybox-settings.php:444 ../easy-fancybox-settings.php:700
+msgid "Transition Out"
+msgstr "Transisi luar"
+
+#: ../easy-fancybox-settings.php:457 ../easy-fancybox-settings.php:713
+msgid "Easing Out"
+msgstr "Permudah Luar"
+
+#: ../easy-fancybox-settings.php:467 ../easy-fancybox-settings.php:542
+#: ../easy-fancybox-settings.php:723
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:213
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:219
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:230
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:257
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:331
+msgid "Note:"
+msgstr "Catatan;"
+
+#: ../easy-fancybox-settings.php:467 ../easy-fancybox-settings.php:723
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:213
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:331
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr "Efek Mempermudah hanya berlaku bila Transisi diatur ke elastis."
+
+#: ../easy-fancybox-settings.php:474 ../easy-fancybox-settings.php:730
+msgid ""
+"Transparency fade during elastic transition. CAUTION: Use only when at least "
+"Transition In is set to Elastic!"
+msgstr ""
+"Transparansi memudar selama masa transisi elastis. PERHATIAN: Gunakan hanya "
+"ketika setidaknya Transisi Dalam diatur ke elastis!"
+
+#: ../easy-fancybox-settings.php:481 ../easy-fancybox-settings.php:737
+msgid "Close FancyBox when content is clicked"
+msgstr "Tutup FancyBox bila konten diklik"
+
+#: ../easy-fancybox-settings.php:492 ../easy-fancybox-settings.php:810
+#: ../easy-fancybox-settings.php:933 ../easy-fancybox-settings.php:1027
+#: ../easy-fancybox-settings.php:1136 ../easy-fancybox-settings.php:1235
+#: ../easy-fancybox-settings.php:1335 ../easy-fancybox-settings.php:1459
+msgid "Show title"
+msgstr "Tampilkan titel"
+
+#: ../easy-fancybox-settings.php:496 ../easy-fancybox-settings.php:814
+#: ../easy-fancybox-settings.php:937 ../easy-fancybox-settings.php:1031
+#: ../easy-fancybox-settings.php:1140 ../easy-fancybox-settings.php:1239
+#: ../easy-fancybox-settings.php:1339 ../easy-fancybox-settings.php:1463
+msgid "Title Position"
+msgstr "Posisi Titel"
+
+#: ../easy-fancybox-settings.php:500 ../easy-fancybox-settings.php:818
+#: ../easy-fancybox-settings.php:941 ../easy-fancybox-settings.php:1035
+#: ../easy-fancybox-settings.php:1144 ../easy-fancybox-settings.php:1243
+#: ../easy-fancybox-settings.php:1343 ../easy-fancybox-settings.php:1467
+msgid "Float"
+msgstr "Mengambang"
+
+#: ../easy-fancybox-settings.php:501 ../easy-fancybox-settings.php:819
+#: ../easy-fancybox-settings.php:942 ../easy-fancybox-settings.php:1036
+#: ../easy-fancybox-settings.php:1145 ../easy-fancybox-settings.php:1244
+#: ../easy-fancybox-settings.php:1344 ../easy-fancybox-settings.php:1468
+msgid "Outside"
+msgstr "Sisi Luar"
+
+#: ../easy-fancybox-settings.php:502 ../easy-fancybox-settings.php:820
+#: ../easy-fancybox-settings.php:943 ../easy-fancybox-settings.php:1037
+#: ../easy-fancybox-settings.php:1146 ../easy-fancybox-settings.php:1245
+#: ../easy-fancybox-settings.php:1345 ../easy-fancybox-settings.php:1469
+msgid "Inside"
+msgstr "Sisi Dalam"
+
+#: ../easy-fancybox-settings.php:513 ../easy-fancybox-settings.php:829
+#: ../easy-fancybox-settings.php:952 ../easy-fancybox-settings.php:1047
+#: ../easy-fancybox-settings.php:1155 ../easy-fancybox-settings.php:1254
+#: ../easy-fancybox-settings.php:1354 ../easy-fancybox-settings.php:1478
+msgid "Allow title from thumbnail alt tag"
+msgstr "Izinkan titel oleh pembesaran alt tag"
+
+#: ../easy-fancybox-settings.php:517 ../easy-fancybox-settings.php:606
+msgid "Advanced"
+msgstr "Tingkat Lanjut"
+
+#: ../easy-fancybox-settings.php:521
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:228
+msgid "Hide/show title on mouse hover action"
+msgstr "Menyembunyikan / menampilkan judul pada aksi melayang mouse"
+
+#: ../easy-fancybox-settings.php:528
+msgid "Gallery"
+msgstr "Galeri"
+
+#: ../easy-fancybox-settings.php:532
+msgid "Autogallery"
+msgstr "AutoGaleri"
+
+#: ../easy-fancybox-settings.php:538
+msgid "WordPress galleries only"
+msgstr "Galeri WordPress saja"
+
+#: ../easy-fancybox-settings.php:539
+msgid "All in one gallery"
+msgstr "Semua dalam satu galeri"
+
+#: ../easy-fancybox-settings.php:542
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:219
+msgid ""
+"When disabled, you can use the rel attribute to manually group image links "
+"together."
+msgstr ""
+"Saat dinonaktifkan, Anda dapat menggunakan atribut rel secara manual "
+"mengelompokkan tautan foto bersama."
+
+#: ../easy-fancybox-settings.php:549
+msgid "Show the gallery navigation arrows"
+msgstr "Tampilkan panah navigasi galeri"
+
+#: ../easy-fancybox-settings.php:556
+msgid "Arrow key strokes browse the gallery"
+msgstr "Panah kunci paksa meramban galeri"
+
+#: ../easy-fancybox-settings.php:563
+msgid ""
+"Include the Mousewheel jQuery extension script to allow gallery browsing by "
+"mousewheel action."
+msgstr ""
+"Sertakan ekstensi skrip roda mouse jQuery untuk memungkinkan galeri browsing "
+"dengan tindakan roda mouse."
+
+#: ../easy-fancybox-settings.php:570
+msgid "Make galleries cyclic, allowing you to keep pressing next/back."
+msgstr ""
+"Membuat galeri siklik, memungkinkan Anda untuk terus menekan ke depan / "
+"belakang."
+
+#: ../easy-fancybox-settings.php:574
+msgid "Change speed"
+msgstr "Ubah kecepatan"
+
+#: ../easy-fancybox-settings.php:586
+msgid "Fade speed"
+msgstr "Pudarkan kecepatan"
+
+#: ../easy-fancybox-settings.php:602
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:217
+msgid "Galleries per Section (below)"
+msgstr "Galeri per Bagian (bawah)"
+
+#: ../easy-fancybox-settings.php:602
+msgid ""
+"This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> "
+"and/or <em>Autogallery</em> is set to <em>Galleries per Section</em>. Adapt "
+"it to conform with your theme."
+msgstr ""
+"<em>Terapkan</em> berlaku ketika diatur <em>Bagian terbatas</em> dan/atau "
+"<em>Auto-gallery</em> diatur ke <em>Bagian Galeri-galeri</em>. Sesuaikan "
+"dengan tema anda."
+
+#: ../easy-fancybox-settings.php:602
+msgid ""
+"Examples: If your theme wraps post content in a div with class post, change "
+"this value to \"div.post\". If you only want to group images in a WordPress "
+"gallery together, use \"div.gallery\". If you want to include images in a "
+"sidebar with ID primary, add \", #primary\"."
+msgstr ""
+"Contoh: jika theme anda menggulung konten post pada sebuah div dengan pos "
+"kelas, ubah nilai ini ke \"div.post\". Jika anda ingin menjadikan bagian "
+"gambar di bilah sisi dengan ID utama, tambahkan \", div#primary\" atau "
+"\"aside#primary\" untuk tema html5."
+
+#: ../easy-fancybox-settings.php:602
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:230
+msgid ""
+"Hide/show title on mouse hover action works best with Overlay title position."
+msgstr ""
+"Hide / show title pada tindakan mouse hover yang terbaik dengan posisi judul "
+"Overlay."
+
+#: ../easy-fancybox-settings.php:602
+msgid "The slideshow uses a fixed 6, 8 or 12 second pause per image."
+msgstr "Slideshow ini menggunakan fixed 6, 8 atau 12 jeda detik per gambar."
+
+#: ../easy-fancybox-settings.php:602
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:253
+msgid "(6 seconds)"
+msgstr "(6 detik)"
+
+#: ../easy-fancybox-settings.php:602
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:254
+msgid "(8 seconds)"
+msgstr "(8 detik)"
+
+#: ../easy-fancybox-settings.php:602
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:255
+msgid "(12 seconds)"
+msgstr "(12 detik)"
+
+#: ../easy-fancybox-settings.php:610
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: ../easy-fancybox-settings.php:638
+msgid ""
+"To make inline content open in an overlay, wrap that content in a div with a "
+"unique ID, create a link with target \"#uniqueID\" and give it a class "
+"\"fancybox-inline\" attribute."
+msgstr ""
+"Untuk membuat konten inline terbuka dalam overlay, membungkus bahwa konten "
+"dalam div dengan ID yang unik, membuat link dengan sasaran \"# uniqueID\" "
+"dan memberikan kelas \"fancybox-inline\" atribut."
+
+#: ../easy-fancybox-settings.php:656
+msgid ""
+"Try to adjust size to inline/html content. If unchecked or size cannot be "
+"determined, the default dimensions will be used."
+msgstr ""
+"Cobalah untuk menyesuaikan ukuran untuk inline / konten html. Jika dicentang "
+"atau ukuran tidak dapat ditentukan, dimensi default akan digunakan."
+
+#: ../easy-fancybox-settings.php:660 ../easy-fancybox-settings.php:1411
+msgid "Scrolling"
+msgstr "Menggulung"
+
+#: ../easy-fancybox-settings.php:664 ../easy-fancybox-settings.php:1415
+msgid "Auto"
+msgstr "Otomatis"
+
+#: ../easy-fancybox-settings.php:665 ../easy-fancybox-settings.php:1416
+msgid "Always"
+msgstr "Selalu"
+
+#: ../easy-fancybox-settings.php:666 ../easy-fancybox-settings.php:1417
+msgid "Never"
+msgstr "Tidak Pernah"
+
+#: ../easy-fancybox-settings.php:669 ../easy-fancybox-settings.php:1420
+msgid "Define scrolling and scrollbar visibility."
+msgstr "Tentukan bergulir dan visibilitas scrollbar."
+
+#: ../easy-fancybox-settings.php:748
+msgid ""
+"To make any PDF document file open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-pdf\" for its link."
+msgstr ""
+"Untuk membuat setiap file dokumen  PDF dalam posisi lapisa (overlay), ubah "
+"pada deteksi otomatis atau gunakan kelas \"fancybox-pdf\" untuk tautan ini."
+
+#: ../easy-fancybox-settings.php:873
+msgid ""
+"To make any Flash (.swf) file open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-swf\" for its link."
+msgstr ""
+"Untuk membuat file  Flash (.swf) apapun dalam posisi melayang (overlay), "
+"ubah pada deteksi otomatis atau gunakan kelas \"fancybox-swf\" untuk tautan "
+"ini."
+
+#: ../easy-fancybox-settings.php:967
+msgid ""
+"To make any SVG (.svg) file open in an overlay, switch on Autodetect or use "
+"the class \"fancybox-svg\" for its link."
+msgstr ""
+"Untuk membuat file  SVG (.svg) apapun dalam posisi melayang (overlay), ubah "
+"pada deteksi otomatis atau gunakan kelas \"fancybox-svg\" untuk tautan ini."
+
+#: ../easy-fancybox-settings.php:1062
+msgid ""
+"To make any YouTube movie open in an overlay, switch on Autodetect or use "
+"the class \"fancybox-youtube\" for its link."
+msgstr ""
+"Untuk membuat film YouTube apapun dalam posisi melayang (overlay), ubah pada "
+"deteksi otomatis atau gunakan kelas \"fancybox-youtube\" untuk tautan ini."
+
+#: ../easy-fancybox-settings.php:1080
+msgid "Autodetect Short links"
+msgstr "Deteksi otomatis tautan pendek"
+
+#: ../easy-fancybox-settings.php:1170
+msgid ""
+"To make any Vimeo movie open in an overlay, switch on Autodetect or use the "
+"class \"fancybox-vimeo\" for its link."
+msgstr ""
+"Untuk membuat film Vimeo apapun dalam posisi melayang (overlay), ubah pada "
+"deteksi otomatis atau gunakan kelas \"fancybox-vimeo\" untuk tautan ini."
+
+#: ../easy-fancybox-settings.php:1270
+msgid ""
+"To make any Dailymotion movie open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-dailymotion\" for its link."
+msgstr ""
+"Untuk membuat film Dailymotion apapun dalam posisi melayang (overlay), ubah "
+"pada deteksi otomatis atau gunakan kelas \"fancybox-dailymotion\" untuk "
+"tautan ini."
+
+#: ../easy-fancybox-settings.php:1396
+msgid ""
+"To make a website or HTML document open in an overlay, use the class "
+"\"fancybox-iframe\" for its link."
+msgstr ""
+"Untuk membuat website atau HTML  apapun dalam posisi melayang (overlay), "
+"ubah pada deteksi otomatis atau gunakan kelas \"fancybox-iframe\" untuk "
+"tautan ini."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:46
+msgid ""
+"Thank you for purchasing the Easy FancyBox - Pro extension. New options are "
+"available."
+msgstr ""
+"Terima kasih telah membeli Easy FancyBox - ekstensi Pro. Pilihan baru yang "
+"tersedia."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:46
+msgid "Get support here."
+msgstr "Dapatkan dukungan di sini."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:52
+msgid "First Image link"
+msgstr "Link Gambar Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:53
+msgid "First PDF link"
+msgstr "Link PDF Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:54
+msgid "First SWF link"
+msgstr "Link SWF Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:55
+msgid "First SVG link"
+msgstr "link SVG Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:56
+msgid "First YouTube link "
+msgstr "Link Youtube Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:57
+msgid "First Vimeo link "
+msgstr "Link vimeo Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:58
+msgid "First Dailymotion link "
+msgstr "Link Dailymotion Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:59
+msgid "First iFrame link"
+msgstr "Link iFrame Pertama"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:60
+msgid "First of any link"
+msgstr "Pertama dari setiap link"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:145
+msgid "Links inside Section(s) only (below)"
+msgstr "Tautkan hanya didalam Bagian saja (bawah)"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:151
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:184
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:269
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:302
+msgid "easeInQuad"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:152
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:185
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:270
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:303
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:153
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:186
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:271
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:304
+msgid "easeInOutQuad"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:154
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:187
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:272
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:305
+msgid "easeInCubic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:155
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:188
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:273
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:306
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:156
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:189
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:274
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:307
+msgid "easeInOutCubic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:157
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:190
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:275
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:308
+msgid "easeInQuart"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:158
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:191
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:276
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:309
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:159
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:192
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:277
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:310
+msgid "easeInOutQuart"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:160
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:193
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:278
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:311
+msgid "easeInQuint"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:161
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:194
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:279
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:312
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:162
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:195
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:280
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:313
+msgid "easeInOutQuint"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:163
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:196
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:281
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:314
+msgid "easeInSine"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:164
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:197
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:282
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:315
+msgid "easeOutSine"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:165
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:198
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:283
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:316
+msgid "easeInOutSine"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:166
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:199
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:284
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:317
+msgid "easeInExpo"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:167
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:200
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:285
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:318
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:168
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:201
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:286
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:319
+msgid "easeInOutExpo"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:169
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:202
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:287
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:320
+msgid "easeInCirc"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:170
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:203
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:288
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:321
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:171
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:204
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:289
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:322
+msgid "easeInOutCirc"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:172
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:205
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:290
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:323
+msgid "easeInElastic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:173
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:206
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:291
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:324
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:174
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:207
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:292
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:325
+msgid "easeInOutElastic"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:175
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:208
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:293
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:326
+msgid "easeInOutBack"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:176
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:209
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:294
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:327
+msgid "easeInBounce"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:177
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:210
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:295
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:328
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:178
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:211
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:296
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:329
+msgid "easeInOutBounce"
+msgstr ""
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:238
+msgid "Section(s)"
+msgstr "Bagian-Bagian"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:244
+msgid ""
+"This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> "
+"and/or <em>Auto-gallery</em> is set to <em>Galleries per Section</em>. Adapt "
+"it to conform with your theme."
+msgstr ""
+"Hal ini berlaku ketika <em>Terapkan untuk</ em> diatur untuk <em>Terbatas "
+"Bagian</ em> dan / atau <em Auto-galeri</ em> diatur untuk <em>Galeri per "
+"Bagian</ em >. Beradaptasi agar sesuai dengan tema Anda."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:244
+msgid ""
+"Examples: If your theme wraps post content in a div with class post, change "
+"this value to \"div.post\". If you want to include images in a sidebar with "
+"ID primary, add \", div#primary\" or \"aside#primary\" for html5 themes. If "
+"you only want to group images in a WordPress gallery together, use \"div."
+"gallery\". If you want to include images in a sidebar with ID primary, add "
+"\", #primary\"."
+msgstr ""
+"Contoh: Jika tema Anda membungkus isi posting dalam div dengan pos kelas, "
+"mengubah nilai ini ke \"div.post\".Jika Anda ingin memasukkan gambar di "
+"sidebar dengan ID primer, tambahkan \", div#primary\" atau \"aside#primary\" "
+"untuk tema HTML5. Jika Anda hanya ingin foto grup di sebuah galeri WordPress "
+"bersama-sama, gunakan \"div.gallery\". Jika Anda ingin memasukkan gambar di "
+"sidebar dengan ID primer, tambahkan \", #primary\"."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:253
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:254
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:255
+msgid "Gallery Auto-rotation"
+msgstr "v"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:257
+msgid "Auto-rotation uses a fixed 6, 8 or 12 second pause per image."
+msgstr "Auto-rotasi menggunakan fixed 6, 8 atau 12 jeda detik per gambar."

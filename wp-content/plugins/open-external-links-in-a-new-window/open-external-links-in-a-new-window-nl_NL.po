@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open external links in a new window\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 12:30+0100\n"
+"PO-Revision-Date: 2012-05-26 15:38+0100\n"
+"Last-Translator: Paul Staring <info@collectief-it.nl>\n"
+"Language-Team: Kristian Risager Larsen\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:18
+msgid "Plugin: Open external links a new window."
+msgstr "Plugin: Open externe links in een nieuw venster."
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:18
+msgid "Plugin by"
+msgstr "Plugin door"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:18
+msgid "Download it at"
+msgstr "Download het van"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:106
+#: open-external-links-in-a-new-window.php:113
+msgid "Open external links in a new window"
+msgstr "Open externe links in een nieuw venster"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:106
+msgid "External links"
+msgstr "Externe links"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:124
+msgid "Force links to open in a new window if they match:"
+msgstr "Dwing links in een nieuw venster te openen, indien ze overeenkomen met:"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:127
+msgid "Ignore links, and do not open them in a new window, if they match: (Even if they start with http:// or https://)"
+msgstr "Negeer links en open ze niet in een nieuw venster, indien ze overeenkomen met: (Zelfs als ze beginnen met http:// of https://)"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:132
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:118
+msgid "By default, this plugins makes all external links (i.e. links that point outside the current host name) open in a new window/tab."
+msgstr "Standaard zorgt deze plugin ervoor dat alle externe links (d.w.z. links die buiten de huidige host-naam wijzen) openen in een nieuw venster/tabblad."
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:120
+msgid "You can change this behavior by providing regular expressions that either forces or ignores whether the link should open in a new window."
+msgstr "Je kunt dit gedrag veranderen door middel van regular expressions die de vraag of de link moet openen in een nieuw venster ofwel dwingen of negeren."
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:140
+msgid "http:// or https://"
+msgstr "http:// of https://"
+
+#@ default
+#: open-external-links-in-a-new-window.php:152
+msgid "Settings"
+msgstr ""
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:136
+msgid "The matches are prioritized in the following order:"
+msgstr "De overeenkomsten worden gesorteerd op volgorde als volgt:"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:138
+msgid "Ignored, matching URLs"
+msgstr "Genegeerde, overeenkomende URL's"
+
+#@ open-external-links-in-a-new-window
+#: open-external-links-in-a-new-window.php:139
+msgid "Forced, matching URLs"
+msgstr "Gedwongen, overeenkomende URL's"
+

@@ -1,0 +1,687 @@
+# Translation of Development (trunk) in Belarusian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-30 17:22+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: be\n"
+
+#: inc/class-easyfancybox-options.php:1547
+msgid "Allow embedded content to jump to full screen mode"
+msgstr "Дазволіць ўбудаванаму зместу перайсці ў поўнаэкранны рэжым"
+
+#: inc/class-easyfancybox-admin.php:52
+msgid "Donate to keep the Easy FancyBox plugin development going!"
+msgstr "Дапамагчы распрацоўваць Easy FancyBox  плагін!"
+
+#: inc/class-easyfancybox-admin.php:52
+msgid "The options in this section are provided by the plugin %s and determine the <strong>Media Lightbox</strong> overlay appearance and behaviour controlled by %s."
+msgstr "Параметры ў гэтым раздзеле прадастаўлены плагін %  і вызначаюць <strong>Media Lightbox</strong> знешні выгляд накладання і паводзіны кантралюецца % ."
+
+#. Plugin Name of the plugin/theme
+#: inc/class-easyfancybox-admin.php:52
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#: inc/class-easyfancybox-admin.php:52 inc/class-easyfancybox-admin.php:296
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: inc/class-easyfancybox-admin.php:52
+msgid "First enable each sub-section that you need. Then save and come back to adjust its specific settings."
+msgstr "Спачатку ўключыце кожны падраздзел, які вам трэба. Затым захавайце і вярніцеся, каб наладзіць свае спецыфічныя налады."
+
+#: inc/class-easyfancybox-admin.php:52
+msgid "Note: Each additional sub-section and features like <em>Auto-detection</em>, <em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) will have some extra impact on client-side page speed. Enable only those sub-sections and options that you actually need on your site."
+msgstr "Заўвага: Кожны дадатковы падраздзел і функцыі, такія як <em> Аўтаматычнае вызначэнне</em> <em> Эластычныя пераходы </em> і ўсё <em> Палягчэнне эфекты</em>(акрамя Swing) будзе мець некаторы дадатковае ўздзеянне на хуткасці на баку кліента старонкі. Ўключыць толькі тыя падраздзелы і параметры, якія вам патрэбныя на вашым сайце."
+
+#: inc/class-easyfancybox-admin.php:52
+msgid "Some setting like Transition options are unavailable for SWF video, PDF and iFrame content to ensure browser compatibility and readability."
+msgstr "Некаторыя налады, як варыянт пераходу, недаступныя для SWF відэа, PDF і iFrame  кантэнту, для тако  забяспечыць браўзэру сумяшчальнасць  і чытальнасць."
+
+#: inc/class-easyfancybox-admin.php:57 inc/class-easyfancybox-admin.php:264
+msgid "Notice: The current Easy FancyBox plugin version is not fully compatible with your version of the Pro extension. Some advanced options may not be functional."
+msgstr "Заўвага: У цяперашні час версія Easy FancyBox плагін не цалкам сумяшчальная з вашай версіяй Pro пашырэння. Некаторыя дадатковыя параметры не могуць быць функцыянальнымі."
+
+#: inc/class-easyfancybox-admin.php:60 inc/class-easyfancybox-admin.php:266
+msgid "Please <a href=\"%1$s\" target=\"_blank\">download and install the latest Pro version</a>."
+msgstr "Калі ласка, <a href=\"%1$s\" target=\"_blank\"> спампаваць і ўсталяваць апошнюю версію Pro </a>."
+
+#: inc/class-easyfancybox-admin.php:62
+msgid "Please contact your web site administrator."
+msgstr "Калі ласка, звярніцеся да адміністратара сайта."
+
+#: inc/class-easyfancybox-admin.php:109
+msgid "Checked"
+msgstr "Правераны"
+
+#: inc/class-easyfancybox-admin.php:111
+msgid "Unchecked"
+msgstr "Неправераны"
+
+#: inc/class-easyfancybox-admin.php:268
+msgid "Or you can ignore and <a href=\"%1$s\">hide this message</a>."
+msgstr "Ці вы можаце ігнараваць і <a href=\"%1$s\"> схаваць гэта паведамленне </a>."
+
+#: inc/class-easyfancybox-options.php:12
+msgid "Global settings"
+msgstr "Глабальныя налады"
+
+#: inc/class-easyfancybox-options.php:17
+msgid "Media"
+msgstr "Сродкі масавай інфармацыі"
+
+#: inc/class-easyfancybox-options.php:23
+msgid "Enable FancyBox for"
+msgstr "Уключыць FancyBox для"
+
+#: inc/class-easyfancybox-options.php:30 inc/class-easyfancybox-options.php:447
+msgid "Images"
+msgstr "Малюнкі"
+
+#: inc/class-easyfancybox-options.php:37 inc/class-easyfancybox-options.php:719
+msgid "Inline content"
+msgstr "Убудаваны змест"
+
+#: inc/class-easyfancybox-options.php:44 inc/class-easyfancybox-options.php:829
+msgid "PDF"
+msgstr "PDF"
+
+#: inc/class-easyfancybox-options.php:51 inc/class-easyfancybox-options.php:939
+msgid "SWF"
+msgstr "SWF"
+
+#: inc/class-easyfancybox-options.php:58
+#: inc/class-easyfancybox-options.php:1033
+msgid "SVG"
+msgstr "SVG"
+
+#: inc/class-easyfancybox-options.php:65
+#: inc/class-easyfancybox-options.php:1128
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/class-easyfancybox-options.php:72
+#: inc/class-easyfancybox-options.php:1226
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/class-easyfancybox-options.php:79
+#: inc/class-easyfancybox-options.php:1325
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: inc/class-easyfancybox-options.php:86
+#: inc/class-easyfancybox-options.php:1450
+msgid "iFrames"
+msgstr "iFrames"
+
+#: inc/class-easyfancybox-options.php:89
+msgid "For advanced options and support, please get the Easy FancyBox - Pro extension."
+msgstr "Для атрымання дадатковых опцый і падтрымкі, калі ласка, атрымаеце Easy FancyBox - Pro пашырэнне."
+
+#: inc/class-easyfancybox-options.php:92 inc/class-easyfancybox-options.php:589
+msgid "Overlay"
+msgstr "Оверлей"
+
+#: inc/class-easyfancybox-options.php:101
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Паказаць оверлей вакол зместа адкрытага ў FancyBox."
+
+#: inc/class-easyfancybox-options.php:108
+msgid "Close FancyBox when overlay is clicked."
+msgstr "Зачыніць FancyBox калі оверлей пстрыкнуй."
+
+#: inc/class-easyfancybox-options.php:112
+msgid "Opacity"
+msgstr "памутненне"
+
+#: inc/class-easyfancybox-options.php:120
+msgid "Value between 0 and 1. "
+msgstr "Значэнне ад 0 да 1."
+
+#: inc/class-easyfancybox-options.php:120
+#: inc/class-easyfancybox-options.php:130
+#: inc/class-easyfancybox-options.php:198
+#: inc/class-easyfancybox-options.php:237
+#: inc/class-easyfancybox-options.php:250
+#: inc/class-easyfancybox-options.php:263
+#: inc/class-easyfancybox-options.php:314
+#: inc/class-easyfancybox-options.php:353
+#: inc/class-easyfancybox-options.php:681
+msgid "Default:"
+msgstr "Па змаўчанні:"
+
+#: inc/class-easyfancybox-options.php:124
+msgid "Color"
+msgstr "Колер"
+
+#: inc/class-easyfancybox-options.php:130
+msgid "Enter an HTML color value."
+msgstr "Калі ласка, увядзіце значэнне колеру HTML"
+
+#: inc/class-easyfancybox-options.php:138
+msgid "Spotlight effect"
+msgstr "Эфект Spotlight"
+
+#: inc/class-easyfancybox-options.php:138
+#: inc/class-easyfancybox-options.php:178
+#: inc/class-easyfancybox-options.php:212
+#: inc/class-easyfancybox-options.php:367
+#: inc/class-easyfancybox-options.php:439
+#: inc/class-easyfancybox-options.php:610
+#: inc/class-easyfancybox-options.php:699
+msgid "Make available &raquo;"
+msgstr "Зрабіць даступным &raquo;"
+
+#: inc/class-easyfancybox-options.php:143
+msgid "Window"
+msgstr "Акно"
+
+#: inc/class-easyfancybox-options.php:149
+#: inc/class-easyfancybox-options.php:571
+msgid "Appearance"
+msgstr "Знешні выгляд"
+
+#: inc/class-easyfancybox-options.php:156
+msgid "Show the (X) close button"
+msgstr "Паказаць кнопку закрыцця (X)"
+
+#: inc/class-easyfancybox-options.php:161
+msgid "Background color"
+msgstr "Колер фону"
+
+#: inc/class-easyfancybox-options.php:172
+msgid "Text color"
+msgstr "Колер тэксту"
+
+#: inc/class-easyfancybox-options.php:183
+msgid "Title color"
+msgstr "Назва колеру"
+
+#: inc/class-easyfancybox-options.php:193
+msgid "Border color"
+msgstr "Мяжа колеру"
+
+#: inc/class-easyfancybox-options.php:198
+#: inc/class-easyfancybox-options.php:553
+#: inc/class-easyfancybox-options.php:628
+#: inc/class-easyfancybox-options.php:809
+msgid "Note:"
+msgstr "Запіска:"
+
+#: inc/class-easyfancybox-options.php:198
+msgid "Use RGBA notation for semi-transparent borders."
+msgstr "Выкарыстоўвайце RGBA абазначэння для напаўпразрыстых межаў."
+
+#: inc/class-easyfancybox-options.php:198
+#: inc/class-easyfancybox-options.php:471
+msgid "Example:"
+msgstr "Прыклад:"
+
+#: inc/class-easyfancybox-options.php:203
+msgid "Border radius"
+msgstr "Мяжа радыўса"
+
+#: inc/class-easyfancybox-options.php:217
+msgid "Dimensions"
+msgstr "Памеры"
+
+#: inc/class-easyfancybox-options.php:237
+msgid "If content size is not set or cannot be determined automatically, these default dimensions will be used."
+msgstr "Калі памер змесціва не ўстаноўлены або не можа быць вызначана аўтаматычна, будуць выкарыстоўвацца памеры па змаўчанні."
+
+#: inc/class-easyfancybox-options.php:254
+msgid "Margin"
+msgstr "Маржа"
+
+#: inc/class-easyfancybox-options.php:268
+#: inc/class-easyfancybox-options.php:499
+msgid "Behavior"
+msgstr "Паводзіны"
+
+#: inc/class-easyfancybox-options.php:275
+msgid "Center while scrolling"
+msgstr "Цэнтр пры прагортцы"
+
+#: inc/class-easyfancybox-options.php:282
+msgid "Esc key stroke closes FancyBox"
+msgstr "Націск клавішы Esc  закрывае FancyBox"
+
+#: inc/class-easyfancybox-options.php:289
+msgid "Scale large content down to fit in the browser viewport."
+msgstr ""
+
+#: inc/class-easyfancybox-options.php:293
+msgid "Opening speed"
+msgstr "Хуткасць адкрыцця"
+
+#: inc/class-easyfancybox-options.php:305
+msgid "Closing speed"
+msgstr "Хуткасуь закрыцця"
+
+#: inc/class-easyfancybox-options.php:314
+#: inc/class-easyfancybox-options.php:681
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Працягласць у мілісекундах. Чым вышэй тым павольней."
+
+#: inc/class-easyfancybox-options.php:320
+msgid "Miscellaneous"
+msgstr "разнастайны"
+
+#: inc/class-easyfancybox-options.php:326
+msgid "Auto popup"
+msgstr "Аўтаматычна ўсплываць"
+
+#: inc/class-easyfancybox-options.php:330
+msgid "Open on page load"
+msgstr "Адкрыць пры загрузцы старонкі"
+
+#: inc/class-easyfancybox-options.php:336
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Сувязь з ID \"FancyBox-auto\""
+
+#: inc/class-easyfancybox-options.php:339
+#: inc/class-easyfancybox-options.php:483
+#: inc/class-easyfancybox-options.php:526
+#: inc/class-easyfancybox-options.php:553
+#: inc/class-easyfancybox-options.php:628
+#: inc/class-easyfancybox-options.php:782
+#: inc/class-easyfancybox-options.php:809
+#: inc/class-easyfancybox-options.php:862
+msgid "More options &raquo;"
+msgstr "Дадатковыя опцыі &raquo;"
+
+#: inc/class-easyfancybox-options.php:343
+msgid "Delay in milliseconds"
+msgstr "Затрымка ў мілісекундах"
+
+#: inc/class-easyfancybox-options.php:357
+msgid "Hide popup after first visit?"
+msgstr "Хаваць усплыванные пасля першага наведвання?"
+
+#: inc/class-easyfancybox-options.php:366
+msgid "1 Day"
+msgstr "1 дзень"
+
+#: inc/class-easyfancybox-options.php:366
+msgid "1 Week"
+msgstr "1 нядзеля"
+
+#: inc/class-easyfancybox-options.php:366
+msgid "1 Month"
+msgstr "1 месяц"
+
+#: inc/class-easyfancybox-options.php:366
+msgid "1 Year"
+msgstr "1 год"
+
+#: inc/class-easyfancybox-options.php:371
+msgid "Browser & device compatibility"
+msgstr "Сумяшчальнасць  браўзэра і прылады"
+
+#: inc/class-easyfancybox-options.php:400
+msgid "Include IE 8 compatibility style rules"
+msgstr "Уключыць правілы сумяшчальнасці  стылю  IE8"
+
+#: inc/class-easyfancybox-options.php:431
+msgid "Other"
+msgstr "Іншае"
+
+#: inc/class-easyfancybox-options.php:439
+msgid "Include the Metadata jQuery extension script to allow passing custom parameters via link class."
+msgstr "Уключыць п Metadata jQuery extension script, каб дазволіць праходжанне карыстацкіх параметраў з дапамогай класа спасылкі."
+
+#: inc/class-easyfancybox-options.php:452
+msgid "To make images open in an overlay, add their extension to the Autodetect field or use the class \"fancybox\" for its link. Clear field to switch off all autodetection."
+msgstr "Для таго, каб зрабіць малюнак адкрыць у выглядзе overlay, дадаць пашырэнне Autodetect поля або выкарыстоўваць клас \"FancyBox\" для сваёй спасылкі. Ачысціць поле для адключэння ўсіх аўтавызначэнняў."
+
+#: inc/class-easyfancybox-options.php:464
+#: inc/class-easyfancybox-options.php:842
+#: inc/class-easyfancybox-options.php:952
+#: inc/class-easyfancybox-options.php:1046
+#: inc/class-easyfancybox-options.php:1141
+#: inc/class-easyfancybox-options.php:1239
+#: inc/class-easyfancybox-options.php:1338
+msgid "Autodetect"
+msgstr "Autodetect"
+
+#: inc/class-easyfancybox-options.php:475
+msgid "Apply to"
+msgstr "Звяртацца"
+
+#: inc/class-easyfancybox-options.php:480
+msgid "All image links"
+msgstr "Усе спасылкі малюнка"
+
+#: inc/class-easyfancybox-options.php:487
+msgid "Force FancyBox to treat all media linked with class=\"fancybox\" as images?"
+msgstr "Усталяваць. что Force FancyBox усіх сродкаў масавай інфармацыі, звязаных з class=\"fancybox\", разглядаюцца як малюнкі?"
+
+#: inc/class-easyfancybox-options.php:503
+#: inc/class-easyfancybox-options.php:759
+msgid "Transition In"
+msgstr "Пераход у"
+
+#: inc/class-easyfancybox-options.php:508
+#: inc/class-easyfancybox-options.php:535
+#: inc/class-easyfancybox-options.php:764
+#: inc/class-easyfancybox-options.php:791
+msgid "Fade"
+msgstr "Знікаць"
+
+#: inc/class-easyfancybox-options.php:509
+#: inc/class-easyfancybox-options.php:536
+#: inc/class-easyfancybox-options.php:765
+#: inc/class-easyfancybox-options.php:792
+msgid "Elastic"
+msgstr "Эластычны"
+
+#: inc/class-easyfancybox-options.php:516
+#: inc/class-easyfancybox-options.php:772
+msgid "Easing In"
+msgstr "Збавенне ў"
+
+#: inc/class-easyfancybox-options.php:520
+#: inc/class-easyfancybox-options.php:547
+#: inc/class-easyfancybox-options.php:776
+#: inc/class-easyfancybox-options.php:803
+msgid "Linear"
+msgstr "Лінейны"
+
+#: inc/class-easyfancybox-options.php:521
+#: inc/class-easyfancybox-options.php:548
+#: inc/class-easyfancybox-options.php:777
+#: inc/class-easyfancybox-options.php:804
+msgid "Swing"
+msgstr "Калыхацца"
+
+#: inc/class-easyfancybox-options.php:522
+#: inc/class-easyfancybox-options.php:549
+#: inc/class-easyfancybox-options.php:778
+#: inc/class-easyfancybox-options.php:805
+msgid "easeInBack"
+msgstr "easeInBack"
+
+#: inc/class-easyfancybox-options.php:523
+#: inc/class-easyfancybox-options.php:550
+#: inc/class-easyfancybox-options.php:779
+#: inc/class-easyfancybox-options.php:806
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: inc/class-easyfancybox-options.php:530
+#: inc/class-easyfancybox-options.php:786
+msgid "Transition Out"
+msgstr "Пераход з сістэмы"
+
+#: inc/class-easyfancybox-options.php:543
+#: inc/class-easyfancybox-options.php:799
+msgid "Easing Out"
+msgstr "Выхад з сістэмы"
+
+#: inc/class-easyfancybox-options.php:553
+#: inc/class-easyfancybox-options.php:809
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr "Полегчаня эфекты прымяняюцца толькі тады, калі пераход настроены  Elastic"
+
+#: inc/class-easyfancybox-options.php:560
+#: inc/class-easyfancybox-options.php:816
+msgid "Transparency fade during elastic transition. CAUTION: Use only when at least Transition In is set to Elastic!"
+msgstr "Празрыстасць выцянуць пры эластычным пераходзе. УВАГА: Выкарыстоўвайце толькі тады, калі па меншай меры, у пераходны усталяваны ў Elastic!"
+
+#: inc/class-easyfancybox-options.php:567
+#: inc/class-easyfancybox-options.php:823
+msgid "Close FancyBox when content is clicked"
+msgstr "Зачыніць FancyBox калі змест пстрыкнуў"
+
+#: inc/class-easyfancybox-options.php:578
+#: inc/class-easyfancybox-options.php:901
+#: inc/class-easyfancybox-options.php:1004
+#: inc/class-easyfancybox-options.php:1098
+#: inc/class-easyfancybox-options.php:1197
+#: inc/class-easyfancybox-options.php:1295
+#: inc/class-easyfancybox-options.php:1394
+#: inc/class-easyfancybox-options.php:1521
+msgid "Show title"
+msgstr "Паказваць загаловак"
+
+#: inc/class-easyfancybox-options.php:582
+#: inc/class-easyfancybox-options.php:905
+#: inc/class-easyfancybox-options.php:1008
+#: inc/class-easyfancybox-options.php:1102
+#: inc/class-easyfancybox-options.php:1201
+#: inc/class-easyfancybox-options.php:1299
+#: inc/class-easyfancybox-options.php:1398
+#: inc/class-easyfancybox-options.php:1525
+msgid "Title Position"
+msgstr "Назва пазіцыі"
+
+#: inc/class-easyfancybox-options.php:586
+#: inc/class-easyfancybox-options.php:909
+#: inc/class-easyfancybox-options.php:1012
+#: inc/class-easyfancybox-options.php:1106
+#: inc/class-easyfancybox-options.php:1205
+#: inc/class-easyfancybox-options.php:1303
+#: inc/class-easyfancybox-options.php:1402
+#: inc/class-easyfancybox-options.php:1529
+msgid "Float"
+msgstr "Плаваць"
+
+#: inc/class-easyfancybox-options.php:587
+#: inc/class-easyfancybox-options.php:910
+#: inc/class-easyfancybox-options.php:1013
+#: inc/class-easyfancybox-options.php:1107
+#: inc/class-easyfancybox-options.php:1206
+#: inc/class-easyfancybox-options.php:1304
+#: inc/class-easyfancybox-options.php:1403
+#: inc/class-easyfancybox-options.php:1530
+msgid "Outside"
+msgstr "Звонку"
+
+#: inc/class-easyfancybox-options.php:588
+#: inc/class-easyfancybox-options.php:911
+#: inc/class-easyfancybox-options.php:1014
+#: inc/class-easyfancybox-options.php:1108
+#: inc/class-easyfancybox-options.php:1207
+#: inc/class-easyfancybox-options.php:1305
+#: inc/class-easyfancybox-options.php:1404
+#: inc/class-easyfancybox-options.php:1531
+msgid "Inside"
+msgstr "Унутры"
+
+#: inc/class-easyfancybox-options.php:599
+#: inc/class-easyfancybox-options.php:920
+#: inc/class-easyfancybox-options.php:1023
+#: inc/class-easyfancybox-options.php:1118
+#: inc/class-easyfancybox-options.php:1216
+#: inc/class-easyfancybox-options.php:1314
+#: inc/class-easyfancybox-options.php:1413
+#: inc/class-easyfancybox-options.php:1540
+msgid "Allow title from thumbnail alt tag"
+msgstr "Дазволіць назву ад  маленькага alt tag"
+
+#: inc/class-easyfancybox-options.php:603
+#: inc/class-easyfancybox-options.php:692
+msgid "Advanced"
+msgstr "Пашыраныя"
+
+#: inc/class-easyfancybox-options.php:607
+msgid "Hide/show title on mouse hover action"
+msgstr "Схаваць / паказаць загаловак мышы пры  завісанні дзеяння"
+
+#: inc/class-easyfancybox-options.php:614
+msgid "Gallery"
+msgstr "Галерэя"
+
+#: inc/class-easyfancybox-options.php:618
+msgid "Autogallery"
+msgstr "Аутагалерэя"
+
+#: inc/class-easyfancybox-options.php:624
+msgid "WordPress galleries only"
+msgstr "Толькі WordPress галерэі"
+
+#: inc/class-easyfancybox-options.php:625
+msgid "All in one gallery"
+msgstr "Усё ў адной галерэі"
+
+#: inc/class-easyfancybox-options.php:628
+msgid "When disabled, you can use the rel attribute to manually group image links together."
+msgstr "Пры адключэнні, вы можаце выкарыстоўваць rel атрыбут, каб ўручную аб'яднаць спасылкі групы малюнкаў."
+
+#: inc/class-easyfancybox-options.php:635
+msgid "Show the gallery navigation arrows"
+msgstr "Паказаць галерэю з стрэлкамі навігацыі"
+
+#: inc/class-easyfancybox-options.php:642
+msgid "Arrow key strokes browse the gallery"
+msgstr "Стрэлкамі націску клавіш праглядзець галерэю"
+
+#: inc/class-easyfancybox-options.php:649
+msgid "Include the Mousewheel jQuery extension script to allow gallery browsing by mousewheel action."
+msgstr "Уключыць пMousewheel jQuery extension script, каб праглядзець  галерэю з дапамогай мышкі"
+
+#: inc/class-easyfancybox-options.php:656
+msgid "Make galleries cyclic, allowing you to keep pressing next/back."
+msgstr "Зрабіце галерэі цыклічнымі, гэта дазваляе націскаць наступны/назад."
+
+#: inc/class-easyfancybox-options.php:660
+msgid "Change speed"
+msgstr "Змена хуткасці"
+
+#: inc/class-easyfancybox-options.php:672
+msgid "Fade speed"
+msgstr "Знікаемая хуткасць"
+
+#: inc/class-easyfancybox-options.php:688
+msgid "Galleries per Section (below)"
+msgstr "Галерэі ў раздзеле (ніж"
+
+#: inc/class-easyfancybox-options.php:688
+msgid "This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> and/or <em>Autogallery</em> is set to <em>Galleries per Section</em>. Adapt it to conform with your theme."
+msgstr "Гэта ставіцца, калі <em> Ужыць </em> усталяваны ў становішча <em> Limited да раздзелаў </em> і / або <em> Аутагалерэя</em> ўстаноўлена значэнне <em> Галерэі у раздзеле </em>. Адаптаваць яго, каб адпавядаць вашай тэме."
+
+#: inc/class-easyfancybox-options.php:688
+msgid "Examples: If your theme wraps post content in a div with class post, change this value to \"div.post\". If you only want to group images in a WordPress gallery together, use \"div.gallery\". If you want to include images in a sidebar with ID primary, add \", #primary\"."
+msgstr "Прыклады: Калі ваша тэма абкручванні пост ў DIV з класам post, зменіце гэта значэнне на \"div.post\". Калі вы хочаце толькі для групавых здымкаў у галерэі WordPress разам, выкарыстоўвайце \"div.gallery\". Калі вы хочаце, каб уключыць выявы ў бакавую панэль з  ID primary, дадаць \", #primary\"."
+
+#: inc/class-easyfancybox-options.php:688
+msgid "Hide/show title on mouse hover action works best with Overlay title position."
+msgstr "Схаваць / паказаць загаловак завісання дзеяння мышы  лепш за ўсё працуе з Overlay пазіцыі загалоўка."
+
+#: inc/class-easyfancybox-options.php:688
+msgid "Auto-rotation uses a fixed 3, 6, 9 or 12 second pause per image."
+msgstr "Автовращение выкарыстоўвае фіксаваны 3, 6, 9 або 12 секунд паўза кожнага малюнка."
+
+#: inc/class-easyfancybox-options.php:688
+msgid "(3 seconds)"
+msgstr "(3 секунды)"
+
+#: inc/class-easyfancybox-options.php:688
+msgid "(6 seconds)"
+msgstr "(6 секунды)"
+
+#: inc/class-easyfancybox-options.php:688
+msgid "(9 seconds)"
+msgstr "(9 секунды)"
+
+#: inc/class-easyfancybox-options.php:688
+msgid "(12 seconds)"
+msgstr "(12 секунды)"
+
+#: inc/class-easyfancybox-options.php:696
+msgid "Slideshow"
+msgstr "Слайд-шоў"
+
+#: inc/class-easyfancybox-options.php:724
+msgid "To make inline content open in an overlay, wrap that content in a div with a unique ID, create a link with target \"#uniqueID\" and give it a class \"fancybox-inline\" attribute."
+msgstr "Зрабіць  inline content адкрытым ў выглядзе overlay, загарнуць, што змесціва ў DIV з унікальным ідэнтыфікатарам, стварыць сувязь з мэтавай \"#uniqueID\" і даць яму клас \"FancyBox-инлайн\" атрыбут."
+
+#: inc/class-easyfancybox-options.php:742
+msgid "Try to adjust size to inline/html content. If unchecked the default dimensions will be used."
+msgstr "Паспрабуйце наладзіць памер да зместа ўстроены/ html. Калі памеры не ўсталяваны, то будуць  выкарыстоўвацца па змаўчанні."
+
+#: inc/class-easyfancybox-options.php:746
+msgid "Scrolling"
+msgstr "Скролінг"
+
+#: inc/class-easyfancybox-options.php:750
+msgid "Auto"
+msgstr "Аўтаматычны"
+
+#: inc/class-easyfancybox-options.php:751
+msgid "Always"
+msgstr "Зайседы"
+
+#: inc/class-easyfancybox-options.php:752
+msgid "Never"
+msgstr "Ніколі"
+
+#: inc/class-easyfancybox-options.php:755
+msgid "Define scrolling and scrollbar visibility."
+msgstr "Вызначыць перасойванне і бачнасць паласы пракруткі."
+
+#: inc/class-easyfancybox-options.php:834
+msgid "To make any PDF document file open in an overlay, switch on Autodetect or use the class \"fancybox-pdf\" for its link."
+msgstr "Для таго, каб любы файл дакумента PDF адкрыць у выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"FancyBox-PDF\" для сваёй спасылкі."
+
+#: inc/class-easyfancybox-options.php:854
+msgid "Embed with"
+msgstr "Уставіць з "
+
+#: inc/class-easyfancybox-options.php:858
+msgid "Object tag (plus fall-back link)"
+msgstr "Тэг аб'екта (плюс запасным спасылка)"
+
+#: inc/class-easyfancybox-options.php:859
+msgid "iFrame tag (let browser decide)"
+msgstr "Тэг iFrame(хай браўзэр вырашыць)"
+
+#: inc/class-easyfancybox-options.php:944
+msgid "To make any Flash (.swf) file open in an overlay, switch on Autodetect or use the class \"fancybox-swf\" for its link."
+msgstr "Для таго, каб любы Flash (.swf) файл адчынены ў выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"fancybox-swf\"для яго сувязі."
+
+#: inc/class-easyfancybox-options.php:1038
+msgid "To make any SVG (.svg) file open in an overlay, switch on Autodetect or use the class \"fancybox-svg\" for its link."
+msgstr "Для таго, каб любы SVG (SVG) файл адчынены ў выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"FancyBox-за\" SVG яго сувязі."
+
+#: inc/class-easyfancybox-options.php:1133
+msgid "To make any YouTube movie open in an overlay, switch on Autodetect or use the class \"fancybox-youtube\" for its link."
+msgstr "Для таго, каб любы фільм YouTube адкрыць у выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"FancyBox-YouTube\" для яго сувязі."
+
+#: inc/class-easyfancybox-options.php:1231
+msgid "To make any Vimeo movie open in an overlay, switch on Autodetect or use the class \"fancybox-vimeo\" for its link."
+msgstr "Для таго, каб любы Vimeo фільм адкрыты ў выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"FancyBox-Vimeo\" для яго сувязі."
+
+#: inc/class-easyfancybox-options.php:1330
+msgid "To make any Dailymotion movie open in an overlay, switch on Autodetect or use the class \"fancybox-dailymotion\" for its link."
+msgstr "Для таго, каб любы Dailymotion фільм адкрыты ў выглядзе накладання, уключыце Autodetect або выкарыстоўваць клас \"FancyBox-Dailymotion\" для яго сувязі."
+
+#: inc/class-easyfancybox-options.php:1455
+msgid "To make a website or HTML document open in an overlay, use the class \"fancybox-iframe\" for its link."
+msgstr "Для таго, каб зрабіць вэб-сайт або HTML-дакумент адкрыты ў выглядзе накладання, выкарыстоўвайце клас \"FancyBox-IFrame\" для сваёй спасылкі."
+
+#. Plugin URI of the plugin/theme
+msgid "http://status301.net/wordpress-plugins/easy-fancybox/"
+msgstr "http://status301.net/wordpress-plugins/easy-fancybox/"
+
+#. Description of the plugin/theme
+msgid "Easily enable the <a href=\"http://fancybox.net/\">FancyBox jQuery extension</a> on all image, SWF, PDF, YouTube, Dailymotion and Vimeo links. Also supports iFrame and inline content."
+msgstr "Лёгка ўключыць <a href=\"http://fancybox.net/\">FancyBox jQuery extension</a> усіх спасылкі на малюнкі, SWF, PDF, YouTube, Dailymotion і Vimeo. Таксама падтрымлівае Iframe і ўбудаваны кантэнт."
+
+#. Author of the plugin/theme
+msgid "RavanH"
+msgstr "RavanH"
+
+#. Author URI of the plugin/theme
+msgid "http://status301.net/"
+msgstr "http://status301.net/"

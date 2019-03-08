@@ -1,0 +1,1011 @@
+# Copyright (C) 2010 Easy FancyBox
+# This file is distributed under the same license as the Easy FancyBox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy FancyBox/1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-01 00:37+0100\n"
+"PO-Revision-Date: 2014-12-01 00:38+0100\n"
+"Last-Translator: RavanH <ravanhagen@gmail.com>\n"
+"Language-Team: Easy FancyBox Languages <ravanhagen@gmail.com>\n"
+"Language: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../easy-fancybox-pro\n"
+
+#: ../easy-fancybox-settings.php:9 ../easy-fancybox-class.php:597
+msgid "Global settings"
+msgstr "Opće postavke"
+
+#: ../easy-fancybox-settings.php:14
+msgid "Media"
+msgstr "Mediji"
+
+#: ../easy-fancybox-settings.php:20
+msgid "Enable FancyBox for"
+msgstr "Uključi FancyBox za "
+
+#: ../easy-fancybox-settings.php:27 ../easy-fancybox-settings.php:420
+#: ../easy-fancybox-class.php:598
+msgid "Images"
+msgstr "Slike"
+
+#: ../easy-fancybox-settings.php:34 ../easy-fancybox-settings.php:692
+#: ../easy-fancybox-class.php:599
+msgid "Inline content"
+msgstr "Ugrađeni sadržaj"
+
+#: ../easy-fancybox-settings.php:41 ../easy-fancybox-settings.php:802
+#: ../easy-fancybox-class.php:600
+msgid "PDF"
+msgstr "PDF"
+
+#: ../easy-fancybox-settings.php:48 ../easy-fancybox-settings.php:927
+#: ../easy-fancybox-class.php:601
+msgid "SWF"
+msgstr "SWF"
+
+#: ../easy-fancybox-settings.php:55 ../easy-fancybox-settings.php:1021
+msgid "SVG"
+msgstr "SVG"
+
+#: ../easy-fancybox-settings.php:62 ../easy-fancybox-settings.php:1116
+#: ../easy-fancybox-class.php:602
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../easy-fancybox-settings.php:69 ../easy-fancybox-settings.php:1224
+#: ../easy-fancybox-class.php:603
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../easy-fancybox-settings.php:76 ../easy-fancybox-settings.php:1324
+#: ../easy-fancybox-class.php:604
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: ../easy-fancybox-settings.php:83 ../easy-fancybox-settings.php:1450
+#: ../easy-fancybox-class.php:605
+msgid "iFrames"
+msgstr "iFrameovi"
+
+#: ../easy-fancybox-settings.php:86
+msgid ""
+"For advanced options and support, please get the Easy FancyBox - Pro "
+"extension."
+msgstr ""
+"Za napredne opcije i podršku, molimo da nabavite Easy FancyBox - Pro "
+"ekstenziju."
+
+#: ../easy-fancybox-settings.php:95
+msgid "Exclude"
+msgstr "Izostaviti"
+
+#: ../easy-fancybox-settings.php:101
+msgid "Empty (hidden) links"
+msgstr "Prazni (sakriveni) linkovi"
+
+#: ../easy-fancybox-settings.php:102
+msgid "Without thumbnail image"
+msgstr "Bez umanjene slike"
+
+#: ../easy-fancybox-settings.php:109
+msgid "Open on page load"
+msgstr "Otvori kod učitavanja stranice"
+
+#: ../easy-fancybox-settings.php:115
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Poveži sa ID-em  \"fancybox-auto\""
+
+#: ../easy-fancybox-settings.php:118 ../easy-fancybox-settings.php:456
+#: ../easy-fancybox-settings.php:499 ../easy-fancybox-settings.php:526
+#: ../easy-fancybox-settings.php:601 ../easy-fancybox-settings.php:755
+#: ../easy-fancybox-settings.php:782
+msgid "More options &raquo;"
+msgstr "Više opcija  &raquo;"
+
+#: ../easy-fancybox-settings.php:125
+msgid ""
+"Include the Metadata jQuery extension script to allow passing custom "
+"parameters via link class."
+msgstr ""
+"Uključite Metadata jQuery ekstenziju kako bi dozvolili propuštanje vlastitih "
+"parametara kroz klasu link."
+
+#: ../easy-fancybox-settings.php:130 ../easy-fancybox-settings.php:562
+msgid "Overlay"
+msgstr "Prekrivanje (overlay)"
+
+#: ../easy-fancybox-settings.php:139
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Prikaži overlay (prekrivanje) preko sadržaja otvorenog u FancyBoxu."
+
+#: ../easy-fancybox-settings.php:146
+msgid "Close FancyBox when overlay is clicked."
+msgstr "Zatvori FancyBox kad je prekrivanje kliknuto."
+
+#: ../easy-fancybox-settings.php:150
+msgid "Opacity"
+msgstr "Prozirnost"
+
+#: ../easy-fancybox-settings.php:158
+msgid "Value between 0 and 1. "
+msgstr "Vrijednost između 0 i 1"
+
+#: ../easy-fancybox-settings.php:158 ../easy-fancybox-settings.php:167
+#: ../easy-fancybox-settings.php:231 ../easy-fancybox-settings.php:281
+#: ../easy-fancybox-settings.php:332 ../easy-fancybox-settings.php:654
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:98
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:115
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:212
+msgid "Default:"
+msgstr "Originalna vrijednost:"
+
+#: ../easy-fancybox-settings.php:162
+msgid "Color"
+msgstr "Boja"
+
+#: ../easy-fancybox-settings.php:167
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:98
+msgid "Enter an HTML color value."
+msgstr "Unesite HTML oznaku boje."
+
+#: ../easy-fancybox-settings.php:175
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:71
+msgid "Spotlight effect"
+msgstr "Efekt reflektora"
+
+#: ../easy-fancybox-settings.php:175 ../easy-fancybox-settings.php:213
+#: ../easy-fancybox-settings.php:244 ../easy-fancybox-settings.php:583
+#: ../easy-fancybox-settings.php:672
+msgid "Make available &raquo;"
+msgstr "Učini dostupnim &raquo;"
+
+#: ../easy-fancybox-settings.php:180
+msgid "Window"
+msgstr "Prozor"
+
+#: ../easy-fancybox-settings.php:186 ../easy-fancybox-settings.php:544
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../easy-fancybox-settings.php:193
+msgid "Show the (X) close button"
+msgstr "Prikazati (X) gumb za zatvaranje"
+
+#: ../easy-fancybox-settings.php:198
+msgid "Background color"
+msgstr "Boja pozadine"
+
+#: ../easy-fancybox-settings.php:208
+msgid "Text color"
+msgstr "Boja teksta"
+
+#: ../easy-fancybox-settings.php:218
+#, fuzzy
+msgid "Title color"
+msgstr "Boja teksta"
+
+#: ../easy-fancybox-settings.php:227
+msgid "Border color"
+msgstr "Boja okvira"
+
+#: ../easy-fancybox-settings.php:231 ../easy-fancybox-settings.php:526
+#: ../easy-fancybox-settings.php:601 ../easy-fancybox-settings.php:782
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:181
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:187
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:198
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:226
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:300
+msgid "Note:"
+msgstr "Napomena:"
+
+#: ../easy-fancybox-settings.php:231
+msgid "Use RGBA notation for semi-transparent borders."
+msgstr ""
+
+#: ../easy-fancybox-settings.php:231 ../easy-fancybox-settings.php:444
+msgid "Example:"
+msgstr "Primjer:"
+
+#: ../easy-fancybox-settings.php:236
+msgid "Border radius"
+msgstr "Polumjer ruba"
+
+#: ../easy-fancybox-settings.php:249
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+#: ../easy-fancybox-settings.php:281
+msgid ""
+"If content size is not set or cannot be determined automatically, these "
+"default dimensions will be used."
+msgstr ""
+"Ako veličina sadržaja nije postavljena ili ne može biti procijenjena "
+"automatski, ove standardne dimenzije će se koristiti."
+
+#: ../easy-fancybox-settings.php:286 ../easy-fancybox-settings.php:472
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: ../easy-fancybox-settings.php:293
+msgid "Center while scrolling"
+msgstr "Centrirati dok se scrolla"
+
+#: ../easy-fancybox-settings.php:300
+msgid "Esc key stroke closes FancyBox"
+msgstr "Tipka Esc zatvara FancyBox"
+
+#: ../easy-fancybox-settings.php:307
+msgid "Scale large content down to fit in the browser viewport."
+msgstr "Umanjuje prevelik sadržaj kako bi stao u okvir browsera."
+
+#: ../easy-fancybox-settings.php:311
+msgid "Opening speed"
+msgstr "Brzina otvaranja"
+
+#: ../easy-fancybox-settings.php:323
+msgid "Closing speed"
+msgstr "Brzina zatvaranja"
+
+#: ../easy-fancybox-settings.php:332 ../easy-fancybox-settings.php:654
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Trajanje u milisekundama. Više je sporije."
+
+#: ../easy-fancybox-settings.php:338
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: ../easy-fancybox-settings.php:344
+msgid "Browser & device compatibility"
+msgstr "Uskladivost preglednika i uređaja"
+
+#: ../easy-fancybox-settings.php:373
+msgid "Include IE 6 and 7 compatibility style rules"
+msgstr "Uključite IE 6 i 7 pravila usklađenosti stilova"
+
+#: ../easy-fancybox-settings.php:380
+msgid "Include IE 8 compatibility style rules"
+msgstr "Uključite IE 8 pravila usklađenosti stilova"
+
+#: ../easy-fancybox-settings.php:425
+msgid ""
+"To make images open in an overlay, add their extension to the Autodetect "
+"field or use the class \"fancybox\" for its link. Clear field to switch off "
+"all autodetection."
+msgstr ""
+"Kako bi se slike otvorile u overlay sloju, dodajte njihovu ekstenziju u "
+"Autodetect polje ili koristite klasu  \"fancybox\" za njihov link. Pobrišite "
+"polje kako bi ugasili svu autodetekciju."
+
+#: ../easy-fancybox-settings.php:437 ../easy-fancybox-settings.php:815
+#: ../easy-fancybox-settings.php:940 ../easy-fancybox-settings.php:1034
+#: ../easy-fancybox-settings.php:1130 ../easy-fancybox-settings.php:1238
+#: ../easy-fancybox-settings.php:1338
+msgid "Autodetect"
+msgstr "Autodetekcija"
+
+#: ../easy-fancybox-settings.php:448
+msgid "Apply to"
+msgstr "Primijeniti na"
+
+#: ../easy-fancybox-settings.php:453
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:115
+msgid "All image links"
+msgstr "Svi linkovi na slike"
+
+#: ../easy-fancybox-settings.php:460
+msgid ""
+"Force FancyBox to treat all media linked with class=\"fancybox\" as images?"
+msgstr ""
+
+#: ../easy-fancybox-settings.php:476 ../easy-fancybox-settings.php:732
+msgid "Transition In"
+msgstr "Prijelaz na"
+
+#: ../easy-fancybox-settings.php:481 ../easy-fancybox-settings.php:508
+#: ../easy-fancybox-settings.php:737 ../easy-fancybox-settings.php:764
+msgid "Fade"
+msgstr "Izblijediti"
+
+#: ../easy-fancybox-settings.php:482 ../easy-fancybox-settings.php:509
+#: ../easy-fancybox-settings.php:738 ../easy-fancybox-settings.php:765
+msgid "Elastic"
+msgstr "Elastic"
+
+#: ../easy-fancybox-settings.php:489 ../easy-fancybox-settings.php:745
+msgid "Easing In"
+msgstr "Easing in"
+
+#: ../easy-fancybox-settings.php:493 ../easy-fancybox-settings.php:520
+#: ../easy-fancybox-settings.php:749 ../easy-fancybox-settings.php:776
+msgid "Linear"
+msgstr "Linearno"
+
+#: ../easy-fancybox-settings.php:494 ../easy-fancybox-settings.php:521
+#: ../easy-fancybox-settings.php:750 ../easy-fancybox-settings.php:777
+msgid "Swing"
+msgstr "Swing"
+
+#: ../easy-fancybox-settings.php:495 ../easy-fancybox-settings.php:522
+#: ../easy-fancybox-settings.php:751 ../easy-fancybox-settings.php:778
+msgid "easeInBack"
+msgstr "easeInBack"
+
+#: ../easy-fancybox-settings.php:496 ../easy-fancybox-settings.php:523
+#: ../easy-fancybox-settings.php:752 ../easy-fancybox-settings.php:779
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: ../easy-fancybox-settings.php:503 ../easy-fancybox-settings.php:759
+msgid "Transition Out"
+msgstr "Transition Out"
+
+#: ../easy-fancybox-settings.php:516 ../easy-fancybox-settings.php:772
+msgid "Easing Out"
+msgstr "Easing Out"
+
+#: ../easy-fancybox-settings.php:526 ../easy-fancybox-settings.php:782
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:181
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:300
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr ""
+"Efekti olakšavanja se primjenjuju samo kad je Transition postavljen na "
+"Elastic."
+
+#: ../easy-fancybox-settings.php:533 ../easy-fancybox-settings.php:789
+msgid ""
+"Transparency fade during elastic transition. CAUTION: Use only when at least "
+"Transition In is set to Elastic!"
+msgstr ""
+"Smanjenje prozirnosti tijekom elastic prijelaza. UPOZORENJE: koristiti samo "
+"kad je barem Transition postavljen na Elastic!"
+
+#: ../easy-fancybox-settings.php:540 ../easy-fancybox-settings.php:796
+msgid "Close FancyBox when content is clicked"
+msgstr "Zatvoriti FancyBox kad je kliknut sadržaj"
+
+#: ../easy-fancybox-settings.php:551 ../easy-fancybox-settings.php:869
+#: ../easy-fancybox-settings.php:992 ../easy-fancybox-settings.php:1086
+#: ../easy-fancybox-settings.php:1195 ../easy-fancybox-settings.php:1294
+#: ../easy-fancybox-settings.php:1394 ../easy-fancybox-settings.php:1521
+msgid "Show title"
+msgstr "Prikaži naslov"
+
+#: ../easy-fancybox-settings.php:555 ../easy-fancybox-settings.php:873
+#: ../easy-fancybox-settings.php:996 ../easy-fancybox-settings.php:1090
+#: ../easy-fancybox-settings.php:1199 ../easy-fancybox-settings.php:1298
+#: ../easy-fancybox-settings.php:1398 ../easy-fancybox-settings.php:1525
+msgid "Title Position"
+msgstr "Pozicija naslova"
+
+#: ../easy-fancybox-settings.php:559 ../easy-fancybox-settings.php:877
+#: ../easy-fancybox-settings.php:1000 ../easy-fancybox-settings.php:1094
+#: ../easy-fancybox-settings.php:1203 ../easy-fancybox-settings.php:1302
+#: ../easy-fancybox-settings.php:1402 ../easy-fancybox-settings.php:1529
+msgid "Float"
+msgstr "Plutajuće"
+
+#: ../easy-fancybox-settings.php:560 ../easy-fancybox-settings.php:878
+#: ../easy-fancybox-settings.php:1001 ../easy-fancybox-settings.php:1095
+#: ../easy-fancybox-settings.php:1204 ../easy-fancybox-settings.php:1303
+#: ../easy-fancybox-settings.php:1403 ../easy-fancybox-settings.php:1530
+msgid "Outside"
+msgstr "Vanjsko"
+
+#: ../easy-fancybox-settings.php:561 ../easy-fancybox-settings.php:879
+#: ../easy-fancybox-settings.php:1002 ../easy-fancybox-settings.php:1096
+#: ../easy-fancybox-settings.php:1205 ../easy-fancybox-settings.php:1304
+#: ../easy-fancybox-settings.php:1404 ../easy-fancybox-settings.php:1531
+msgid "Inside"
+msgstr "Unutarnje"
+
+#: ../easy-fancybox-settings.php:572 ../easy-fancybox-settings.php:888
+#: ../easy-fancybox-settings.php:1011 ../easy-fancybox-settings.php:1106
+#: ../easy-fancybox-settings.php:1214 ../easy-fancybox-settings.php:1313
+#: ../easy-fancybox-settings.php:1413 ../easy-fancybox-settings.php:1540
+msgid "Allow title from thumbnail alt tag"
+msgstr "Dozvoli naslov iz alt oznake smanjene slike"
+
+#: ../easy-fancybox-settings.php:576 ../easy-fancybox-settings.php:665
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../easy-fancybox-settings.php:580
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:196
+msgid "Hide/show title on mouse hover action"
+msgstr "Prikaži/sakrij naslov kad je pokazivač miša iznad"
+
+#: ../easy-fancybox-settings.php:587
+msgid "Gallery"
+msgstr "Galerija"
+
+#: ../easy-fancybox-settings.php:591
+msgid "Autogallery"
+msgstr "Automatska galerija"
+
+#: ../easy-fancybox-settings.php:597
+msgid "WordPress galleries only"
+msgstr "Samo Wordpress galerija"
+
+#: ../easy-fancybox-settings.php:598
+msgid "All in one gallery"
+msgstr "Sve-u-jednom galerija"
+
+#: ../easy-fancybox-settings.php:601
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:187
+msgid ""
+"When disabled, you can use the rel attribute to manually group image links "
+"together."
+msgstr ""
+"Kad je onemogućeno, možete koristiti stvarne atribute da ručno grupirate "
+"linkove slika."
+
+#: ../easy-fancybox-settings.php:608
+msgid "Show the gallery navigation arrows"
+msgstr "Prikazati strelice za navigaciju po galeriji"
+
+#: ../easy-fancybox-settings.php:615
+msgid "Arrow key strokes browse the gallery"
+msgstr "Kursorske tipke mogu navigirati kroz galeriju"
+
+#: ../easy-fancybox-settings.php:622
+msgid ""
+"Include the Mousewheel jQuery extension script to allow gallery browsing by "
+"mousewheel action."
+msgstr ""
+"Uključiti Mousewheel jQuery ekstenziju kako bi se moglo prolaziti kroz "
+"galeriju putem kotačića na mišu."
+
+#: ../easy-fancybox-settings.php:629
+msgid "Make galleries cyclic, allowing you to keep pressing next/back."
+msgstr ""
+"Pretvoriti galerije u ciklične, kako bi se moglo kružno ići sa sljedeći/"
+"prethodni"
+
+#: ../easy-fancybox-settings.php:633
+msgid "Change speed"
+msgstr "Brzina promjene"
+
+#: ../easy-fancybox-settings.php:645
+msgid "Fade speed"
+msgstr "Brzina blijeđenja"
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:185
+msgid "Galleries per Section (below)"
+msgstr "Galerija po sekciji (ispod)"
+
+#: ../easy-fancybox-settings.php:661
+msgid ""
+"This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> "
+"and/or <em>Autogallery</em> is set to <em>Galleries per Section</em>. Adapt "
+"it to conform with your theme."
+msgstr ""
+"Ovo se događa kad <em>Primijeni na</em> je postavljeno na  <em>Ograničeno na "
+"sekciju</em> i/ili <em>Autogalerija</em> je postavljena na <em>Galerije po "
+"sekciji</em>. Prilagodite to da se slaže sa vašom temom."
+
+#: ../easy-fancybox-settings.php:661
+msgid ""
+"Examples: If your theme wraps post content in a div with class post, change "
+"this value to \"div.post\". If you only want to group images in a WordPress "
+"gallery together, use \"div.gallery\". If you want to include images in a "
+"sidebar with ID primary, add \", #primary\"."
+msgstr ""
+"Primjeri: ako vaša tema preklapa sadržaj članka u div odsječku sa klasom "
+"post, promijenite ovu vrijednost u  \"div.post\".  Ako samo želite grupirati "
+"slike u WordPress galeriju, koristite \"div.gallery\". AKo želite uključiti "
+"slike sa ID-om primary u bočnom okviru, dodajte \", #primary\"."
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:198
+msgid ""
+"Hide/show title on mouse hover action works best with Overlay title position."
+msgstr ""
+"Prikaži/sakrij naslov kod prekrivanja kursorom radi najbolje sa Overlay "
+"pozicijom naslova."
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:226
+msgid "Auto-rotation uses a fixed 3, 6, 9 or 12 second pause per image."
+msgstr "Auto-rotacija koristi fiksnih 3,6,9 ili 12 sekundi pauze između slika."
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:221
+msgid "(3 seconds)"
+msgstr "(3 sekunde)"
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:222
+msgid "(6 seconds)"
+msgstr "(6 sekundi)"
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:223
+msgid "(9 seconds)"
+msgstr "(9 sekundi)"
+
+#: ../easy-fancybox-settings.php:661
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:224
+msgid "(12 seconds)"
+msgstr "(12 sekundi)"
+
+#: ../easy-fancybox-settings.php:669
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: ../easy-fancybox-settings.php:697
+msgid ""
+"To make inline content open in an overlay, wrap that content in a div with a "
+"unique ID, create a link with target \"#uniqueID\" and give it a class "
+"\"fancybox-inline\" attribute."
+msgstr ""
+"Kako bi se inline sadržaj otvorio u overlayu, obuhvatite taj sadržaj s div "
+"tagom s jedinstvenim ID-om i dajte mu atribut class \"fancybox-inline\" ."
+
+#: ../easy-fancybox-settings.php:715
+msgid ""
+"Try to adjust size to inline/html content. If unchecked or size cannot be "
+"determined, the default dimensions will be used."
+msgstr ""
+"Pokušajte prilagoditi veličinu za inline/html sadržaj. Ako nije podešena ili "
+"veličina ne može biti određena, koristit će se originalne dimenzije."
+
+#: ../easy-fancybox-settings.php:719
+msgid "Scrolling"
+msgstr "Pomicanje"
+
+#: ../easy-fancybox-settings.php:723
+msgid "Auto"
+msgstr "Automatski"
+
+#: ../easy-fancybox-settings.php:724
+msgid "Always"
+msgstr "Uvijek"
+
+#: ../easy-fancybox-settings.php:725
+msgid "Never"
+msgstr "Nikad"
+
+#: ../easy-fancybox-settings.php:728
+msgid "Define scrolling and scrollbar visibility."
+msgstr "Definirati pomicanje i vidljivost trake za pomicanje"
+
+#: ../easy-fancybox-settings.php:807
+msgid ""
+"To make any PDF document file open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-pdf\" for its link."
+msgstr ""
+"Da bi se svaki PDF dokument otvarao u overlayu, uključite Autoprepoznavanje "
+"ili koristite klasu \"fancybox-pdf\" za njegov link."
+
+#: ../easy-fancybox-settings.php:932
+msgid ""
+"To make any Flash (.swf) file open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-swf\" for its link."
+msgstr ""
+"Da bi se svaki SWF dokument otvarao u overlayu, uključite Autoprepoznavanje "
+"ili koristite klasu \"fancybox-swf\" za njegov link."
+
+#: ../easy-fancybox-settings.php:1026
+msgid ""
+"To make any SVG (.svg) file open in an overlay, switch on Autodetect or use "
+"the class \"fancybox-svg\" for its link."
+msgstr ""
+"Da bi se svaki SVG dokument otvarao u overlayu, uključite Autoprepoznavanje "
+"ili koristite klasu \"fancybox-svg\" za njegov link."
+
+#: ../easy-fancybox-settings.php:1121
+msgid ""
+"To make any YouTube movie open in an overlay, switch on Autodetect or use "
+"the class \"fancybox-youtube\" for its link."
+msgstr ""
+"Da bi se svaki YouTube video otvarao u overlayu, uključite Autoprepoznavanje "
+"ili koristite klasu \"fancybox-youtube\" za njegov link."
+
+#: ../easy-fancybox-settings.php:1139
+msgid "Autodetect Short links"
+msgstr "Automatsko prepoznavanje skraćenih linkova"
+
+#: ../easy-fancybox-settings.php:1229
+msgid ""
+"To make any Vimeo movie open in an overlay, switch on Autodetect or use the "
+"class \"fancybox-vimeo\" for its link."
+msgstr ""
+"Da bi se svaki Vimeo video otvarao u overlayu, uključite Autoprepoznavanje "
+"ili koristite klasu \"fancybox-vimeo\" za njegov link."
+
+#: ../easy-fancybox-settings.php:1329
+msgid ""
+"To make any Dailymotion movie open in an overlay, switch on Autodetect or "
+"use the class \"fancybox-dailymotion\" for its link."
+msgstr ""
+"Da bi se svaki Dailymotion video otvarao u overlayu, uključite "
+"Autoprepoznavanje ili koristite klasu \"fancybox-dailymotion\" za njegov "
+"link."
+
+#: ../easy-fancybox-settings.php:1455
+msgid ""
+"To make a website or HTML document open in an overlay, use the class "
+"\"fancybox-iframe\" for its link."
+msgstr ""
+"Da bi se svaka web stranica ili HTML dokument otvarali u overlayu,  "
+"koristite klasu \"fancybox-iframe\" za njihov link."
+
+#: ../easy-fancybox-class.php:351
+msgid "Donate to keep the Easy FancyBox plugin development going!"
+msgstr "Donirajte kako bi podržali razvoj Easy FancyBox plugina"
+
+#: ../easy-fancybox-class.php:351
+#, php-format
+msgid ""
+"The options in this section are provided by the plugin %s and determine the "
+"<strong>Media Lightbox</strong> overlay appearance and behaviour controlled "
+"by %s."
+msgstr ""
+"Opcije u ovom dijelu pruža plugin %s i određuje <strong>Media Lightbox</"
+"strong> overlay prikaz i ponašanje koje kontrolira %s."
+
+#: ../easy-fancybox-class.php:351
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#: ../easy-fancybox-class.php:351 ../easy-fancybox-class.php:547
+#: ../easy-fancybox-class.php:587
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: ../easy-fancybox-class.php:351
+msgid ""
+"First enable each sub-section that you need. Then save and come back to "
+"adjust its specific settings."
+msgstr ""
+"Prvo omogućite svaku podsekciju koju trebate. Onda snimite i vratite se da "
+"podesite specifične pojedinosti."
+
+#: ../easy-fancybox-class.php:351
+msgid ""
+"Note: Each additional sub-section and features like <em>Auto-detection</em>, "
+"<em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) "
+"will have some extra impact on client-side page speed. Enable only those sub-"
+"sections and options that you actually need on your site."
+msgstr ""
+"Napomena: svaka dodatna stavka i mogućnosti poput <em>Automatskog "
+"prepoznavanja</em>, <em>Elastičnih prijelaza</em> i svih <em>Olakšavajućih "
+"efekata</em> (osim Swinga) imat će dodatni utjecaj na brzinu otvaranja "
+"stranica kod klijenta. Uključite samo one podsekcije i opcije koje zaista "
+"trebate."
+
+#: ../easy-fancybox-class.php:351
+msgid ""
+"Some setting like Transition options are unavailable for SWF video, PDF and "
+"iFrame content to ensure browser compatibility and readability."
+msgstr ""
+"Neke opcije poput Tranzicijskih opcija su nedostupne za SWF video datoteke, "
+"PDF i iFrame sadržaj kako bi se osigurala dobra podrška za web preglednike i "
+"dobra čitljivost."
+
+#: ../easy-fancybox-class.php:395
+msgid "Checked"
+msgstr "Omogućeno"
+
+#: ../easy-fancybox-class.php:397
+msgid "Unchecked"
+msgstr "Onemogućeno"
+
+#: ../easy-fancybox-class.php:587
+msgid "Easy FancyBox Settings"
+msgstr "Postavke Easy FancyBoxa"
+
+#: ../easy-fancybox-class.php:596
+msgid "Sections"
+msgstr "Stavke"
+
+#: ../easy-fancybox-class.php:633
+msgid "Support"
+msgstr "Podrška"
+
+#: ../easy-fancybox-class.php:634
+msgid "Resources"
+msgstr "Resursi"
+
+#: ../easy-fancybox-class.php:636
+msgid "Credits"
+msgstr "Krediti"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:46
+msgid ""
+"Thank you for purchasing the Easy FancyBox - Pro extension. New options are "
+"available."
+msgstr ""
+"Hvala vam što se kupili  Easy FancyBox - Pro ekstenziju. Sad su vam dostupne "
+"dodatne opcije."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:46
+msgid "Get support here."
+msgstr "Dobijte podršku ovdje."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:52
+msgid "First Image link"
+msgstr "Link na prvu sliku"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:53
+msgid "First PDF link"
+msgstr "Link na prvi PDF"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:54
+msgid "First SWF link"
+msgstr "Link na prvi SWF"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:55
+msgid "First SVG link"
+msgstr "Link na prvi SVG"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:56
+msgid "First YouTube link "
+msgstr "Link na prvi YouTube video"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:57
+msgid "First Vimeo link "
+msgstr "Link na prvi Vimeo video"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:58
+msgid "First Dailymotion link "
+msgstr "Link na prvi Dailymotion video"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:59
+msgid "First iFrame link"
+msgstr "Link na prvi iFrame"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:60
+msgid "First of any link"
+msgstr "Prvi link na neki sadržaj"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:103
+msgid "Set a border radius to create rounded corners. Higher is rounder."
+msgstr ""
+"Postaviti polumjer ruba da bi se prikazali zaobljeni rubovi. Veća vrijednost "
+"znači zaobljenije."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:113
+msgid "Links inside Section(s) only (below)"
+msgstr "Linkovi unutar sekcija samo na dnu"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:119
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:152
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:238
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:271
+msgid "easeInQuad"
+msgstr "easeInQuad"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:120
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:153
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:239
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:272
+msgid "easeOutQuad"
+msgstr "easeOutQuad"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:121
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:154
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:240
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:273
+msgid "easeInOutQuad"
+msgstr "easeInOutQuad"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:122
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:155
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:241
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:274
+msgid "easeInCubic"
+msgstr "easeInCubic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:123
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:156
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:242
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:275
+msgid "easeOutCubic"
+msgstr "easeOutCubic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:124
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:157
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:243
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:276
+msgid "easeInOutCubic"
+msgstr "easeInOutCubic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:125
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:158
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:244
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:277
+msgid "easeInQuart"
+msgstr "easeInQuart"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:126
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:159
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:245
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:278
+msgid "easeOutQuart"
+msgstr "easeOutQuart"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:127
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:160
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:246
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:279
+msgid "easeInOutQuart"
+msgstr "easeInOutQuart"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:128
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:161
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:247
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:280
+msgid "easeInQuint"
+msgstr "easeInQuint"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:129
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:162
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:248
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:281
+msgid "easeOutQuint"
+msgstr "easeOutQuint"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:130
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:163
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:249
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:282
+msgid "easeInOutQuint"
+msgstr "easeInOutQuint"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:131
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:164
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:250
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:283
+msgid "easeInSine"
+msgstr "easeInSine"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:132
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:165
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:251
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:284
+msgid "easeOutSine"
+msgstr "easeOutSine"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:133
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:166
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:252
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:285
+msgid "easeInOutSine"
+msgstr "easeInOutSine"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:134
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:167
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:253
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:286
+msgid "easeInExpo"
+msgstr "easeInExpo"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:135
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:168
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:254
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:287
+msgid "easeOutExpo"
+msgstr "easeOutExpo"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:136
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:169
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:255
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:288
+msgid "easeInOutExpo"
+msgstr "easeInOutExpo"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:137
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:170
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:256
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:289
+msgid "easeInCirc"
+msgstr "easeInCirc"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:138
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:171
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:257
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:290
+msgid "easeOutCirc"
+msgstr "easeOutCirc"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:139
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:172
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:258
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:291
+msgid "easeInOutCirc"
+msgstr "easeInOutCirc"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:140
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:173
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:259
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:292
+msgid "easeInElastic"
+msgstr "easeInElastic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:141
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:174
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:260
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:293
+msgid "easeOutElastic"
+msgstr "easeOutElastic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:142
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:175
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:261
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:294
+msgid "easeInOutElastic"
+msgstr "easeInOutElastic"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:143
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:176
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:262
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:295
+msgid "easeInOutBack"
+msgstr "easeInOutBack"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:144
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:177
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:263
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:296
+msgid "easeInBounce"
+msgstr "easeInBounce"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:145
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:178
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:264
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:297
+msgid "easeOutBounce"
+msgstr "easeOutBounce"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:146
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:179
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:265
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:298
+msgid "easeInOutBounce"
+msgstr "easeInOutBounce"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:206
+msgid "Section(s)"
+msgstr "Sekcije"
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:212
+msgid ""
+"This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> "
+"and/or <em>Auto-gallery</em> is set to <em>Galleries per Section</em>. Adapt "
+"it to conform with your theme."
+msgstr ""
+"Ovo je primjenjivo kad je <em>Primijeni na</em> postavljen na <em>Ograničeno "
+"na odsječke</em> i/ili <em>Auto-galerija</em> je postavljena na <em>Galerije "
+"po sekciji</em>. Prilagodite tako da bude u skladu s vašom temom."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:212
+msgid ""
+"Examples: If your theme wraps post content in a div with class post, change "
+"this value to \"div.post\". If you want to include images in a sidebar with "
+"ID primary, add \", div#primary\" or \"aside#primary\" for html5 themes. If "
+"you only want to group images in a WordPress gallery together, use \"div."
+"gallery\". If you want to include images in a sidebar with ID primary, add "
+"\", #primary\"."
+msgstr ""
+"Primjer: ako vaša tema stavlja sadržaj posta u div tag s klasom post, "
+"promijenite ovu vrijednost u \"div.post\". Ako želite uključiti slike u "
+"bočni stupac sa ID-om primary, dodajte  \", div#primary\" ili  "
+"\"aside#primary\" za html5 teme. Ako samo želite grupirati slike u Wordpress "
+"galeriji, koristite  \"div.gallery\". Ako želite uključiti slike u bočni "
+"stupac sa ID-om primary, dodajte \", #primary\"."
+
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:221
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:222
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:223
+#: ../../easy-fancybox-pro/easy-fancybox-pro.php:224
+msgid "Gallery Auto-rotation"
+msgstr "Auto-rotacija galerije"

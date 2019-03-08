@@ -1,0 +1,526 @@
+# Copyright (C) 2010 Easy FancyBox
+# This file is distributed under the same license as the Easy FancyBox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy FancyBox 1.3.4.9\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/easy-fancybox\n"
+"POT-Creation-Date: 2011-07-24 16:46:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-07-28 11:44+0100\n"
+"Last-Translator: David <david@closemarketing.es>\n"
+"Language-Team: Closemarketing <david@closemarketing.es>\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: easy-fancybox.php:266
+msgid "Donate to Easy FancyBox plugin development with PayPal - it's fast, free and secure!"
+msgstr "Realizar donación al desarrollo del plugin Easy FancyBox con PayPal. La forma más rápida, segura y gratuita!"
+
+#: easy-fancybox.php:266
+msgid "The options in this section are provided by the plugin <strong><a href=\"http://4visions.nl/en/wordpress-plugins/easy-fancybox/\">Easy FancyBox</a></strong> and determine the <strong>Media Lightbox</strong> overlay appearance and behaviour controlled by <strong><a href=\"http://fancybox.net/\">FancyBox</a></strong>."
+msgstr "Estas opciones provienen del plugin <strong><a href=\"http://4visions.nl/en/wordpress-plugins/easy-fancybox/\">Easy FancyBox</a></strong>  y de<strong>Media Lightbox</strong>. El diseño y y comportamiento está realizado por <strong><a href=\"http://fancybox.net/\">FancyBox</a></strong>."
+
+#: easy-fancybox.php:266
+msgid "First enable each sub-section that you need. Then save and come back to adjust its specific settings."
+msgstr "Primero habilita cada sub-sección que necesites. Después graba y vuelve a la página anterior para ajustar sus opciones específicas."
+
+#: easy-fancybox.php:266
+msgid "Note: Each additional sub-section and features like <em>Auto-detection</em>, <em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) will have some extra impact on client-side page speed. Enable only those sub-sections and options that you actually need on your site."
+msgstr "Nota: Cada sección adicional y funcionalidades como <em>Auto-detectar</em>, <em>Transiciones Elásticas</em> y todos los <em>Efectos Easing</em> (excepto Swing) tendrán un impacto sobre la velocidad en la parte pública. Habilita sólo aquellas secciones y opciones que realmente necesitas para tu web."
+
+#: easy-fancybox.php:266
+msgid "Some setting like Transition options are unavailable for SWF video, PDF and iFrame content to ensure browser compatibility and readability."
+msgstr "Alguna opción como la Transición no están disponibles para contenidos de Video SWF, PDF e iFrame para asegurar compatibilidad y lectura."
+
+#: easy-fancybox.php:308
+msgid "Checked"
+msgstr "Marcado"
+
+#: easy-fancybox.php:310
+msgid "Unchecked"
+msgstr "No marcado"
+
+#: easy-fancybox.php:362
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: easy-fancybox-settings.php:6
+msgid "Global settings"
+msgstr "Opciones Generales"
+
+#: easy-fancybox-settings.php:15
+msgid "Enable FancyBox for"
+msgstr "Habilitar FancyBox para"
+
+#: easy-fancybox-settings.php:24
+#: easy-fancybox-settings.php:316
+msgid "Images & Inline content"
+msgstr "Imágenes y contenido"
+
+#: easy-fancybox-settings.php:31
+#: easy-fancybox-settings.php:489
+msgid "PDF"
+msgstr "PDF"
+
+#: easy-fancybox-settings.php:38
+#: easy-fancybox-settings.php:606
+msgid "SWF"
+msgstr "SWF"
+
+#: easy-fancybox-settings.php:45
+#: easy-fancybox-settings.php:697
+msgid "YouTube"
+msgstr "YouTube"
+
+#: easy-fancybox-settings.php:52
+#: easy-fancybox-settings.php:800
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: easy-fancybox-settings.php:59
+#: easy-fancybox-settings.php:895
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: easy-fancybox-settings.php:66
+#: easy-fancybox-settings.php:1016
+msgid "iFrames"
+msgstr "iFrames"
+
+#: easy-fancybox-settings.php:71
+msgid "Links"
+msgstr "Enlaces"
+
+#: easy-fancybox-settings.php:81
+msgid "Exclude"
+msgstr "Excluir"
+
+#: easy-fancybox-settings.php:86
+#: easy-fancybox-settings.php:100
+#: easy-fancybox-settings.php:295
+#: easy-fancybox-settings.php:383
+#: easy-fancybox-settings.php:411
+msgid "None"
+msgstr "Ninuno"
+
+#: easy-fancybox-settings.php:87
+msgid "Empty (hidden) links"
+msgstr "Enlaces Vacíos (ocultos) "
+
+#: easy-fancybox-settings.php:88
+msgid "Without thumbnail image"
+msgstr "Sin imagen miniatura"
+
+#: easy-fancybox-settings.php:95
+msgid "Auto-open"
+msgstr "Apertura automática"
+
+#: easy-fancybox-settings.php:101
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Enlace con ID \"fancybox-auto\""
+
+#: easy-fancybox-settings.php:102
+msgid "First Image link"
+msgstr "Enlace primera imagen"
+
+#: easy-fancybox-settings.php:103
+msgid "First PDF link"
+msgstr "Enlace primer PDF"
+
+#: easy-fancybox-settings.php:104
+msgid "First SWF link"
+msgstr "Enlace primer SWF"
+
+#: easy-fancybox-settings.php:105
+msgid "First YouTube link "
+msgstr "Enlace primer Youtube"
+
+#: easy-fancybox-settings.php:106
+msgid "First Vimeo link "
+msgstr "Enlace primer Vimeo"
+
+#: easy-fancybox-settings.php:107
+msgid "First Dailymotion link "
+msgstr "Enlace primer Dailymotion"
+
+#: easy-fancybox-settings.php:108
+msgid "First iFrame link"
+msgstr "Enlace primer iFrame"
+
+#: easy-fancybox-settings.php:109
+msgid "First of any link"
+msgstr "Primer Enlace"
+
+#: easy-fancybox-settings.php:117
+#: easy-fancybox-settings.php:452
+msgid "Overlay"
+msgstr "Superponer"
+
+#: easy-fancybox-settings.php:125
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Mostrar la superposición cerca del contenido abierto en Fancybox."
+
+#: easy-fancybox-settings.php:132
+msgid "Spotlight effect."
+msgstr "Efecto Spotlight."
+
+#: easy-fancybox-settings.php:136
+#: easy-fancybox-settings.php:227
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: easy-fancybox-settings.php:141
+msgid "Value between 0 and 1. "
+msgstr "Valor entre 0 y 1."
+
+#: easy-fancybox-settings.php:141
+#: easy-fancybox-settings.php:150
+#: easy-fancybox-settings.php:188
+#: easy-fancybox-settings.php:232
+#: easy-fancybox-settings.php:283
+#: easy-fancybox-settings.php:332
+#: easy-fancybox-settings.php:345
+#: easy-fancybox-settings.php:369
+msgid "Default:"
+msgstr "Por defecto:"
+
+#: easy-fancybox-settings.php:145
+#: easy-fancybox-settings.php:192
+msgid "Color"
+msgstr "Color"
+
+#: easy-fancybox-settings.php:150
+msgid "Enter an HTML color value."
+msgstr "Introduce un valor HTML para el color."
+
+#: easy-fancybox-settings.php:156
+msgid "Window"
+msgstr "Ventana"
+
+#: easy-fancybox-settings.php:162
+msgid "Size"
+msgstr "Tamaño"
+
+#: easy-fancybox-settings.php:166
+#: easy-fancybox-settings.php:517
+#: easy-fancybox-settings.php:634
+#: easy-fancybox-settings.php:735
+#: easy-fancybox-settings.php:829
+#: easy-fancybox-settings.php:924
+#: easy-fancybox-settings.php:1036
+msgid "Width"
+msgstr "Ancho"
+
+#: easy-fancybox-settings.php:175
+#: easy-fancybox-settings.php:526
+#: easy-fancybox-settings.php:644
+#: easy-fancybox-settings.php:744
+#: easy-fancybox-settings.php:838
+#: easy-fancybox-settings.php:933
+#: easy-fancybox-settings.php:1045
+msgid "Height"
+msgstr "Altura"
+
+#: easy-fancybox-settings.php:183
+#: easy-fancybox-settings.php:207
+#: easy-fancybox-settings.php:534
+#: easy-fancybox-settings.php:653
+#: easy-fancybox-settings.php:752
+#: easy-fancybox-settings.php:846
+#: easy-fancybox-settings.php:941
+#: easy-fancybox-settings.php:1053
+msgid "Border"
+msgstr "Borde"
+
+#: easy-fancybox-settings.php:197
+msgid "Background"
+msgstr "Fondo"
+
+#: easy-fancybox-settings.php:217
+msgid "Text"
+msgstr "Texto"
+
+#: easy-fancybox-settings.php:236
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#: easy-fancybox-settings.php:242
+msgid "Center while scrolling"
+msgstr "Centrar mientras haces scroll"
+
+#: easy-fancybox-settings.php:248
+msgid "Show the (X) close button"
+msgstr "Mostrar el botón cerrar (X) "
+
+#: easy-fancybox-settings.php:254
+msgid "Show the gallery navigation arrows"
+msgstr "Mostrar navegación de la galería"
+
+#: easy-fancybox-settings.php:262
+msgid "Opening speed"
+msgstr "Velocidad apertura"
+
+#: easy-fancybox-settings.php:270
+msgid "Closing speed"
+msgstr "Velocidad cierre"
+
+#: easy-fancybox-settings.php:278
+msgid "Fade speed"
+msgstr "Velocidad transición"
+
+#: easy-fancybox-settings.php:283
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Duración en milisegundos. Valor mayor es más lento."
+
+#: easy-fancybox-settings.php:291
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: easy-fancybox-settings.php:296
+msgid "Hide/show title on mouse hover action"
+msgstr "Ocultar / Mostrar título cuando puntero está encima"
+
+#: easy-fancybox-settings.php:297
+msgid "Gallery Auto-rotation"
+msgstr "Auto-rotación Galería"
+
+#: easy-fancybox-settings.php:304
+msgid "Note: Hide/show title on mouse hover action works best with Overlay title position. Auto-rotation uses a fixed 5 second pause per image."
+msgstr "Nota: Mostrar / ocultar título al posicionar el ratón funciona mejor con la posición del Título Superpuesto. Auto-rotación utiliza una pausa fija de 5 segundos por imagen."
+
+#: easy-fancybox-settings.php:321
+msgid "To make images open in an overlay, add their extension to the auto-detect field or use the class \"fancybox\" for its link. Clear field to switch off auto-enabling."
+msgstr "Para hacer que las imágenes se superpongan, añade su extensión en el campo auto-detectar o usa la clase \"fancybox\" para dicho enlace. Deja vacío el campo para desactivarlo."
+
+#: easy-fancybox-settings.php:325
+#: easy-fancybox-settings.php:502
+#: easy-fancybox-settings.php:619
+#: easy-fancybox-settings.php:711
+#: easy-fancybox-settings.php:814
+#: easy-fancybox-settings.php:909
+msgid "Auto-detect"
+msgstr "Auto-detectar"
+
+#: easy-fancybox-settings.php:336
+msgid "Apply to"
+msgstr "Aplicar a"
+
+#: easy-fancybox-settings.php:341
+msgid "All image links"
+msgstr "Todos los enlaces de imagen"
+
+#: easy-fancybox-settings.php:342
+msgid "Links inside Section(s) only (below)"
+msgstr "Enlaces dentro de las Secciones sólo (abajo)"
+
+#: easy-fancybox-settings.php:349
+msgid "Auto-gallery"
+msgstr "Galería autogenerada"
+
+#: easy-fancybox-settings.php:354
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: easy-fancybox-settings.php:355
+msgid "Galleries per Section (below)"
+msgstr "Galerías por sección (abajo)"
+
+#: easy-fancybox-settings.php:356
+msgid "All in one gallery"
+msgstr "Todo en una galería"
+
+#: easy-fancybox-settings.php:359
+msgid "When disabled, you can use the rel attribute to manually group image links together."
+msgstr "Cuando está desactivado, puedes usar el atributo rel manualmente para agrupar los enlaces de las imágenes."
+
+#: easy-fancybox-settings.php:363
+msgid "Section(s)"
+msgstr "Sección / Secciones"
+
+#: easy-fancybox-settings.php:369
+msgid "This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> and/or <em>Auto-gallery</em> is set to <em>Galleries per Section</em>. Adapt it to conform with your theme."
+msgstr "Esto se aplica cuando <em>Usar en</em> está seleccionado para <em>Secciones limitadas</em> y/o <em>Auto-galería</em> que se configura en <em>Galerías por Sección</em>. Configúralo en tu Plantilla."
+
+#: easy-fancybox-settings.php:369
+msgid "Examples: If your theme wraps post content in a div with class post, change this value to \"div.post\". If you want to include images in a sidebar with ID primary, add \", div#primary\" or \"aside#primary\" for html5 themes."
+msgstr "Ejemplos: Si tu Tema recoge contenido de las entradas en un div con clase de entrada, cambia este valor a \"div.post\". Si quieres incluir imágenes en el sidebar con una ID, añade  \", div#primary\" or \"aside#primary\" para plantillas con HTML5."
+
+#: easy-fancybox-settings.php:377
+msgid "Transition In"
+msgstr "Transición dentro"
+
+#: easy-fancybox-settings.php:381
+#: easy-fancybox-settings.php:409
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: easy-fancybox-settings.php:382
+#: easy-fancybox-settings.php:410
+msgid "Elastic"
+msgstr "Elasticidad"
+
+#: easy-fancybox-settings.php:390
+msgid "Easing In"
+msgstr "Easing In"
+
+#: easy-fancybox-settings.php:394
+#: easy-fancybox-settings.php:422
+msgid "Linear"
+msgstr "Linear"
+
+#: easy-fancybox-settings.php:395
+#: easy-fancybox-settings.php:423
+msgid "Swing"
+msgstr "Swing"
+
+#: easy-fancybox-settings.php:396
+#: easy-fancybox-settings.php:424
+msgid "Back"
+msgstr "Atrás"
+
+#: easy-fancybox-settings.php:397
+#: easy-fancybox-settings.php:425
+msgid "Quad"
+msgstr "Quad"
+
+#: easy-fancybox-settings.php:398
+#: easy-fancybox-settings.php:426
+msgid "Expo"
+msgstr "Expo"
+
+#: easy-fancybox-settings.php:405
+msgid "Transition Out"
+msgstr "Transición salida"
+
+#: easy-fancybox-settings.php:418
+msgid "Easing Out"
+msgstr "Easing Out"
+
+#: easy-fancybox-settings.php:429
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr "Los efectos Easing sólo se aplican cuando la transición es Elastic."
+
+#: easy-fancybox-settings.php:435
+msgid "Transparency fade during elastic transition."
+msgstr "Transición transparencia durante la transición Elastic."
+
+#: easy-fancybox-settings.php:441
+#: easy-fancybox-settings.php:549
+#: easy-fancybox-settings.php:668
+#: easy-fancybox-settings.php:767
+#: easy-fancybox-settings.php:861
+#: easy-fancybox-settings.php:956
+#: easy-fancybox-settings.php:1071
+msgid "Show title"
+msgstr "Mostrar título"
+
+#: easy-fancybox-settings.php:445
+#: easy-fancybox-settings.php:553
+#: easy-fancybox-settings.php:672
+#: easy-fancybox-settings.php:771
+#: easy-fancybox-settings.php:865
+#: easy-fancybox-settings.php:960
+#: easy-fancybox-settings.php:1075
+msgid "Title Position"
+msgstr "Posición Título"
+
+#: easy-fancybox-settings.php:449
+#: easy-fancybox-settings.php:557
+#: easy-fancybox-settings.php:676
+#: easy-fancybox-settings.php:775
+#: easy-fancybox-settings.php:869
+#: easy-fancybox-settings.php:964
+#: easy-fancybox-settings.php:1079
+msgid "Float"
+msgstr "Float"
+
+#: easy-fancybox-settings.php:450
+#: easy-fancybox-settings.php:558
+#: easy-fancybox-settings.php:677
+#: easy-fancybox-settings.php:776
+#: easy-fancybox-settings.php:870
+#: easy-fancybox-settings.php:965
+#: easy-fancybox-settings.php:1080
+msgid "Outside"
+msgstr "Fuera"
+
+#: easy-fancybox-settings.php:451
+#: easy-fancybox-settings.php:559
+#: easy-fancybox-settings.php:678
+#: easy-fancybox-settings.php:777
+#: easy-fancybox-settings.php:871
+#: easy-fancybox-settings.php:966
+#: easy-fancybox-settings.php:1081
+msgid "Inside"
+msgstr "Dentro"
+
+#: easy-fancybox-settings.php:461
+#: easy-fancybox-settings.php:568
+#: easy-fancybox-settings.php:687
+#: easy-fancybox-settings.php:786
+#: easy-fancybox-settings.php:880
+#: easy-fancybox-settings.php:975
+#: easy-fancybox-settings.php:1090
+msgid "Allow title from thumbnail alt tag"
+msgstr "Permitir título miniautra de la etiqueta ALT"
+
+#: easy-fancybox-settings.php:494
+msgid "To make any PDF document file open in an overlay, switch on auto-detect or use the class \"fancybox-pdf\" for its link."
+msgstr "Para hacer que se muestre un PDF superpuesto, utiliza  \"fancybox-pdf\" para ese enlace."
+
+#: easy-fancybox-settings.php:494
+#: easy-fancybox-settings.php:611
+#: easy-fancybox-settings.php:702
+#: easy-fancybox-settings.php:805
+#: easy-fancybox-settings.php:900
+#: easy-fancybox-settings.php:1021
+msgid "Adjust its specific settings below."
+msgstr "Ajustar las Opciones especiales abajo."
+
+#: easy-fancybox-settings.php:611
+msgid "To make any Flash (.swf) file open in an overlay, switch on auto-detect or use the class \"fancybox-swf\" for its link."
+msgstr "Para hacer que se muestre un SWF Flash superpuesto, utiliza  \"fancybox-swf\" para ese enlace."
+
+#: easy-fancybox-settings.php:702
+msgid "To make any YouTube movie open in an overlay, switch on auto-detect or use the class \"fancybox-youtube\" for its link."
+msgstr "Para hacer que se muestre un video Vimeo superpuesto, activa auto-detectar o utiliza la clase   \"fancybox-youtube\" para ese enlace."
+
+#: easy-fancybox-settings.php:720
+msgid "Auto-detect Short links"
+msgstr "Auto-detectar Enlaces cortos"
+
+#: easy-fancybox-settings.php:805
+msgid "To make any Vimeo movie open in an overlay, switch on auto-detect or use the class \"fancybox-vimeo\" for its link."
+msgstr "Para hacer que se muestre un video Vimeo superpuesto, activa auto-detectar o utiliza la clase   \"fancybox-vimeo\" para ese enlace."
+
+#: easy-fancybox-settings.php:900
+msgid "To make any Dailymotion movie open in an overlay, switch on auto-detect or use the class \"fancybox-dailymotion\" for its link."
+msgstr "Para hacer que la película de Dailymotion empiece en la superposición, habilita auto-detectar o utiliza la clase \"fancybox-dailymotion\" para su enlace."
+
+#: easy-fancybox-settings.php:1021
+msgid "To make a website or HTML document open in an overlay, use the class \"fancybox-iframe\" for its link."
+msgstr "Para hacer que se muestre una Web o documento HTML superpuesto, utiliza  \"fancybox-iframe\" para ese enlace."
+
+#. Plugin Name of the plugin/theme
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#. Plugin URI of the plugin/theme
+msgid "http://4visions.nl/en/wordpress-plugins/easy-fancybox/"
+msgstr "http://4visions.nl/en/wordpress-plugins/easy-fancybox/"
+
+#. Description of the plugin/theme
+msgid "Easily enable the <a href=\"http://fancybox.net/\">FancyBox jQuery extension</a> on all image, SWF, PDF, YouTube, Dailymotion and Vimeo links. Also supports iFrame and inline content."
+msgstr "Easily enable the <a href=\"http://fancybox.net/\">FancyBox jQuery extension</a> on all image, SWF, PDF, YouTube, Dailymotion and Vimeo links. Also supports iFrame and inline content."
+
+#. Author of the plugin/theme
+msgid "RavanH"
+msgstr "RavanH"
+
+#. Author URI of the plugin/theme
+msgid "http://4visions.nl/"
+msgstr "http://4visions.nl/"
+
