@@ -34,6 +34,7 @@ services:
 
       # WP Super Cache 配置文件
       - .wp-content/wp-cache-config.php:/var/www/html/wp-content/wp-cache-config.php
+      - .wp-content/advanced-cache.php:/var/www/html/wp-content/advanced-cache.php
       - ./favicon.ico:/var/www/html/favicon.ico
       - ./robots.txt:/var/www/html/robots.txt
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
