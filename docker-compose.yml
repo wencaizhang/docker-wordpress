@@ -31,6 +31,9 @@ services:
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
       - ./wp-content/languages:/var/www/html/wp-content/languages
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
+
+      # WP Super Cache 配置文件
+      - .wp-content/wp-cache-config.php:/var/www/html/wp-content/wp-cache-config.php
       - ./favicon.ico:/var/www/html/favicon.ico
       - ./robots.txt:/var/www/html/robots.txt
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini

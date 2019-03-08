@@ -1,7 +1,10 @@
 
 ## 必读
+#### 一些信息
 
-wordpress 程序默认的安装路径是：`/var/www/html`。
++ wordpress 程序默认的安装路径是：`/var/www/html`。
++ php 版本：PHP 7.2.15
++ php 默认开启 Opcache
 
 #### 设置 wp-content 目录读写权限
 
