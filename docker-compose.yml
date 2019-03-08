@@ -1,0 +1,41 @@
+#Docker compose的版本，没什么特别的，这里用版本2也可以
+version: '3.3'
+
+#开始创建服务
+services:
+   #创建数据库container
+   db:
+     #数据库用的是mysql 5.7版本因为最新版本的mysql有bug……这里也可以用mariadb代替
+     image: mysql:5.7
+     #volumes说的是把container里面(:后面的部分)的文件夹和服务器本机上的文件夹（：前面的部分）做对应，那么当container里面的这个文件夹内容改变之后服务器上的db_data文件夹也会改变
+     volumes:
+       - db_data:/var/lib/mysql
+     #如果container停止运作，自动重启
+     restart: always
+     #environment就是用户需要设置的内容，就这个container来说，我们需要定义mysql root的密码，我们为了wordpress创建的数据库名称，mysql的用户名还有密码
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   #创建Wordpress的container
+   wordpress:
+     #depends_on 定义了两个container之间的关系，wordpress只有在db开始运作之后才会开始运作
+     depends_on:
+       - db
+     #这里就是从网上数据库拿最新的镜像文件
+     image: wordpress:latest
+     #映射服务器端口到container内部的端口，假设服务器ip地址是192.168.1.0的话，我们可以通过192.186.1.0:8000访问container的80端口
+     #由于我使用的server不知道是什么原因不支持8000端口，因此这里我用80端口
+     # - "8000:80"
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+#官方的说法 The docker volume db_data persists any updates made by WordPress to the database. Learn more about docker volumes。
+volumes:
+   db_data:
