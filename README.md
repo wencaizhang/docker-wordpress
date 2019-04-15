@@ -31,7 +31,7 @@ volumes:
   - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
 ```
 
-[返回目录 :arrow_heading_up:](#TOC目录)
+[返回目录 :arrow_heading_up:](#目录TOC)
 
 ### 端口设置 ports
 
@@ -67,7 +67,7 @@ server {
 
 
 
-[返回目录 :arrow_heading_up:](#TOC目录)
+[返回目录 :arrow_heading_up:](#目录TOC)
 
 ### 一些信息
 
@@ -75,7 +75,7 @@ server {
 + php 版本：PHP 7.2.15
 + php 默认开启 Opcache
 
-[返回目录 :arrow_heading_up:](#TOC目录)
+[返回目录 :arrow_heading_up:](#目录TOC)
 
 ### 环境变量设置 environment
 
@@ -98,7 +98,7 @@ environment:
   WORDPRESS_DB_PASSWORD: wordpress
 ```
 
-[返回目录 :arrow_heading_up:](#TOC目录)
+[返回目录 :arrow_heading_up:](#目录TOC)
 
 #### 设置 wp-content 目录读写权限
 
