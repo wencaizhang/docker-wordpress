@@ -10,8 +10,8 @@
 
 一个 wordpress 网站需要 Mysql 数据库、 wordpress 程序和 Nginx/Apache 服务器才能运行起来，使用 Docker 仅需要两个镜像即可：
 
-+ mysql 镜像（配置：Debian 系统、Mysql/5.7.25)
-+ wordpress 镜像（配置：Debian 系统、Apache/2.4.25 、PHP/7.2.15)
++ mysql:5.7（配置：Debian 系统、Mysql/5.7.25)
++ wordpress:latest（配置：Debian 系统、Apache/2.4.25 、PHP/7.2.15)
 
 然后使用 docker-compose 将这两个服务关联成一个项目。
 
@@ -54,6 +54,8 @@ MySql 默认端口 3306
 
 **wordpress 端口**
 
+映射服务器端口到容器内部的端口，假设服务器ip地址是 192.168.1.0 的话，我们可以通过 192.186.1.0:8000 访问 container 的 80 端口
+
 ```yaml
 ports:
   - "8000:80"
@@ -61,7 +63,7 @@ ports:
 
 #### Nginx 反向代理
 
-如果需要为 wordpress 网站设置域名，则可以使用下面配置
+如果需要为 wordpress 网站设置域名，则可以使用下面配置。`proxy_pass` 对应的 8000 端口要和 wordpress 容器向外映射的端口保持一致。
 
 ```conf
 server {
@@ -78,8 +80,6 @@ server {
 }
 ```
 
-
-
 [返回目录 :arrow_heading_up:](#目录-TOC)
 
 ### 一些信息
@@ -92,7 +92,11 @@ server {
 
 ### 环境变量设置 environment
 
+环境变量 environment 就是用户需要设置的内容。
+
 **数据库环境变量**
+
+在 mysql 容器中，我们需要定义 mysql 中 root 用户的密码、为 wordpress 创建的数据库名称、mysql的用户名还有密码。
 
 ```yaml
 environment:
@@ -103,6 +107,8 @@ environment:
 ```
 
 **wordpress环境变量**
+
+在 wordpress 容器中，我们需要定义 wordpress 程序需要关联的 mysql 主机和端口、mysql 用户名和密码。
 
 ```yaml
 environment:
