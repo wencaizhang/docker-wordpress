@@ -1,12 +1,23 @@
-### 目录TOC
+### 目录 TOC
 
++ [简介 Intro](#简介-Intro)
 + [数据卷 volume](#数据卷-volume)
 + [端口设置 ports](#端口设置-ports)
 + [环境变量设置 environment](#环境变量设置-environment)
++ [常用命令 Command](#常用命令-Command)
 
-### 简介
+### 简介 Intro
 
+一个 wordpress 网站需要 Mysql 数据库、 wordpress 程序和 Nginx/Apache 服务器才能运行起来，使用 Docker 仅需要两个镜像即可：
 
++ mysql 镜像（配置：Debian 系统、Mysql/5.7.25)
++ wordpress 镜像（配置：Debian 系统、Apache/2.4.25 、PHP/7.2.15)
+
+然后使用 docker-compose 将这两个服务关联成一个项目。
+
+>Compose 中有两个重要的概念：
+>+ 服务 (service)：一个应用的容器，实际上可以包括若干运行相同镜像的容器实例。
+>+ 项目 (project)：由一组关联的应用容器组成的一个完整业务单元，在 docker-compose.yml 文件中定义。
 
 ### 数据卷 volume
 
@@ -33,7 +44,7 @@ volumes:
   - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
 ```
 
-[返回目录 :arrow_heading_up:](#目录TOC)
+[返回目录 :arrow_heading_up:](#目录-TOC)
 
 ### 端口设置 ports
 
@@ -69,7 +80,7 @@ server {
 
 
 
-[返回目录 :arrow_heading_up:](#目录TOC)
+[返回目录 :arrow_heading_up:](#目录-TOC)
 
 ### 一些信息
 
@@ -77,7 +88,7 @@ server {
 + php 版本：PHP 7.2.15
 + php 默认开启 Opcache
 
-[返回目录 :arrow_heading_up:](#目录TOC)
+[返回目录 :arrow_heading_up:](#目录-TOC)
 
 ### 环境变量设置 environment
 
@@ -100,7 +111,7 @@ environment:
   WORDPRESS_DB_PASSWORD: wordpress
 ```
 
-[返回目录 :arrow_heading_up:](#目录TOC)
+[返回目录 :arrow_heading_up:](#目录-TOC)
 
 #### 设置 wp-content 目录读写权限
 
@@ -125,17 +136,97 @@ chmod -R 777 wp-content
 
 
 
-#### 一些命令
+### 常用命令 Command
 
-启动
+#### 镜像相关命令
+
++ 列出所有镜像
+
+```bash
+docker image ls
+```
+
++ 删除镜像
+
+```bash
+docker image rm <image-name>
+```
+
+#### 容器相关命令
+
++ 基于镜像新建一个容器并启动
+
+
+
+#### Compose 相关命令
+
+Compose 命令都是针对项目的，因此需要在项目目录下也就是 docker-compose.yml 文件所在目录下执行。
+
++ 前台启动
+
+所有启动的容器都在前台，控制台将会同时打印所有容器的输出信息，可以很方便进行调试。当通过 `Ctrl-C` 停止命令时，所有容器将会停止。
+
+```bash
+docker-compose up
+```
+
++ 后台启动
+
+在后台启动并运行所有的容器，一般推荐生产环境下使用该选项。
+
 ```bash
 docker-compose up -d
 ```
 
-停止
++ 停止
+
+停止已经处于运行状态的容器，但不删除它。通过 `docker-compose start` 可以再次启动这些容器。
+
 ```bash
 docker-compose stop
 ```
+
++ 启动
+
+启动已经存在的服务容器。
+
+```bash
+docker-compose start
+```
+
++ 列出**项目中**的所有容器
+
+```bash
+docker-compose ps
+```
+
+#### 数据卷相关命令
+
++ 列出所有数据卷
+
+```bash
+docker volume ls
+```
+
++ 查看指定数据卷
+
+```bash
+docker inspect <volume-name>
+```
+
++ 删除数据卷
+
+```bash
+docker volume rm <volume-name>
+```
+
++ 删除无主的数据卷
+
+```bash
+docker volume prune
+```
+
+[返回目录 :arrow_heading_up:](#目录-TOC)
 
 #### 代码变更
 
