@@ -29,6 +29,8 @@ services:
      build: ./
      volumes:
      - ./wordpress:/var/www/html
+     - ./favicon.ico:/var/www/html/favicon.ico
+     - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
      #映射服务器端口到container内部的端口，假设服务器ip地址是192.168.1.0的话，我们可以通过192.186.1.0:8000访问container的80端口
      #由于我使用的server不知道是什么原因不支持8000端口，因此这里我用80端口
      # - "8000:80"
