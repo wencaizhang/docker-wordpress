@@ -1,10 +1,15 @@
 ### 目录 TOC
 
 + [简介 Intro](#简介-Intro)
++ [使用 Usage](#使用-Usage)
 + [数据卷 volume](#数据卷-volume)
 + [端口设置 ports](#端口设置-ports)
 + [环境变量设置 environment](#环境变量设置-environment)
 + [常用命令 Command](#常用命令-Command)
+  - [(1)镜像相关命令](#(1)镜像相关命令)
+  - [(2)容器相关命令](#(2)容器相关命令)
+  - [(3)Compose 相关命令](#(3)Compose-相关命令)
+  - [(4)数据卷相关命令](#(4)数据卷相关命令)
 
 ### 简介 Intro
 
@@ -18,6 +23,18 @@
 >Compose 中有两个重要的概念：
 >+ 服务 (service)：一个应用的容器，实际上可以包括若干运行相同镜像的容器实例。
 >+ 项目 (project)：由一组关联的应用容器组成的一个完整业务单元，在 docker-compose.yml 文件中定义。
+
+### 使用 Usage
+
+直接在项目根目录启动 docker-compose 即可：
+
+```bash
+docker-compose up -d
+```
+
+注意：
+1. 请确认你服务器的 8000 端口未被其他程序占用，如果已经被占用，可以通过修改 docker-compose.yml 文件来修改服务器向 Docker 容器映射的端口。
+2. 如果你想要为 wordpress 网站指定一个域名，而非通过 8000 端口进行访问，请先进行 nginx 反向代理设置域名，然后通过该域名来访问 wordpress 网站。
 
 ### 数据卷 volume
 
@@ -119,32 +136,10 @@ environment:
 
 [返回目录 :arrow_heading_up:](#目录-TOC)
 
-#### 设置 wp-content 目录读写权限
-
-```bash
-chmod -R 777 wp-content
-```
-
-#### 安装插件需要 FTP
-默认情况下，wordpress 安装插件需要 FTP 服务，通过给 `wp-config.php` 文件添加以下代码的方法可以避免这个问题：
-
-```php
-define("FS_METHOD","direct");
-define("FS_CHMOD_DIR", 0777);
-define("FS_CHMOD_FILE", 0777);
-```
-
-然后，设置目录权限
-
-```bash
-chmod -R 777 wp-content
-```
-
-
 
 ### 常用命令 Command
 
-#### 镜像相关命令
+#### (1)镜像相关命令
 
 + 列出所有镜像
 
@@ -158,13 +153,13 @@ docker image ls
 docker image rm <image-name>
 ```
 
-#### 容器相关命令
+#### (2)容器相关命令
 
 + 基于镜像新建一个容器并启动
 
 
 
-#### Compose 相关命令
+#### (3)Compose 相关命令
 
 Compose 命令都是针对项目的，因此需要在项目目录下也就是 docker-compose.yml 文件所在目录下执行。
 
@@ -200,13 +195,26 @@ docker-compose stop
 docker-compose start
 ```
 
++ 删除
+
+删除所有（停止状态的）服务容器。推荐先执行 docker-compose stop 命令来停止容器。
+
+选项：
++ -f, --force 强制直接删除，包括非停止状态的容器。一般尽量不要使用该选项。
++ -v 删除容器所挂载的数据卷。
+
+```bash
+docker-compose rm
+```
+
 + 列出**项目中**的所有容器
 
 ```bash
 docker-compose ps
 ```
 
-#### 数据卷相关命令
+
+#### (4)数据卷相关命令
 
 + 列出所有数据卷
 
@@ -233,23 +241,6 @@ docker volume prune
 ```
 
 [返回目录 :arrow_heading_up:](#目录-TOC)
-
-#### 代码变更
-
-git status显示修改了大量文件，git diff提示filemode变化，如下：
-
-```
-old mode 100644
-new mode 100755
-```
-
-原来是filemode的变化，文件chmod后其文件某些位是改变了的，如果严格的比较原文件和chmod后的文件，两者是有区别的，但是源代码通常只关心文本内容，因此chmod产生的变化应该忽略，所以设置一下：
-
-切到源码的根目录下，
-```
-git config --add core.filemode false
-```
-这样你的所有的git库都会忽略filemode变更了～
 
 
 ### 参考
