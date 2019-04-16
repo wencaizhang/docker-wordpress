@@ -25,8 +25,7 @@ services:
      depends_on:
        - db
      #这里就是从网上数据库拿最新的镜像文件
-    #  image: wordpress:latest
-     build: ./
+     image: wordpress:latest
      volumes:
      - ./wordpress:/var/www/html
      - ./favicon.ico:/var/www/html/favicon.ico
