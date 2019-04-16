@@ -9,7 +9,7 @@ services:
      image: mysql:5.7
      #volumes说的是把container里面(:后面的部分)的文件夹和服务器本机上的文件夹（：前面的部分）做对应，那么当container里面的这个文件夹内容改变之后服务器上的db_data文件夹也会改变
      volumes:
-       - db_data:/var/lib/mysql
+       - ./mysql:/var/lib/mysql
      #如果container停止运作，自动重启
      restart: always
      #environment就是用户需要设置的内容，就这个container来说，我们需要定义mysql root的密码，我们为了wordpress创建的数据库名称，mysql的用户名还有密码
