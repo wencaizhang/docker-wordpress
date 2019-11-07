@@ -29,12 +29,22 @@
 直接在项目根目录启动 docker-compose 即可：
 
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 注意：
 1. 请确认你服务器的 8000 端口未被其他程序占用，如果已经被占用，可以在 docker-compose.yml 文件中来修改服务器向 Docker 容器映射的端口。
 2. 如果你想要为 wordpress 网站指定一个域名，而非通过 8000 端口进行访问，请先进行 nginx 反向代理设置域名，然后通过该域名来访问 wordpress 网站。
+
+在 wordpress 安装完成之后，执行下面命令，安装本项目中的插件
+```bash
+sudo cp -rf plugins/* wordpress/wp-content/plugins/
+```
+
+
+> mysql 初始化，对应的文件夹必须为空
+
+
 
 ### 数据卷 volume
 
