@@ -1,0 +1,75 @@
+div.reply_item {
+	width:360px;
+	float:left;
+	box-shadow:1px 1px 10px #CCC;
+	border-radius:4px;
+	margin-bottom: 10px;
+}
+div.reply_item a{
+	float:left; 
+	width:350px;
+}
+
+div.reply_item a.noborder{
+	border-bottom:none;
+}
+
+div.reply_item p{
+	padding:12px;
+	margin: 0;
+}
+
+div.reply_item a:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+div.reply_item div.img_container{
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+div.reply_item div.big{
+	width:360px; 
+	height:200px; 
+	position:relative;
+}
+div.reply_item div.big h3{
+	color:#fff; 
+	background:rgba(0, 0, 0, 0.7);
+	margin:0; padding:8px 5px;
+	width:350px;
+	position:absolute;
+	bottom:0;
+}
+div.reply_item div.big iframe{
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+div.reply_item div.small{
+	padding:12px;
+	width:40px; 
+	height:40px; 
+	float:right;
+}
+div.reply_item div.small h3{
+	margin:0; 
+	width:244px; 
+	height: 40px;
+	margin-left:-256px;
+	font-size:14px;	
+	float: left;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #DDD;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+div.reply_item div.small h3:last-child{
+	border-bottom: 0;
+}
