@@ -28,6 +28,8 @@ services:
      image: wordpress:latest
      volumes:
      - ./wordpress:/var/www/html
+    #  - ./themes:/var/www/html/wp-content/themes/
+    #  - ./plugins:/var/www/html/wp-content/plugins/
      - ./favicon.ico:/var/www/html/favicon.ico
      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
      #映射服务器端口到container内部的端口，假设服务器ip地址是192.168.1.0的话，我们可以通过192.186.1.0:8000访问container的80端口
