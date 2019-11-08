@@ -1,3 +1,7 @@
+> 使用 traefik 作为代理服务器
+> 记得先创建外部网卡
+> docker network create traefiknet
+
 # 使用 Docker 快速安装 WordPress
 
 ## 环境准备
